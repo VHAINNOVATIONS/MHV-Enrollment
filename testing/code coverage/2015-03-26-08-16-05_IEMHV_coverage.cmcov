@@ -1,0 +1,12 @@
+
+
+Routine          LinesCode   LinesHit    Percent    RtnLine
+DGMHV                  221        201     90.95%      26709
+DGMHVAC                258        221     85.66%       1717
+DGMHVUTL               242        195     80.58%       5093
+DGRPC                   79         63     79.75%        149
+DGRPC3                 163         78     47.85%         99
+DGPREP1                147         27     18.37%        584
+DGRPCE1                119         19     15.97%        390
+
+TOTAL 7 rtns          1229        804     65.42%      34741
