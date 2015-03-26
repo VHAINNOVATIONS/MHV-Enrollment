@@ -43,9 +43,9 @@ class REG_IEMHV_Actions (Actions):
     def signon (self):
         ''' This provides a signon via ^XUP or ^ZU depending on the value of acode'''
         if self.acode is None:
-            self.VistA.write('S DUZ=1,DUZ(0)="@" D ^XUP')
+            self.VistA.write('S DUZ=1,DUZ(0)="@",^XUSEC("DGPRE EDIT",DUZ,1)="" D ^XUP')
         else:
-            self.VistA.write('D ^ZU')
+            self.VistA.write('S ^XUSEC("DGPRE EDIT",DUZ,1)="" D ^ZU')
             self.VistA.wait('ACCESS CODE:')
             self.VistA.write(self.acode)
             self.VistA.wait('VERIFY CODE:')
@@ -1159,29 +1159,11 @@ class REG_IEMHV_Actions (Actions):
         self.VistA.wait('315- MHV ENROLLMENT STATUS MISSING')
         self.VistA.wait('DO YOU WANT TO UPDATE THESE INCONSISTENCIES NOW?')
         self.VistA.write('YES')
-        #self.VistA.wait('COVERED BY HEALTH INSURANCE?')
-        #self.VistA.write('\r')
-        #self.VistA.wait('MARITAL STATUS')
-        #self.VistA.write('MARRIED')
-        #self.VistA.wait('RELIGIOUS PREFERENCE')
-        #self.VistA.write('BAPTIST')
-        self.VistA.wait('COUNTRY')
+        self.VistA.wait('E-NAME')
         self.VistA.write('')
-        self.VistA.wait('STREET ADDRESS [LINE 1]')
+        self.VistA.wait('MAIDEN NAME')
         self.VistA.write('')
-        self.VistA.wait('ZIP')
-        self.VistA.write('')
-        self.VistA.wait('BAD ADDRESS INDICATOR')
-        self.VistA.write('')
-        self.VistA.wait('Are you sure that you want to save the above changes')
-        self.VistA.write('YES')
-        self.VistA.wait('continue')
-        self.VistA.write('')
-        #self.VistA.wait('OCCUPATION')
-        #self.VistA.write('\r')
-        #self.VistA.wait('EMPLOYMENT STATUS')
-        #self.VistA.write('UNKNOWN')
-        self.VistA.wait('E-NAME:')
+        self.VistA.wait('SOCIAL SECURITY NUMBER')
         self.VistA.write('')
         self.VistA.wait('Step 2 of 3: My HealtheVet Authentication Upgrade')
         self.VistA.wait('Please read the following to the patient')
@@ -1203,8 +1185,8 @@ class REG_IEMHV_Actions (Actions):
         self.VistA.wait('Secure Messaging? (Yes/No/(A)ction)')
         self.VistA.write('YES')
         self.VistA.wait('TYPE: ')
-        self.VistA.write('NSC VETERAN')
-        self.VistA.wait('VETERAN (Y/N)?')
+        self.VistA.write('^')
+        '''self.VistA.wait('VETERAN (Y/N)?')
         self.VistA.write('YES')
         self.VistA.wait('SERVICE CONNECTED?')
         self.VistA.write('NO')
@@ -1233,11 +1215,11 @@ class REG_IEMHV_Actions (Actions):
         self.VistA.wait('STATUS OF CALL:')
         self.VistA.write('\r\r')
         self.VistA.wait(self.VistA.prompt)
-        self.VistA.write('S $P(^DG(43,1,0),"^",37)=1')
-        self.VistA.wait(self.VistA.prompt)
+        self.VistA.write('S $P(^DG(43,1,0),"^",37)=""')
+        self.VistA.wait(self.VistA.prompt)'''
 
 
-    def mhv_pats (self, ssn):
+    def mhv_pats (self):
         '''Clear out all MHV fields from patients'''
         self.VistA.write('S DFN=0 F  S DFN=$O(^DPT(DFN)) Q:DFN>23  I $D(^DPT(DFN,2))!($D(^DPT(DFN,1))) K ^DPT(DFN,2),^DPT(DFN,1),^DPT(DFN,1,0),^DPT(DFN,1,1,0),^DPT(DFN,1,"B") W !,"Cleared Patient: ",DFN\r')
         self.VistA.wait('VISTA>')

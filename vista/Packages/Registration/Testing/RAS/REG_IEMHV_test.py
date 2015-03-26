@@ -49,7 +49,7 @@ def main():
         test_suite_driver.pre_test_suite_run(test_suite_details)
 
         # Begin Tests
-        #REG_IEMHV_suite.IEMHV_startmon(test_suite_details)
+        REG_IEMHV_suite.IEMHV_startmon(test_suite_details)
         REG_IEMHV_suite.IEMHV_mhvPats(test_suite_details)
         REG_IEMHV_suite.IEMHV_T1_01(test_suite_details)
         REG_IEMHV_suite.IEMHV_T1_02(test_suite_details)
@@ -73,10 +73,12 @@ def main():
         REG_IEMHV_suite.IEMHV_T11_01(test_suite_details)
         REG_IEMHV_suite.IEMHV_T11_02(test_suite_details)
         REG_IEMHV_suite.IEMHV_T11_03(test_suite_details)
+        # Reset the patient data before test case 12
+        REG_IEMHV_suite.IEMHV_mhvPats(test_suite_details)
         REG_IEMHV_suite.IEMHV_T12_01(test_suite_details)
         REG_IEMHV_suite.IEMHV_MUnit(test_suite_details)
         REG_IEMHV_suite.IEMHV_prereg_logflow(test_suite_details)
-        #REG_IEMHV_suite.IEMHV_stopmon(test_suite_details)
+        REG_IEMHV_suite.IEMHV_stopmon(test_suite_details)
         # End Tests
 
         test_suite_driver.post_test_suite_run(test_suite_details)

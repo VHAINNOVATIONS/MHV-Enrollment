@@ -564,7 +564,8 @@ def IEMHV_T12_01(test_suite_details):
         VistA1 = test_driver.connect_VistA(test_suite_details)
         reg = REG_IEMHV_Actions(VistA1)
         reg.signon()
-        reg.pre_reg_tc_12(ssn='345678233')
+        reg.pre_reg_tc_12(ssn='000000113')
+        #reg.pre_reg_tc_12(ssn='345678233')
         reg.signoff()
 
         test_driver.post_test_run(test_suite_details)
@@ -588,7 +589,7 @@ def IEMHV_mhvPats(test_suite_details):
     try:
         VistA1 = test_driver.connect_VistA(test_suite_details)
         reg = REG_IEMHV_Actions(VistA1)
-        reg.mhv_pats(ssn='000000113')
+        reg.mhv_pats()
 
         test_driver.post_test_run(test_suite_details)
     except TestHelper.TestError, e:
