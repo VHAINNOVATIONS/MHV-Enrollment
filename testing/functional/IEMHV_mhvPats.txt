@@ -1,0 +1,21 @@
+License expired.
+
+Node: warrior1, Instance: TRYCACHE
+
+USER>ZN "VISTA"
+
+VISTA>S DFN=0 F  S DFN=$O(^DPT(DFN)) Q:DFN>23  I $D(^DPT(DFN,2))!($D(^DPT(DFN,1))) K ^DPT(DFN,2),^DPT(DFN,1),^DPT(DFN,1,0),^DPT(DFN,1,1,0),^DPT(DFN,1,"B") W !,"Cleared Patient: ",DFN
+
+Cleared Patient: 1
+Cleared Patient: 2
+Cleared Patient: 3
+Cleared Patient: 4
+Cleared Patient: 5
+Cleared Patient: 6
+Cleared Patient: 7
+Cleared Patient: 10
+Cleared Patient: 11
+Cleared Patient: 15
+Cleared Patient: 18
+Cleared Patient: 21
+VISTA>

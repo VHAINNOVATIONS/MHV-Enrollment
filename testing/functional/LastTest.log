@@ -1,0 +1,18 @@
+Start testing: Mar 26 08:14 Central Daylight Time
+----------------------------------------------------------
+157/158 Testing: RAS_REG_IEMHV_test
+157/158 Test: RAS_REG_IEMHV_test
+Command: "C:/Program Files (x86)/CMake 2.8/bin/cmake.exe" "-P" "C:/Users/Brian/Documents/GitHub/VistA-build/Testing/Functional/RAS_REG_IEMHV_test.cmake"
+Directory: C:/Users/Brian/Documents/GitHub/VistA-build/Testing/Functional
+"RAS_REG_IEMHV_test" start time: Mar 26 08:14 Central Daylight Time
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =  69.19 sec
+----------------------------------------------------------
+Test Passed.
+"RAS_REG_IEMHV_test" end time: Mar 26 08:16 Central Daylight Time
+"RAS_REG_IEMHV_test" time elapsed: 00:01:09
+----------------------------------------------------------
+
+End testing: Mar 26 08:16 Central Daylight Time

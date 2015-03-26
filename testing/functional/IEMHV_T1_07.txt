@@ -1,0 +1,62 @@
+License expired.
+
+Node: warrior1, Instance: TRYCACHE
+
+USER>ZN "VISTA"
+
+VISTA>S DUZ=1,DUZ(0)="@",^XUSEC("DGPRE EDIT",DUZ,1)="" D ^XUP
+
+Setting up programmer environment
+This is a TEST account.
+
+Terminal Type set to: C-VT220
+
+Select OPTION NAME: DGPRE PRE-REGISTER OPTION       Preregister a Patient
+Preregister a Patient
+Select Patient to Preregister: 543236666  ONE,PATIENT A        10-3-59    543236
+666     YES     SC VETERAN      
+ Enrollment Priority:            Category: IN PROCESS    End Date: 
+7[1;24r8[m[m[H[J[2J[H7[1;24r8
+
+                    MY HEALTHEVET ENROLLMENT STATUS
+
+ONE,PATIENT A; 543-23-6666                                  SC VETERAN
+================================================================================
+
+
+[1]         Enrolled: YES                   Confirmed: 3/26/15
+
+[2]    Authenticated: NO
+
+    Secure Messaging: NO
+            Reason: I am not interested.
+
+
+
+
+
+
+
+Select an Enrollment step, or RETURN to continue: 
+
+[H[J[2J[H
+ONE,PATIENT A                           543-23-6666              OCT 3,1959
+=============================================================================
+ Address: STREET ADDRESS UNKNOWN        Temporary: NO TEMPORARY ADDRESS
+         UNK. CITY/STATE 
+         
+  County: UNSPECIFIED                     From/To: NOT APPLICABLE
+   Phone: UNSPECIFIED                       Phone: NOT APPLICABLE
+  Office: UNSPECIFIED
+    Cell: UNSPECIFIED
+  E-mail: UNSPECIFIED
+Bad Addr: 
+
+ Confidential Address:                      Confidential Address Categories:
+         NO CONFIDENTIAL ADDRESS
+ From/To: NOT APPLICABLE
+
+    POS: UNSPECIFIED                      Claim #: UNSPECIFIED
+  Relig: UNSPECIFIED                          Sex: MALE
+   Race: UNANSWERED                     Ethnicity: UNANSWERED
+Enter RETURN to continue or '^' to exit:

@@ -1,0 +1,102 @@
+License expired.
+
+Node: warrior1, Instance: TRYCACHE
+
+USER>ZN "VISTA"
+
+VISTA>S DUZ=1,DUZ(0)="@",^XUSEC("DGPRE EDIT",DUZ,1)="" D ^XUP
+
+Setting up programmer environment
+This is a TEST account.
+
+Terminal Type set to: C-VT220
+
+Select OPTION NAME: DGPRE PRE-REGISTER OPTION       Preregister a Patient
+Preregister a Patient
+Select Patient to Preregister: 655447777  EIGHT,PATIENT H        4-1-33    65544
+7777     YES     SC VETERAN      7[1;24r8[m[m[H[J[2J[H7[1;24r8
+
+
+
+    [7m** PATIENT NEEDS TO ANSWER MY HEALTHEVET ENROLLMENT QUESTIONS **[27m
+    Patient is missing required My HealtheVet Enrollment information
+
+         Recent My HealtheVet actions taken by VistA Clerks 
+--------------------------------------------------------------------
+         - NONE - 
+
+
+
+
+
+Press RETURN to continue: 7[1;24r8[m[m[H[J[2J[H7[1;24r87[1;24r8[m[m[H[J[2J[H7[1;24r8
+
+Please read the following to the patient
+
+        "Has a health care team member encouraged you
+          to enroll online for My HealtheVet?"
+
+     Select one of the following:
+
+          1         Yes - I am already enrolled.
+          2         Yes - I would like to enroll.
+          3         Yes - But I do not want to enroll right now.
+          4         No - No one has spoken to me/I don't know what MHV is.
+          5         No - I am not interested in enrolling.
+          6         No - I don't have a computer / internet access
+
+Patient response: 4  No - No one has spoken to me/I don't know what MHV is.7[1;24r8[m[m[H[J[2J[H7[1;24r8
+
+Please read the following to the patient
+
+
+  "We are strongly encouraging patients to enroll online for a My HealtheVet
+  account. With it you can refill VA prescriptions, view lab results and
+  medical records, and securely email your health care team.
+   
+  I will give you some easy-to-follow instructions to take home and enroll
+  or I can schedule a time for you to enroll with a My HealtheVet assistant.
+  Once registered you will need to return to a VA clinic and sign a release 
+  of information form. Photo ID required. (Instructions for optional 
+  online Authentication process are also available)"
+
+Press RETURN to continue: 7[1;24r8[m[m[H[J[2J[H7[1;24r87[1;24r8[m[m[H[J[2J[H7[1;24r8
+  Action(s) taken today to assist patient with My HealtheVet enrollment.
+  -----------------------------------------------------------------------
+  1 -   Helped patient to create a MHV account.
+  2 -   Referred patient to the MHV office/station for assistance with
+        enrollment.
+  3 -   Scheduled future appointment for patient to enroll at MHV office/
+        station.
+  4 -   Gave patient MHV enrollment instructions to complete at a MHV
+        kiosk/computer.
+  5 -   Patient had a MHV account issue. Provided MHV Help Desk toll
+        free #1-877-327- 0022, Mon-Fri, 8 a.m.-8 p.m. (EST)
+ 
+ Select an action: ^
+
+
+My HealtheVet enrollment questions is required to continue with this patient.
+Are you sure you want to quit ? YES
+
+[H[J[2J[H
+EIGHT,PATIENT H                         655-44-7777              APR 1,1933
+=============================================================================
+ Address: STREET ADDRESS UNKNOWN        Temporary: NO TEMPORARY ADDRESS
+         UNK. CITY/STATE 
+         
+  County: UNSPECIFIED                     From/To: NOT APPLICABLE
+   Phone: UNSPECIFIED                       Phone: NOT APPLICABLE
+  Office: UNSPECIFIED
+    Cell: UNSPECIFIED
+  E-mail: UNSPECIFIED
+Bad Addr: 
+
+ Confidential Address:                      Confidential Address Categories:
+         NO CONFIDENTIAL ADDRESS
+ From/To: NOT APPLICABLE
+
+    POS: UNSPECIFIED                      Claim #: UNSPECIFIED
+  Relig: UNSPECIFIED                          Sex: MALE
+   Race: UNANSWERED                     Ethnicity: UNANSWERED
+Enter RETURN to continue or '^' to exit:

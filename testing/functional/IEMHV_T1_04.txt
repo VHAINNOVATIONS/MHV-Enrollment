@@ -1,0 +1,60 @@
+License expired.
+
+Node: warrior1, Instance: TRYCACHE
+
+USER>ZN "VISTA"
+
+VISTA>S DUZ=1,DUZ(0)="@",^XUSEC("DGPRE EDIT",DUZ,1)="" D ^XUP
+
+Setting up programmer environment
+This is a TEST account.
+
+Terminal Type set to: C-VT220
+
+Select OPTION NAME: DGPRE PRE-REGISTER OPTION       Preregister a Patient
+Preregister a Patient
+Select Patient to Preregister: 000000113  CARTER,DAVID JR        3-2-01    00000
+0113     NO     NSC VETERAN      
+WARNING : You may have selected a test patient.7[1;24r8[m[m[H[J[2J[H7[1;24r8
+
+                    MY HEALTHEVET ENROLLMENT STATUS
+
+CARTER,DAVID JR; 000-00-0113                                NSC VETERAN
+================================================================================
+
+
+[1]         Enrolled: YES                   Confirmed: 3/26/15
+
+[2]    Authenticated: YES                   Confirmed: 3/26/15
+
+[3] Secure Messaging: YES                   Confirmed: 3/26/15
+
+
+
+
+
+
+
+Select an Enrollment step, or RETURN to continue: 
+
+[H[J[2J[H
+CARTER,DAVID JR                         000-00-0113              MAR 2,2001
+=============================================================================
+ Address: 834 Ocean Vista Avenue        Temporary: NO TEMPORARY ADDRESS
+         SANTA MONICA,CA 90401
+         UNITED STATES
+  County: LOS ANGELES (037)               From/To: NOT APPLICABLE
+   Phone: 310-555-2233                      Phone: NOT APPLICABLE
+  Office: UNSPECIFIED
+    Cell: UNSPECIFIED
+  E-mail: UNSPECIFIED
+Bad Addr: 
+
+ Confidential Address:                      Confidential Address Categories:
+         NO CONFIDENTIAL ADDRESS
+ From/To: NOT APPLICABLE
+
+    POS: UNSPECIFIED                      Claim #: UNSPECIFIED
+  Relig: BAPTIST                              Sex: MALE
+   Race: UNANSWERED                     Ethnicity: UNANSWERED
+Enter RETURN to continue or '^' to exit:

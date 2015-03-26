@@ -1,0 +1,114 @@
+License expired.
+
+Node: warrior1, Instance: TRYCACHE
+
+USER>ZN "VISTA"
+
+VISTA>S DUZ=1,DUZ(0)="@",^XUSEC("DGPRE EDIT",DUZ,1)="" D ^XUP
+
+Setting up programmer environment
+This is a TEST account.
+
+Terminal Type set to: C-VT220
+
+Select OPTION NAME: DGPRE PRE-REGISTER OPTION       Preregister a Patient
+Preregister a Patient
+Select Patient to Preregister: 354623902  ELEVEN,PATIENT K        5-1-33    3546
+23902     YES     SC VETERAN      7[1;24r8[m[m[H[J[2J[H7[1;24r8
+
+
+
+    [7m** PATIENT NEEDS TO ANSWER MY HEALTHEVET ENROLLMENT QUESTIONS **[27m
+    Patient is missing required My HealtheVet Enrollment information
+
+         Recent My HealtheVet actions taken by VistA Clerks 
+--------------------------------------------------------------------
+03/26/15  MHV Enrollment confirmed.
+03/26/15  MHV Authenticated Upgrade confirmed.
+
+
+
+Press RETURN to continue: 7[1;24r8[m[m[H[J[2J[H7[1;24r87[1;24r8[m[m[H[J[2J[H7[1;24r8
+
+                    MY HEALTHEVET ENROLLMENT STATUS
+
+ELEVEN,PATIENT K; 354-62-3902                               SC VETERAN
+================================================================================
+
+
+[1]         Enrolled: YES                   Confirmed: 3/26/15
+
+[2]    Authenticated: YES                   Confirmed: 3/26/15
+
+[3] Secure Messaging: ACTION/IN PROGRESS
+              Action: Referred patient to MHV coordinator for
+                      assistance.
+
+
+
+
+
+
+
+Select an Enrollment step, or RETURN to continue: 3  Secure Messaging
+
+7[1;24r8[m[m[H[J[2J[H7[1;24r8
+Step 3 of 3: My HealtheVet Secure Messaging
+--------------------------------------------
+
+Please read the following to the patient
+
+    "With Secure Messaging, Veterans can communicate online with VA health
+    care teams about health questions, to request prescription renewals,
+    or schedule appointments."
+
+Select (Y) YES if patient already has an Authenticated MHV account.
+Select (A) ACTION if patient would like to upgrade to Authenticated MHV account.
+Select (N) NO if patient refuses an Authenticated MHV account.
+
+Secure Messaging? (Yes/No/(A)ction): ACTION// ^
+7[1;24r8[m[m[H[J[2J[H7[1;24r8
+
+                    MY HEALTHEVET ENROLLMENT STATUS
+
+ELEVEN,PATIENT K; 354-62-3902                               SC VETERAN
+================================================================================
+
+
+[1]         Enrolled: YES                   Confirmed: 3/26/15
+
+[2]    Authenticated: YES                   Confirmed: 3/26/15
+
+[3] Secure Messaging: ACTION/IN PROGRESS
+              Action: Referred patient to MHV coordinator for
+                      assistance.
+
+
+
+
+
+
+
+Select an Enrollment step, or RETURN to continue: 
+
+[H[J[2J[H
+ELEVEN,PATIENT K                        354-62-3902              MAY 1,1933
+=============================================================================
+ Address: STREET ADDRESS UNKNOWN        Temporary: NO TEMPORARY ADDRESS
+         UNK. CITY/STATE 
+         
+  County: UNSPECIFIED                     From/To: NOT APPLICABLE
+   Phone: UNSPECIFIED                       Phone: NOT APPLICABLE
+  Office: UNSPECIFIED
+    Cell: UNSPECIFIED
+  E-mail: UNSPECIFIED
+Bad Addr: 
+
+ Confidential Address:                      Confidential Address Categories:
+         NO CONFIDENTIAL ADDRESS
+ From/To: NOT APPLICABLE
+
+    POS: UNSPECIFIED                      Claim #: UNSPECIFIED
+  Relig: UNSPECIFIED                          Sex: MALE
+   Race: UNANSWERED                     Ethnicity: UNANSWERED
+Enter RETURN to continue or '^' to exit:

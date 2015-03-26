@@ -1,0 +1,182 @@
+License expired.
+
+Node: warrior1, Instance: TRYCACHE
+
+USER>ZN "VISTA"
+
+VISTA>S DUZ=1,DUZ(0)="@",^XUSEC("DGPRE EDIT",DUZ,1)="" D ^XUP
+
+Setting up programmer environment
+This is a TEST account.
+
+Terminal Type set to: C-VT220
+
+Select OPTION NAME: DGPRE PRE-REGISTER OPTION       Preregister a Patient
+Preregister a Patient
+Select Patient to Preregister: 543236666  ONE,PATIENT A        10-3-59    543236
+666     YES     SC VETERAN      
+ Enrollment Priority:            Category: IN PROCESS    End Date: 
+7[1;24r8[m[m[H[J[2J[H7[1;24r8
+
+
+
+    [7m** PATIENT NEEDS TO ANSWER MY HEALTHEVET ENROLLMENT QUESTIONS **[27m
+    Patient is missing required My HealtheVet Enrollment information
+
+         Recent My HealtheVet actions taken by VistA Clerks 
+--------------------------------------------------------------------
+         - NONE - 
+
+
+
+
+
+Press RETURN to continue: 7[1;24r8[m[m[H[J[2J[H7[1;24r87[1;24r8[m[m[H[J[2J[H7[1;24r8
+
+Please read the following to the patient
+
+        "Has a health care team member encouraged you
+          to enroll online for My HealtheVet?"
+
+     Select one of the following:
+
+          1         Yes - I am already enrolled.
+          2         Yes - I would like to enroll.
+          3         Yes - But I do not want to enroll right now.
+          4         No - No one has spoken to me/I don't know what MHV is.
+          5         No - I am not interested in enrolling.
+          6         No - I don't have a computer / internet access
+
+Patient response: 1  Yes - I am already enrolled.7[1;24r8[m[m[H[J[2J[H7[1;24r8
+
+Please read the following to the patient
+
+
+  "We are strongly encouraging patients to enroll online for a My HealtheVet
+  account. With it you can refill VA prescriptions, view lab results and
+  medical records, and securely email your health care team."
+
+Press RETURN to continue: 7[1;24r8[m[m[H[J[2J[H7[1;24r8
+
+                    MY HEALTHEVET ENROLLMENT STATUS
+
+ONE,PATIENT A; 543-23-6666                                  SC VETERAN
+================================================================================
+
+
+[1]         Enrolled: YES                   Confirmed: 3/26/15
+
+[2]    Authenticated: UNANSWERED
+
+    Secure Messaging: UNANSWERED
+
+
+
+
+
+
+
+Select an Enrollment step, or RETURN to continue: 2  Authentication
+
+7[1;24r8[m[m[H[J[2J[H7[1;24r8
+Step 2 of 3: My HealtheVet Authentication Upgrade
+-------------------------------------------------------------
+
+Please read the following to the patient
+
+    "With an Authenticated MHV account patients can view VA appointments,
+    lab results and VA medical records online."
+
+Select (Y) YES if patient already has an Authenticated MHV account.
+Select (A) ACTION if patient would like to upgrade to Authenticated MHV account.
+Select (N) NO if patient refuses an Authenticated MHV account.
+
+(Yes/No/(A)ction): // ACTION- Patient would like to upgrade to an
+authenticated MHV account.
+
+Please read the following to the patient
+
+          "Upgrade to an Authenticated My HealtheVet account to view
+          parts of your VA health record. This requires one-time in-
+          person identity verification (show photo ID). Read and sign
+          this Release of Information form (10-5345a-MHV). Photo ID
+          required. (Instructions for optional online Authentication
+          process are also available)"
+
+
+Press RETURN to continue: 
+
+7[1;24r8[m[m[H[J[2J[H7[1;24r87[1;24r8[m[m[H[J[2J[H7[1;24r8
+  Action(s) taken today to assist patient with My HealtheVet enrollment.
+  -----------------------------------------------------------------------
+  1 -   Patient signed MHV authentication form.
+  2 -   Patient could not authenticate. Advised to do so at next appt.
+  3 -   Clerk did not have authentication form. Referred to another
+        staff member.
+  4 -   MHV admin portal issue prevented patient authentication.
+        Referred to MHV Help Desk or MHV coordinator.
+  5 -   AUTHENTICATION
+  6 -   Veteran did not have a form of photo ID to authenticate. Advised
+        patient to bring ID to next appointment.
+  7 -   Patient had a MHV account issue. Provided MHV Help Desk toll
+        free #1-877-327- 0022, Mon-Fri, 8 a.m.-8 p.m. (EST)
+ 
+ Select an action: 4  MHV admin portal issue prevented patient authentication. R
+eferred to MHV Help Desk or MHV coordinator.7[1;24r8[m[m[H[J[2J[H7[1;24r8
+
+Actions Selected:
+ 
+ 4 -  MHV admin portal issue prevented patient authentication.
+      Referred to MHV Help Desk or MHV coordinator.
+
+  (A)dd another, (D)elete an action, or <RET> to save and exit: 
+
+Actions Filed...
+7[1;24r8[m[m[H[J[2J[H7[1;24r8
+
+                    MY HEALTHEVET ENROLLMENT STATUS
+
+ONE,PATIENT A; 543-23-6666                                  SC VETERAN
+================================================================================
+
+
+[1]         Enrolled: YES                   Confirmed: 3/26/15
+
+[2]    Authenticated: ACTION/IN PROGRESS
+              Action: Gave patient MHV enrollment instructions to
+                      complete at a MHV kiosk/computer.
+              Action: MHV admin portal issue prevented patient
+                      authentication. Referred to MHV Help Desk or
+                      MHV coordinator.
+
+    Secure Messaging: UNANSWERED
+
+
+
+
+
+
+
+Select an Enrollment step, or RETURN to continue: 
+
+[H[J[2J[H
+ONE,PATIENT A                           543-23-6666              OCT 3,1959
+=============================================================================
+ Address: STREET ADDRESS UNKNOWN        Temporary: NO TEMPORARY ADDRESS
+         UNK. CITY/STATE 
+         
+  County: UNSPECIFIED                     From/To: NOT APPLICABLE
+   Phone: UNSPECIFIED                       Phone: NOT APPLICABLE
+  Office: UNSPECIFIED
+    Cell: UNSPECIFIED
+  E-mail: UNSPECIFIED
+Bad Addr: 
+
+ Confidential Address:                      Confidential Address Categories:
+         NO CONFIDENTIAL ADDRESS
+ From/To: NOT APPLICABLE
+
+    POS: UNSPECIFIED                      Claim #: UNSPECIFIED
+  Relig: UNSPECIFIED                          Sex: MALE
+   Race: UNANSWERED                     Ethnicity: UNANSWERED
+Enter RETURN to continue or '^' to exit:
