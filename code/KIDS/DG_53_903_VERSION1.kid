@@ -1,311 +1,307 @@
-KIDS Distribution saved on Mar 01, 2015@22:25:47
-DG*5.3*903
+KIDS Distribution saved on Mar 30, 2015@09:58:44
+Increase Enrollment in My HealtheVet
 **KIDS**:DG*5.3*903^
 
 **INSTALL NAME**
 DG*5.3*903
-"BLD",9062,0)
-DG*5.3*903^REGISTRATION^0^3150301^y
-"BLD",9062,1,0)
+"BLD",9823,0)
+DG*5.3*903^REGISTRATION^0^3150330^y
+"BLD",9823,1,0)
 ^^27^27^3141007^^
-"BLD",9062,1,1,0)
+"BLD",9823,1,1,0)
 Increase Enrollment in My HealtheVet (IEMHV)
-"BLD",9062,1,2,0)
+"BLD",9823,1,2,0)
  
-"BLD",9062,1,3,0)
+"BLD",9823,1,3,0)
 This patch contains enhancements to Pre-Registration functionality in the
-"BLD",9062,1,4,0)
+"BLD",9823,1,4,0)
 Preregister a Patient [DGPRE PRE-REGISTER] option in the VistA
-"BLD",9062,1,5,0)
+"BLD",9823,1,5,0)
 Registration V.5.3 package to increase patient enrollment in My 
-"BLD",9062,1,6,0)
+"BLD",9823,1,6,0)
 HealtheVet.
-"BLD",9062,1,7,0)
+"BLD",9823,1,7,0)
  
-"BLD",9062,1,8,0)
+"BLD",9823,1,8,0)
 My HealtheVet Enrollment Alert/Reminder
-"BLD",9062,1,9,0)
+"BLD",9823,1,9,0)
 ---------------------------------------
-"BLD",9062,1,10,0)
+"BLD",9823,1,10,0)
 The Preregister a Patient [DGPRE PRE-REGISTER] option has been enhanced 
-"BLD",9062,1,11,0)
+"BLD",9823,1,11,0)
 to display a message alerting the clerk that the selected patient 
-"BLD",9062,1,12,0)
+"BLD",9823,1,12,0)
 has neither completed My HealtheVet enrollment, nor documented their 
-"BLD",9062,1,13,0)
+"BLD",9823,1,13,0)
 desire to be excluded from My HealtheVet enrollment. Recent assistance 
-"BLD",9062,1,14,0)
+"BLD",9823,1,14,0)
 provided by Pre-Registration clerks with the patient's My HealtheVet
-"BLD",9062,1,15,0)
+"BLD",9823,1,15,0)
 enrollment is displayed within the alert/reminder.
-"BLD",9062,1,16,0)
+"BLD",9823,1,16,0)
  
-"BLD",9062,1,17,0)
+"BLD",9823,1,17,0)
 Socialization Questions and Responses
-"BLD",9062,1,18,0)
+"BLD",9823,1,18,0)
 -------------------------------------
-"BLD",9062,1,19,0)
+"BLD",9823,1,19,0)
 The Preregister a Patient [DGPRE PRE-REGISTER] option has been enhanced 
-"BLD",9062,1,20,0)
+"BLD",9823,1,20,0)
 to capture a patient's My HealtheVet enrollment status during the 
-"BLD",9062,1,21,0)
+"BLD",9823,1,21,0)
 pre-registration process.
-"BLD",9062,1,22,0)
+"BLD",9823,1,22,0)
  
-"BLD",9062,1,23,0)
+"BLD",9823,1,23,0)
 My HealtheVet Enrollment Actions
-"BLD",9062,1,24,0)
+"BLD",9823,1,24,0)
 --------------------------------
-"BLD",9062,1,25,0)
+"BLD",9823,1,25,0)
 The Preregister a Patient [DGPRE PRE-REGISTER] option has been enhanced 
-"BLD",9062,1,26,0)
+"BLD",9823,1,26,0)
 to capture actions Pre-Registration clerks performed to assist with a
-"BLD",9062,1,27,0)
+"BLD",9823,1,27,0)
 patient's My HealtheVet enrollment.
-"BLD",9062,4,0)
+"BLD",9823,4,0)
 ^9.64PA^390.04^5
-"BLD",9062,4,2,0)
+"BLD",9823,4,2,0)
 2
-"BLD",9062,4,2,2,0)
+"BLD",9823,4,2,2,0)
 ^9.641^2.0537042^5
-"BLD",9062,4,2,2,2,0)
+"BLD",9823,4,2,2,2,0)
 PATIENT  (File-top level)
-"BLD",9062,4,2,2,2,1,0)
+"BLD",9823,4,2,2,2,1,0)
 ^9.6411^537038^10
-"BLD",9062,4,2,2,2,1,537027,0)
+"BLD",9823,4,2,2,2,1,537027,0)
 MHV ENROLLED
-"BLD",9062,4,2,2,2,1,537028,0)
+"BLD",9823,4,2,2,2,1,537028,0)
 MHV AUTHENTICATED
-"BLD",9062,4,2,2,2,1,537029,0)
+"BLD",9823,4,2,2,2,1,537029,0)
 MHV SECURE MESSAGING
-"BLD",9062,4,2,2,2,1,537030,0)
+"BLD",9823,4,2,2,2,1,537030,0)
 MHVEN UPDATE DATE/TIME
-"BLD",9062,4,2,2,2,1,537031,0)
+"BLD",9823,4,2,2,2,1,537031,0)
 MHVAUTH UPDATE DATE/TIME
-"BLD",9062,4,2,2,2,1,537032,0)
+"BLD",9823,4,2,2,2,1,537032,0)
 MHVSM UPDATE DATE/TIME
-"BLD",9062,4,2,2,2,1,537033,0)
+"BLD",9823,4,2,2,2,1,537033,0)
 MHV ENROLL DECLINED TEXT
-"BLD",9062,4,2,2,2,1,537034,0)
+"BLD",9823,4,2,2,2,1,537034,0)
 MHV AUTH DECLINED TEXT
-"BLD",9062,4,2,2,2,1,537035,0)
+"BLD",9823,4,2,2,2,1,537035,0)
 MHV MSG DECLINED TEXT
-"BLD",9062,4,2,2,2,1,537038,0)
+"BLD",9823,4,2,2,2,1,537038,0)
 MHV MSG DECLINED REASON
-"BLD",9062,4,2,2,2.0537026,0)
+"BLD",9823,4,2,2,2.0537026,0)
 MHV SOCIALIZATION  (sub-file)
-"BLD",9062,4,2,2,2.0537026,1,0)
+"BLD",9823,4,2,2,2.0537026,1,0)
 ^9.6411^^0
-"BLD",9062,4,2,2,2.0537041,0)
+"BLD",9823,4,2,2,2.0537041,0)
 MHV MSG ACTIONS  (sub-file)
-"BLD",9062,4,2,2,2.0537041,1,0)
+"BLD",9823,4,2,2,2.0537041,1,0)
 ^9.6411^^0
-"BLD",9062,4,2,2,2.0537042,0)
+"BLD",9823,4,2,2,2.0537042,0)
 MHV AUTH ACTIONS  (sub-file)
-"BLD",9062,4,2,2,2.0537042,1,0)
+"BLD",9823,4,2,2,2.0537042,1,0)
 ^9.6411^^0
-"BLD",9062,4,2,2,2.5370262,0)
+"BLD",9823,4,2,2,2.5370262,0)
 SOCIALIZATION ACTIONS  (sub-file)
-"BLD",9062,4,2,2,2.5370262,1,0)
+"BLD",9823,4,2,2,2.5370262,1,0)
 ^9.6411^^0
-"BLD",9062,4,2,222)
+"BLD",9823,4,2,222)
 y^n^p^^^^n^^n
-"BLD",9062,4,2,224)
+"BLD",9823,4,2,224)
 
-"BLD",9062,4,390.01,0)
+"BLD",9823,4,390.01,0)
 390.01
-"BLD",9062,4,390.01,222)
+"BLD",9823,4,390.01,222)
 y^y^f^^n^^y^o^n
-"BLD",9062,4,390.01,224)
+"BLD",9823,4,390.01,224)
 
-"BLD",9062,4,390.02,0)
+"BLD",9823,4,390.02,0)
 390.02
-"BLD",9062,4,390.02,222)
+"BLD",9823,4,390.02,222)
 y^y^f^^n^^y^o^n
-"BLD",9062,4,390.03,0)
+"BLD",9823,4,390.03,0)
 390.03
-"BLD",9062,4,390.03,222)
+"BLD",9823,4,390.03,222)
 y^n^f^^n^^y^o^n
-"BLD",9062,4,390.04,0)
+"BLD",9823,4,390.04,0)
 390.04
-"BLD",9062,4,390.04,222)
+"BLD",9823,4,390.04,222)
 y^y^f^^n^^y^o^n
-"BLD",9062,4,"APDD",2,2)
+"BLD",9823,4,"APDD",2,2)
 
-"BLD",9062,4,"APDD",2,2,537027)
+"BLD",9823,4,"APDD",2,2,537027)
 
-"BLD",9062,4,"APDD",2,2,537028)
+"BLD",9823,4,"APDD",2,2,537028)
 
-"BLD",9062,4,"APDD",2,2,537029)
+"BLD",9823,4,"APDD",2,2,537029)
 
-"BLD",9062,4,"APDD",2,2,537030)
+"BLD",9823,4,"APDD",2,2,537030)
 
-"BLD",9062,4,"APDD",2,2,537031)
+"BLD",9823,4,"APDD",2,2,537031)
 
-"BLD",9062,4,"APDD",2,2,537032)
+"BLD",9823,4,"APDD",2,2,537032)
 
-"BLD",9062,4,"APDD",2,2,537033)
+"BLD",9823,4,"APDD",2,2,537033)
 
-"BLD",9062,4,"APDD",2,2,537034)
+"BLD",9823,4,"APDD",2,2,537034)
 
-"BLD",9062,4,"APDD",2,2,537035)
+"BLD",9823,4,"APDD",2,2,537035)
 
-"BLD",9062,4,"APDD",2,2,537038)
+"BLD",9823,4,"APDD",2,2,537038)
 
-"BLD",9062,4,"APDD",2,2.0537026)
+"BLD",9823,4,"APDD",2,2.0537026)
 
-"BLD",9062,4,"APDD",2,2.0537041)
+"BLD",9823,4,"APDD",2,2.0537041)
 
-"BLD",9062,4,"APDD",2,2.0537042)
+"BLD",9823,4,"APDD",2,2.0537042)
 
-"BLD",9062,4,"APDD",2,2.5370262)
+"BLD",9823,4,"APDD",2,2.5370262)
 
-"BLD",9062,4,"B",2,2)
+"BLD",9823,4,"B",2,2)
 
-"BLD",9062,4,"B",390.01,390.01)
+"BLD",9823,4,"B",390.01,390.01)
 
-"BLD",9062,4,"B",390.02,390.02)
+"BLD",9823,4,"B",390.02,390.02)
 
-"BLD",9062,4,"B",390.03,390.03)
+"BLD",9823,4,"B",390.03,390.03)
 
-"BLD",9062,4,"B",390.04,390.04)
+"BLD",9823,4,"B",390.04,390.04)
 
-"BLD",9062,6.3)
-53
-"BLD",9062,"ABPKG")
+"BLD",9823,6.3)
+54
+"BLD",9823,"ABPKG")
 n
-"BLD",9062,"INID")
+"BLD",9823,"INID")
 ^n
-"BLD",9062,"INIT")
+"BLD",9823,"INIT")
 POST^DG903PST
-"BLD",9062,"KRN",0)
+"BLD",9823,"KRN",0)
 ^9.67PA^779.2^20
-"BLD",9062,"KRN",.4,0)
+"BLD",9823,"KRN",.4,0)
 .4
-"BLD",9062,"KRN",.401,0)
+"BLD",9823,"KRN",.401,0)
 .401
-"BLD",9062,"KRN",.402,0)
+"BLD",9823,"KRN",.402,0)
 .402
-"BLD",9062,"KRN",.403,0)
+"BLD",9823,"KRN",.403,0)
 .403
-"BLD",9062,"KRN",.5,0)
+"BLD",9823,"KRN",.5,0)
 .5
-"BLD",9062,"KRN",.84,0)
+"BLD",9823,"KRN",.84,0)
 .84
-"BLD",9062,"KRN",3.6,0)
+"BLD",9823,"KRN",3.6,0)
 3.6
-"BLD",9062,"KRN",3.8,0)
+"BLD",9823,"KRN",3.8,0)
 3.8
-"BLD",9062,"KRN",9.2,0)
+"BLD",9823,"KRN",9.2,0)
 9.2
-"BLD",9062,"KRN",9.8,0)
+"BLD",9823,"KRN",9.8,0)
 9.8
-"BLD",9062,"KRN",9.8,"NM",0)
+"BLD",9823,"KRN",9.8,"NM",0)
 ^9.68A^8^8
-"BLD",9062,"KRN",9.8,"NM",1,0)
-DGMHV^^0^B125807359
-"BLD",9062,"KRN",9.8,"NM",2,0)
+"BLD",9823,"KRN",9.8,"NM",1,0)
+DGMHV^^0^B110875210
+"BLD",9823,"KRN",9.8,"NM",2,0)
 DGPREP1^^0^B37006168
-"BLD",9062,"KRN",9.8,"NM",3,0)
+"BLD",9823,"KRN",9.8,"NM",3,0)
 DGMHVAC^^0^B145503430
-"BLD",9062,"KRN",9.8,"NM",4,0)
+"BLD",9823,"KRN",9.8,"NM",4,0)
 DGMHVUTL^^0^B127880307
-"BLD",9062,"KRN",9.8,"NM",5,0)
+"BLD",9823,"KRN",9.8,"NM",5,0)
 DGRPC^^0^B32616021
-"BLD",9062,"KRN",9.8,"NM",6,0)
+"BLD",9823,"KRN",9.8,"NM",6,0)
 DGRPC3^^0^B60573386
-"BLD",9062,"KRN",9.8,"NM",7,0)
+"BLD",9823,"KRN",9.8,"NM",7,0)
 DG903PST^^0^B5305198
-"BLD",9062,"KRN",9.8,"NM",8,0)
+"BLD",9823,"KRN",9.8,"NM",8,0)
 DGRPCE1^^0^B64620883
-"BLD",9062,"KRN",9.8,"NM","B","DG903PST",7)
+"BLD",9823,"KRN",9.8,"NM","B","DG903PST",7)
 
-"BLD",9062,"KRN",9.8,"NM","B","DGMHV",1)
+"BLD",9823,"KRN",9.8,"NM","B","DGMHV",1)
 
-"BLD",9062,"KRN",9.8,"NM","B","DGMHVAC",3)
+"BLD",9823,"KRN",9.8,"NM","B","DGMHVAC",3)
 
-"BLD",9062,"KRN",9.8,"NM","B","DGMHVUTL",4)
+"BLD",9823,"KRN",9.8,"NM","B","DGMHVUTL",4)
 
-"BLD",9062,"KRN",9.8,"NM","B","DGPREP1",2)
+"BLD",9823,"KRN",9.8,"NM","B","DGPREP1",2)
 
-"BLD",9062,"KRN",9.8,"NM","B","DGRPC",5)
+"BLD",9823,"KRN",9.8,"NM","B","DGRPC",5)
 
-"BLD",9062,"KRN",9.8,"NM","B","DGRPC3",6)
+"BLD",9823,"KRN",9.8,"NM","B","DGRPC3",6)
 
-"BLD",9062,"KRN",9.8,"NM","B","DGRPCE1",8)
+"BLD",9823,"KRN",9.8,"NM","B","DGRPCE1",8)
 
-"BLD",9062,"KRN",19,0)
+"BLD",9823,"KRN",19,0)
 19
-"BLD",9062,"KRN",19.1,0)
+"BLD",9823,"KRN",19.1,0)
 19.1
-"BLD",9062,"KRN",101,0)
+"BLD",9823,"KRN",101,0)
 101
-"BLD",9062,"KRN",409.61,0)
+"BLD",9823,"KRN",409.61,0)
 409.61
-"BLD",9062,"KRN",771,0)
+"BLD",9823,"KRN",771,0)
 771
-"BLD",9062,"KRN",779.2,0)
+"BLD",9823,"KRN",779.2,0)
 779.2
-"BLD",9062,"KRN",870,0)
+"BLD",9823,"KRN",870,0)
 870
-"BLD",9062,"KRN",8989.51,0)
+"BLD",9823,"KRN",8989.51,0)
 8989.51
-"BLD",9062,"KRN",8989.52,0)
+"BLD",9823,"KRN",8989.52,0)
 8989.52
-"BLD",9062,"KRN",8994,0)
+"BLD",9823,"KRN",8994,0)
 8994
-"BLD",9062,"KRN","B",.4,.4)
+"BLD",9823,"KRN","B",.4,.4)
 
-"BLD",9062,"KRN","B",.401,.401)
+"BLD",9823,"KRN","B",.401,.401)
 
-"BLD",9062,"KRN","B",.402,.402)
+"BLD",9823,"KRN","B",.402,.402)
 
-"BLD",9062,"KRN","B",.403,.403)
+"BLD",9823,"KRN","B",.403,.403)
 
-"BLD",9062,"KRN","B",.5,.5)
+"BLD",9823,"KRN","B",.5,.5)
 
-"BLD",9062,"KRN","B",.84,.84)
+"BLD",9823,"KRN","B",.84,.84)
 
-"BLD",9062,"KRN","B",3.6,3.6)
+"BLD",9823,"KRN","B",3.6,3.6)
 
-"BLD",9062,"KRN","B",3.8,3.8)
+"BLD",9823,"KRN","B",3.8,3.8)
 
-"BLD",9062,"KRN","B",9.2,9.2)
+"BLD",9823,"KRN","B",9.2,9.2)
 
-"BLD",9062,"KRN","B",9.8,9.8)
+"BLD",9823,"KRN","B",9.8,9.8)
 
-"BLD",9062,"KRN","B",19,19)
+"BLD",9823,"KRN","B",19,19)
 
-"BLD",9062,"KRN","B",19.1,19.1)
+"BLD",9823,"KRN","B",19.1,19.1)
 
-"BLD",9062,"KRN","B",101,101)
+"BLD",9823,"KRN","B",101,101)
 
-"BLD",9062,"KRN","B",409.61,409.61)
+"BLD",9823,"KRN","B",409.61,409.61)
 
-"BLD",9062,"KRN","B",771,771)
+"BLD",9823,"KRN","B",771,771)
 
-"BLD",9062,"KRN","B",779.2,779.2)
+"BLD",9823,"KRN","B",779.2,779.2)
 
-"BLD",9062,"KRN","B",870,870)
+"BLD",9823,"KRN","B",870,870)
 
-"BLD",9062,"KRN","B",8989.51,8989.51)
+"BLD",9823,"KRN","B",8989.51,8989.51)
 
-"BLD",9062,"KRN","B",8989.52,8989.52)
+"BLD",9823,"KRN","B",8989.52,8989.52)
 
-"BLD",9062,"KRN","B",8994,8994)
+"BLD",9823,"KRN","B",8994,8994)
 
-"BLD",9062,"QUES",0)
+"BLD",9823,"QUES",0)
 ^9.62^^
-"BLD",9062,"REQB",0)
+"BLD",9823,"REQB",0)
 ^9.611^^
 "DATA",390.01,1,0)
 Yes - I am already enrolled.
 "DATA",390.01,1,1)
 1
-"DATA",390.01,1,1,0)
-^390.011^1^1
-"DATA",390.01,1,1,1,0)
-Yes - I am already enrolled.
 "DATA",390.01,1,2,0)
 ^390.12^3^3^3150126^^
 "DATA",390.01,1,2,1,0)
@@ -433,7 +429,7 @@ Helped patient to create a MHV account.
 "DATA",390.02,1,1,2,0)
 2
 "DATA",390.02,1,3,0)
-^390.23^1^1^3150126^
+^^1^1^3150325
 "DATA",390.02,1,3,1,0)
 Helped patient to create a MHV account.
 "DATA",390.02,2,0)
@@ -445,7 +441,7 @@ Referred patient to the MHV office/station for assistance with enrollment.
 "DATA",390.02,2,1,2,0)
 2
 "DATA",390.02,2,3,0)
-^390.23^1^1^3150126^
+^^1^1^3150325
 "DATA",390.02,2,3,1,0)
 Referred patient to the MHV office/station for assistance with enrollment.
 "DATA",390.02,3,0)
@@ -457,7 +453,7 @@ Scheduled future appointment for patient to enroll at MHV office/station.
 "DATA",390.02,3,1,2,0)
 2
 "DATA",390.02,3,3,0)
-^390.23^1^1^3150126^
+^^1^1^3150325
 "DATA",390.02,3,3,1,0)
 Scheduled future appointment for patient to enroll at MHV office/station.
 "DATA",390.02,4,0)
@@ -469,7 +465,7 @@ Gave patient MHV enrollment instructions to complete at a MHV kiosk/computer.
 "DATA",390.02,4,1,2,0)
 2
 "DATA",390.02,4,3,0)
-^390.23^1^1^3150126^
+^^1^1^3150325
 "DATA",390.02,4,3,1,0)
 Gave patient MHV enrollment instructions to complete at a MHV kiosk/computer.
 "DATA",390.02,5,0)
@@ -479,7 +475,7 @@ Referred patient to MHV coordinator for assistance.
 "DATA",390.02,5,1,4,0)
 4
 "DATA",390.02,5,3,0)
-^390.23^1^1^3141112^
+^^1^1^3150325
 "DATA",390.02,5,3,1,0)
 Referred patient to MHV coordinator for assistance.
 "DATA",390.02,6,0)
@@ -489,7 +485,7 @@ Patient signed MHV authentication form.
 "DATA",390.02,6,1,5,0)
 3
 "DATA",390.02,6,3,0)
-^^1^1^3141111
+^^1^1^3150325
 "DATA",390.02,6,3,1,0)
 Patient signed MHV authentication form.
 "DATA",390.02,7,0)
@@ -499,13 +495,9 @@ Patient could not authenticate . Advised to do so at next appt.
 "DATA",390.02,7,1,3,0)
 3
 "DATA",390.02,7,3,0)
-^^3^3^3150126^
+^^1^1^3150325
 "DATA",390.02,7,3,1,0)
 Patient could not authenticate. Advised to do so at next appt.
-"DATA",390.02,7,3,2,0)
-(Instructions for optional online Authentication process are also 
-"DATA",390.02,7,3,3,0)
-available)
 "DATA",390.02,8,0)
 Clerk could not authenticate. Referred to another staff member.
 "DATA",390.02,8,1,0)
@@ -513,9 +505,9 @@ Clerk could not authenticate. Referred to another staff member.
 "DATA",390.02,8,1,3,0)
 3
 "DATA",390.02,8,3,0)
-^^1^1^3141112^
+^^1^1^3150325
 "DATA",390.02,8,3,1,0)
-Clerk could not authenticate. Referred to another staff member.
+Clerk did not have authentication form. Referred to another staff member.
 "DATA",390.02,9,0)
 MHV admin portal issue prevented patient authentication. Referred to MHV Help Desk or MHV coordinator.
 "DATA",390.02,9,1,0)
@@ -523,7 +515,7 @@ MHV admin portal issue prevented patient authentication. Referred to MHV Help De
 "DATA",390.02,9,1,3,0)
 3
 "DATA",390.02,9,3,0)
-^^2^2^3141111
+^^2^2^3150325
 "DATA",390.02,9,3,1,0)
 MHV admin portal issue prevented patient authentication. Referred to MHV Help
 "DATA",390.02,9,3,2,0)
@@ -535,9 +527,9 @@ Caregiver not present and Veteran needs caregiver to sign form.
 "DATA",390.02,10,1,3,0)
 3
 "DATA",390.02,10,3,0)
-^^1^1^3141112^
+^^1^1^3150325
 "DATA",390.02,10,3,1,0)
-Advised patient that caregiver needs to sign authentication form.
+AUTHENTICATION
 "DATA",390.02,11,0)
 Veteran did not have a form of photo ID to authenticate. Advised patient to bring to bring to next appointment.
 "DATA",390.02,11,1,0)
@@ -545,13 +537,11 @@ Veteran did not have a form of photo ID to authenticate. Advised patient to brin
 "DATA",390.02,11,1,3,0)
 3
 "DATA",390.02,11,3,0)
-^^3^3^3150126^
+^^2^2^3150325
 "DATA",390.02,11,3,1,0)
-Patient did not have a photo ID to authenticate. Advised patient to bring
+Veteran did not have a form of photo ID to authenticate. Advised patient to
 "DATA",390.02,11,3,2,0)
-to next appointment. (Instructions for optional online Authentication 
-"DATA",390.02,11,3,3,0)
-process are also available)
+bring ID to next appointment.
 "DATA",390.02,12,0)
 Gave patient instructions to set up their secure messaging at home or at kiosk.
 "DATA",390.02,12,1,0)
@@ -559,7 +549,7 @@ Gave patient instructions to set up their secure messaging at home or at kiosk.
 "DATA",390.02,12,1,4,0)
 4
 "DATA",390.02,12,3,0)
-^^1^1^3141111
+^^1^1^3150325
 "DATA",390.02,12,3,1,0)
 Gave patient instructions to set up their secure messaging at home or at kiosk.
 "DATA",390.02,13,0)
@@ -575,7 +565,7 @@ Patient had a MHV account issue. Provided MHV Help Desk toll free # 1-877-327-00
 "DATA",390.02,13,1,7,0)
 3
 "DATA",390.02,13,3,0)
-^^2^2^3141111
+^^2^2^3150325
 "DATA",390.02,13,3,1,0)
 Patient had a MHV account issue. Provided MHV Help Desk toll free #1-877-327-
 "DATA",390.02,13,3,2,0)
@@ -587,7 +577,7 @@ Helped patient set up their secure messaging account.
 "DATA",390.02,14,1,2,0)
 4
 "DATA",390.02,14,3,0)
-^^1^1^3141111
+^^1^1^3150325
 "DATA",390.02,14,3,1,0)
 Helped patient set up their secure messaging account.
 "DATA",390.03,1,0)
@@ -750,73 +740,71 @@ y^y^f^^n^^y^o^n
 POST^DG903PST
 "MBREQ")
 0
-"PKG",114,-1)
+"PKG",47,-1)
 1^1
-"PKG",114,0)
+"PKG",47,0)
 REGISTRATION^DG^PATIENT REGISTRATION, ADMISSION, DISCHARGE, EMBOSSER 
-"PKG",114,20,0)
-^9.402P^^
-"PKG",114,22,0)
+"PKG",47,22,0)
 ^9.49I^1^1
-"PKG",114,22,1,0)
-5.3^2930813^2930821
-"PKG",114,22,1,"PAH",1,0)
-903^3150301^1
-"PKG",114,22,1,"PAH",1,1,0)
-^^27^27^3150301
-"PKG",114,22,1,"PAH",1,1,1,0)
+"PKG",47,22,1,0)
+5.3^3051119^2960613
+"PKG",47,22,1,"PAH",1,0)
+903^3150330^1
+"PKG",47,22,1,"PAH",1,1,0)
+^^27^27^3150330
+"PKG",47,22,1,"PAH",1,1,1,0)
 Increase Enrollment in My HealtheVet (IEMHV)
-"PKG",114,22,1,"PAH",1,1,2,0)
+"PKG",47,22,1,"PAH",1,1,2,0)
  
-"PKG",114,22,1,"PAH",1,1,3,0)
+"PKG",47,22,1,"PAH",1,1,3,0)
 This patch contains enhancements to Pre-Registration functionality in the
-"PKG",114,22,1,"PAH",1,1,4,0)
+"PKG",47,22,1,"PAH",1,1,4,0)
 Preregister a Patient [DGPRE PRE-REGISTER] option in the VistA
-"PKG",114,22,1,"PAH",1,1,5,0)
+"PKG",47,22,1,"PAH",1,1,5,0)
 Registration V.5.3 package to increase patient enrollment in My 
-"PKG",114,22,1,"PAH",1,1,6,0)
+"PKG",47,22,1,"PAH",1,1,6,0)
 HealtheVet.
-"PKG",114,22,1,"PAH",1,1,7,0)
+"PKG",47,22,1,"PAH",1,1,7,0)
  
-"PKG",114,22,1,"PAH",1,1,8,0)
+"PKG",47,22,1,"PAH",1,1,8,0)
 My HealtheVet Enrollment Alert/Reminder
-"PKG",114,22,1,"PAH",1,1,9,0)
+"PKG",47,22,1,"PAH",1,1,9,0)
 ---------------------------------------
-"PKG",114,22,1,"PAH",1,1,10,0)
+"PKG",47,22,1,"PAH",1,1,10,0)
 The Preregister a Patient [DGPRE PRE-REGISTER] option has been enhanced 
-"PKG",114,22,1,"PAH",1,1,11,0)
+"PKG",47,22,1,"PAH",1,1,11,0)
 to display a message alerting the clerk that the selected patient 
-"PKG",114,22,1,"PAH",1,1,12,0)
+"PKG",47,22,1,"PAH",1,1,12,0)
 has neither completed My HealtheVet enrollment, nor documented their 
-"PKG",114,22,1,"PAH",1,1,13,0)
+"PKG",47,22,1,"PAH",1,1,13,0)
 desire to be excluded from My HealtheVet enrollment. Recent assistance 
-"PKG",114,22,1,"PAH",1,1,14,0)
+"PKG",47,22,1,"PAH",1,1,14,0)
 provided by Pre-Registration clerks with the patient's My HealtheVet
-"PKG",114,22,1,"PAH",1,1,15,0)
+"PKG",47,22,1,"PAH",1,1,15,0)
 enrollment is displayed within the alert/reminder.
-"PKG",114,22,1,"PAH",1,1,16,0)
+"PKG",47,22,1,"PAH",1,1,16,0)
  
-"PKG",114,22,1,"PAH",1,1,17,0)
+"PKG",47,22,1,"PAH",1,1,17,0)
 Socialization Questions and Responses
-"PKG",114,22,1,"PAH",1,1,18,0)
+"PKG",47,22,1,"PAH",1,1,18,0)
 -------------------------------------
-"PKG",114,22,1,"PAH",1,1,19,0)
+"PKG",47,22,1,"PAH",1,1,19,0)
 The Preregister a Patient [DGPRE PRE-REGISTER] option has been enhanced 
-"PKG",114,22,1,"PAH",1,1,20,0)
+"PKG",47,22,1,"PAH",1,1,20,0)
 to capture a patient's My HealtheVet enrollment status during the 
-"PKG",114,22,1,"PAH",1,1,21,0)
+"PKG",47,22,1,"PAH",1,1,21,0)
 pre-registration process.
-"PKG",114,22,1,"PAH",1,1,22,0)
+"PKG",47,22,1,"PAH",1,1,22,0)
  
-"PKG",114,22,1,"PAH",1,1,23,0)
+"PKG",47,22,1,"PAH",1,1,23,0)
 My HealtheVet Enrollment Actions
-"PKG",114,22,1,"PAH",1,1,24,0)
+"PKG",47,22,1,"PAH",1,1,24,0)
 --------------------------------
-"PKG",114,22,1,"PAH",1,1,25,0)
+"PKG",47,22,1,"PAH",1,1,25,0)
 The Preregister a Patient [DGPRE PRE-REGISTER] option has been enhanced 
-"PKG",114,22,1,"PAH",1,1,26,0)
+"PKG",47,22,1,"PAH",1,1,26,0)
 to capture actions Pre-Registration clerks performed to assist with a
-"PKG",114,22,1,"PAH",1,1,27,0)
+"PKG",47,22,1,"PAH",1,1,27,0)
 patient's My HealtheVet enrollment.
 "QUES","XPF1",0)
 Y
@@ -895,7 +883,7 @@ D XPZ2^XPDIQ
 "RTN","DG903PST",1,0)
 DG903PST ;ALB/JCH - DG*5.3*903 POST INSTALL ; 11/10/14 9:51am
 "RTN","DG903PST",2,0)
- ;;5.3;Registration;**903**;Aug 13, 1993;Build 53
+ ;;5.3;Registration;**903**;Aug 13, 1993;Build 54
 "RTN","DG903PST",3,0)
  ;
 "RTN","DG903PST",4,0)
@@ -985,601 +973,525 @@ MHVACTWP  ; File word processing action display text into MHV SOCIALIZATION ACTI
 "RTN","DG903PST",46,0)
 14 ;HELPED SET UP SECURE MESSAGING SECURE MESSAGING;Helped patient set up their secure messaging account.
 "RTN","DGMHV")
-0^1^B125807359
+0^1^B110875210
 "RTN","DGMHV",1,0)
 DGMHV ;ALB/JCH - Display Pre-Registration MHV Enrollment ; 12/9/03 3:22pm
 "RTN","DGMHV",2,0)
- ;;5.3;Registration;**903**;Aug 13, 1993;Build 53
+ ;;5.3;Registration;**903**;Aug 13, 1993;Build 54
 "RTN","DGMHV",3,0)
  Q
 "RTN","DGMHV",4,0)
 EN(DFN) ; Entry Point for Alert, Socialization, and MHV Enrollment field editing 'Screen'
 "RTN","DGMHV",5,0)
- ;
-"RTN","DGMHV",6,0)
  D MAIN^DGMHV(DFN)
+"RTN","DGMHV",6,0)
+ Q
 "RTN","DGMHV",7,0)
- Q
-"RTN","DGMHV",8,0)
- ;
-"RTN","DGMHV",9,0)
 MAIN(DFN) ; Main Entry Point for MHV socialization text/action
-"RTN","DGMHV",10,0)
+"RTN","DGMHV",8,0)
  ; Do not display MHV enrollment 'screen' if socialization Action entered (DGMHVOUT="A"), meaning MHV enrollment is in progress, not a firm YES or NO
-"RTN","DGMHV",11,0)
+"RTN","DGMHV",9,0)
  ; Do not display socialization text/action if MHV ENROLLED field is not null (DGMHVOUT="E")
-"RTN","DGMHV",12,0)
+"RTN","DGMHV",10,0)
  N DGMHVNOS,DGRSPNS,DGENTRY,DGACTS
-"RTN","DGMHV",13,0)
+"RTN","DGMHV",11,0)
  D CLEAR,ALERT,DSPLACT(DFN) I $G(DGMHVOUT)="" W !!! D CONT
-"RTN","DGMHV",14,0)
+"RTN","DGMHV",12,0)
  D CLEAR
-"RTN","DGMHV",15,0)
- I $G(DGMHVOUT)="E" D EN^DGMHVAC(DFN) D  Q
-"RTN","DGMHV",16,0)
- .;S DGACTS="" D GETLACT^DGMHVUTL(DFN,.DGACTS) Q:($D(DGACTS)>1)
-"RTN","DGMHV",17,0)
- .;S DGENTRY=$$ENTRYFLD^DGMHVUTL(DFN,1)
-"RTN","DGMHV",18,0)
- .;Q:'DGENTRY
-"RTN","DGMHV",19,0)
- .;D MAIN^DGMHVAC(DFN,DGENTRY)
-"RTN","DGMHV",20,0)
+"RTN","DGMHV",13,0)
+ I $G(DGMHVOUT)="E" D EN^DGMHVAC(DFN) Q
+"RTN","DGMHV",14,0)
  I $G(DGMHVOUT)="A" D  Q
-"RTN","DGMHV",21,0)
+"RTN","DGMHV",15,0)
  .N DGDPTSOC S DGDPTSOC=+$O(^DPT(DFN,1,"A"),-1)+1 D ACTIONS^DGMHV(.DGMHAC,.DGMHSEL,DGDPTSOC,"S")
-"RTN","DGMHV",22,0)
+"RTN","DGMHV",16,0)
  .Q:$G(DGMHVOUT)!$G(DGMHVNOS)
-"RTN","DGMHV",23,0)
+"RTN","DGMHV",17,0)
  .D EN^DGMHVAC(DFN)
-"RTN","DGMHV",24,0)
+"RTN","DGMHV",18,0)
  D SOCIAL^DGMHV Q:$G(DGMHVOUT)
-"RTN","DGMHV",25,0)
+"RTN","DGMHV",19,0)
  Q:$G(DGMHVNOS)
-"RTN","DGMHV",26,0)
+"RTN","DGMHV",20,0)
  D EN^DGMHVAC(DFN)
-"RTN","DGMHV",27,0)
- ;S DGACTS="" D GETLACT^DGMHVUTL(DFN,.DGACTS) Q:($D(DGACTS)>1)
-"RTN","DGMHV",28,0)
- ;S DGENTRY=$$ENTRYFLD^DGMHVUTL(DFN,1)
-"RTN","DGMHV",29,0)
- ;Q:'DGENTRY
-"RTN","DGMHV",30,0)
- ;D MAIN^DGMHVAC(DFN,DGENTRY)
-"RTN","DGMHV",31,0)
+"RTN","DGMHV",21,0)
  Q
-"RTN","DGMHV",32,0)
- ;
-"RTN","DGMHV",33,0)
+"RTN","DGMHV",22,0)
 SOCIAL ; MHV Enrollment talking point/socialization text action
-"RTN","DGMHV",34,0)
+"RTN","DGMHV",23,0)
  ; Display MHV socialization canned text, prompt for patient response, display and prompt for clerk action
-"RTN","DGMHV",35,0)
+"RTN","DGMHV",24,0)
  I $P($G(^DPT(DFN,2)),"^") Q
-"RTN","DGMHV",36,0)
+"RTN","DGMHV",25,0)
  N DGSODONE
-"RTN","DGMHV",37,0)
+"RTN","DGMHV",26,0)
  F  Q:$G(DGSODONE)!$G(DGMHVOUT)  D SLOOP
-"RTN","DGMHV",38,0)
+"RTN","DGMHV",27,0)
  Q
-"RTN","DGMHV",39,0)
+"RTN","DGMHV",28,0)
 SLOOP ; Allow user to go back and enter a different patient response in case the patient changes their mind
-"RTN","DGMHV",40,0)
+"RTN","DGMHV",29,0)
  N DGMHV,I,DGDIR0,DGDPTSOC,DGTAB,DGREADTX,DGMHVMOD S DGDPTSOC="",DGMHVMOD="S"
-"RTN","DGMHV",41,0)
+"RTN","DGMHV",30,0)
  K DIRUT
-"RTN","DGMHV",42,0)
+"RTN","DGMHV",31,0)
  S DGREADTX="Please read the following to the patient"
-"RTN","DGMHV",43,0)
+"RTN","DGMHV",32,0)
  D GTSOCODS(.DGDIR0) S DGDIR0="SO^",I="" F  S I=$O(DGDIR0(I)) Q:'I  S DGDIR0=DGDIR0_I_":"_DGDIR0(I)_";"
-"RTN","DGMHV",44,0)
+"RTN","DGMHV",33,0)
  F  Q:$G(DGMHVOUT)!$G(DGMHV("SOCIAL"))  D
-"RTN","DGMHV",45,0)
+"RTN","DGMHV",34,0)
  .D CLEAR W !!,DGREADTX
-"RTN","DGMHV",46,0)
+"RTN","DGMHV",35,0)
  .K DIR W !!?8,"""Has a health care team member encouraged you"
-"RTN","DGMHV",47,0)
+"RTN","DGMHV",36,0)
  .W !?10,"to enroll online for My HealtheVet?"""
-"RTN","DGMHV",48,0)
+"RTN","DGMHV",37,0)
  .S DIR("A")="Patient response"
-"RTN","DGMHV",49,0)
+"RTN","DGMHV",38,0)
  .S DIR(0)=DGDIR0
-"RTN","DGMHV",50,0)
+"RTN","DGMHV",39,0)
  .S DIR("??")="D CLEAR" D ^DIR I $E($G(Y))="^" S DGMHVOUT=1 Q
-"RTN","DGMHV",51,0)
+"RTN","DGMHV",40,0)
  .I Y="" W !!,"My HealtheVet enrollment information is required to continue with this patient",!! D CONT Q
-"RTN","DGMHV",52,0)
+"RTN","DGMHV",41,0)
  .S DGMHV("SOCIAL")=$G(DGDIR0(Y,"IEN"))
-"RTN","DGMHV",53,0)
+"RTN","DGMHV",42,0)
  Q:$G(DGMHVOUT)
-"RTN","DGMHV",54,0)
+"RTN","DGMHV",43,0)
  D FILSOC(DFN,+DGMHV("SOCIAL"),$$NOW^XLFDT,.DGDPTSOC)
-"RTN","DGMHV",55,0)
+"RTN","DGMHV",44,0)
  I DGMHV("SOCIAL")=1 D
-"RTN","DGMHV",56,0)
+"RTN","DGMHV",45,0)
  .N DGOLDEN S DGOLDEN=$P($G(^DPT(DFN,2)),"^")
-"RTN","DGMHV",57,0)
+"RTN","DGMHV",46,0)
  .N DIE,DR,DA S DIE="^DPT(",DR="537027////1;537030////"_$$NOW^XLFDT,DA=DFN D ^DIE
-"RTN","DGMHV",58,0)
+"RTN","DGMHV",47,0)
  .Q:DGOLDEN=1
-"RTN","DGMHV",59,0)
+"RTN","DGMHV",48,0)
  .N DGFLD F DGFLD=537033,537036 D FILRNA^DGMHVAC(DFN,DGFLD,"@")
-"RTN","DGMHV",60,0)
+"RTN","DGMHV",49,0)
  .N MHVND S MHVND=$G(^DPT(+DFN,2))
-"RTN","DGMHV",61,0)
+"RTN","DGMHV",50,0)
  .I $P(MHVND,"^",2)=0 F DGFLD=537028,537031,537034,537037 D FILRNA^DGMHVAC(DFN,DGFLD,"@")
-"RTN","DGMHV",62,0)
+"RTN","DGMHV",51,0)
  .I $P(MHVND,"^",3)=0 F DGFLD=537029,537032,537035,537039 D FILRNA^DGMHVAC(DFN,DGFLD,"@")
-"RTN","DGMHV",63,0)
+"RTN","DGMHV",52,0)
  Q:'$G(DGMHV("SOCIAL"))  D CLEAR W !!,DGREADTX W !! D CANNED(DGMHV("SOCIAL")) D CONT I (DGMHV("SOCIAL")>1) I $G(DIRUT)&($G(X)="^") S DGSODONE=0 Q
-"RTN","DGMHV",64,0)
+"RTN","DGMHV",53,0)
  N FLWUP,RTST S DGAR1=DGDPTSOC S FLWUP=$G(^DGMHV(390.01,DGMHV("SOCIAL"),4)) S RTST=$P(FLWUP,"^",2),RTST=$P(RTST,"(") I RTST]"" I $T(@RTST)]"" X FLWUP
-"RTN","DGMHV",65,0)
+"RTN","DGMHV",54,0)
  S DGSODONE=1
-"RTN","DGMHV",66,0)
+"RTN","DGMHV",55,0)
  Q
-"RTN","DGMHV",67,0)
- ;
-"RTN","DGMHV",68,0)
+"RTN","DGMHV",56,0)
 ALERT(DPTDFN) ; Displays the 'MHV Enrollment Information Missing' message
-"RTN","DGMHV",69,0)
+"RTN","DGMHV",57,0)
  Q:'$D(XQY0)
-"RTN","DGMHV",70,0)
+"RTN","DGMHV",58,0)
  N X,Y,IORVON,IORVOFF,DIR,DIRUT
-"RTN","DGMHV",71,0)
+"RTN","DGMHV",59,0)
  S X="IORVON;IORVOFF"
-"RTN","DGMHV",72,0)
+"RTN","DGMHV",60,0)
  D ENDR^%ZISS
-"RTN","DGMHV",73,0)
+"RTN","DGMHV",61,0)
  W !!!!?4,$CHAR(7) W:$D(IORVON) IORVON W "** PATIENT NEEDS TO ANSWER MY HEALTHEVET ENROLLMENT QUESTIONS **" W:$D(IORVOFF) IORVOFF
-"RTN","DGMHV",74,0)
+"RTN","DGMHV",62,0)
  W !?4,"Patient is missing required My HealtheVet Enrollment information",!
-"RTN","DGMHV",75,0)
+"RTN","DGMHV",63,0)
  Q
-"RTN","DGMHV",76,0)
- ;
-"RTN","DGMHV",77,0)
+"RTN","DGMHV",64,0)
 FILSOC(DFN,RSPNT,RSPDT,DGDPTSOC) ; File MHV Socialization Information to PATIENT (#2) file
-"RTN","DGMHV",78,0)
+"RTN","DGMHV",65,0)
  ;    DFN = PATIENT IEN
-"RTN","DGMHV",79,0)
+"RTN","DGMHV",66,0)
  ;  RSPNT = RESPONSE POINTER TO FILE 390.01
-"RTN","DGMHV",80,0)
+"RTN","DGMHV",67,0)
  ;  RPSDT = RESPONSE DATE/TIME
-"RTN","DGMHV",81,0)
- ;
-"RTN","DGMHV",82,0)
+"RTN","DGMHV",68,0)
  N DIE,DA,DR,DO,DGMHVND K DIE,DA,DR,DO
-"RTN","DGMHV",83,0)
+"RTN","DGMHV",69,0)
  S DIC(0)="EZ",DIC="^DPT(DFN,1,",DA(2)=DFN,DA(1)=+$O(^DPT(DFN,1,"A"),-1)+1,DGDPTSOC=DA(1)
-"RTN","DGMHV",84,0)
+"RTN","DGMHV",70,0)
  S DGMHVND=DA(1),DINUM=DA(1),X=RSPDT,DIC("DR")=".01////"_RSPDT_";1////"_RSPNT D FILE^DICN
-"RTN","DGMHV",85,0)
+"RTN","DGMHV",71,0)
  K DIE,DIC,DA S DIE="^DPT(DFN,1,",DA(1)=DFN,DA=DGMHVND
-"RTN","DGMHV",86,0)
+"RTN","DGMHV",72,0)
  S DR=".01////"_RSPDT_";1////"_RSPNT D ^DIE
+"RTN","DGMHV",73,0)
+ Q
+"RTN","DGMHV",74,0)
+CANNED(SCRIPT) ; Display canned text from PATIENT TEXT (#2) field in the MHV SOCIALIZATION (#390.01) file
+"RTN","DGMHV",75,0)
+ Q:'$G(SCRIPT)
+"RTN","DGMHV",76,0)
+ N DGMHVLIN,DGLINCNT,DGMHVOUT S DGMHVLIN=$P($G(^DGMHV(390.01,SCRIPT,2,0)),"^",3),DGMHVOUT=0
+"RTN","DGMHV",77,0)
+ S DGLINCNT=0 F  S DGLINCNT=$O(^DGMHV(390.01,SCRIPT,2,DGLINCNT)) Q:'DGLINCNT!(DGLINCNT>DGMHVLIN)  D
+"RTN","DGMHV",78,0)
+ .W !?2 W:DGLINCNT=1 """" W ^DGMHV(390.01,SCRIPT,2,DGLINCNT,0) S DGMHVOUT=1
+"RTN","DGMHV",79,0)
+ W:$G(DGMHVOUT) """" W !
+"RTN","DGMHV",80,0)
+ Q
+"RTN","DGMHV",81,0)
+GTSOCODS(DGSOCCOD) ; Get array of socialization codes and display sequences from MHV SOCIALIZATION (#390.01) file
+"RTN","DGMHV",82,0)
+ K DGSOCCOD,DGSOCIEN,DGSOCSEQ S DGSOCSEQ="",DGSOCCOD="",DGSOCIEN="" N I,TEXT S I=0,TEXT=""
+"RTN","DGMHV",83,0)
+ F  S DGSOCSEQ=$O(^DGMHV(390.01,"C",DGSOCSEQ)) Q:'DGSOCSEQ  D
+"RTN","DGMHV",84,0)
+ .S DGSOCIEN="" F  S DGSOCIEN=$O(^DGMHV(390.01,"C",DGSOCSEQ,DGSOCIEN)) Q:DGSOCIEN=""  D
+"RTN","DGMHV",85,0)
+ ..N TEXT D FIND^DIC(390.01,"","@;.01","A",DGSOCIEN,1,"","","","TEXT")
+"RTN","DGMHV",86,0)
+ ..S I=I+1 S DGSOCCOD(I)=TEXT("DILIST","ID",1,".01"),DGSOCCOD(I,"IEN")=DGSOCIEN
 "RTN","DGMHV",87,0)
  Q
 "RTN","DGMHV",88,0)
- ;
-"RTN","DGMHV",89,0)
-CANNED(SCRIPT) ; Display canned text from PATIENT TEXT (#2) field in the MHV SOCIALIZATION (#390.01) file
-"RTN","DGMHV",90,0)
- Q:'$G(SCRIPT)
-"RTN","DGMHV",91,0)
- N DGMHVLIN,DGLINCNT,DGMHVOUT S DGMHVLIN=$P($G(^DGMHV(390.01,SCRIPT,2,0)),"^",3),DGMHVOUT=0
-"RTN","DGMHV",92,0)
- S DGLINCNT=0 F  S DGLINCNT=$O(^DGMHV(390.01,SCRIPT,2,DGLINCNT)) Q:'DGLINCNT!(DGLINCNT>DGMHVLIN)  D
-"RTN","DGMHV",93,0)
- .W !?2 W:DGLINCNT=1 """" W ^DGMHV(390.01,SCRIPT,2,DGLINCNT,0) S DGMHVOUT=1
-"RTN","DGMHV",94,0)
- W:$G(DGMHVOUT) """" W !
-"RTN","DGMHV",95,0)
- Q
-"RTN","DGMHV",96,0)
- ;
-"RTN","DGMHV",97,0)
-GTSOCODS(DGSOCCOD) ; Get array of socialization codes and display sequences from MHV SOCIALIZATION (#390.01) file
-"RTN","DGMHV",98,0)
- K DGSOCCOD,DGSOCIEN,DGSOCSEQ S DGSOCSEQ="",DGSOCCOD="",DGSOCIEN="" N I,TEXT S I=0,TEXT=""
-"RTN","DGMHV",99,0)
- F  S DGSOCSEQ=$O(^DGMHV(390.01,"C",DGSOCSEQ)) Q:'DGSOCSEQ  D
-"RTN","DGMHV",100,0)
- .S DGSOCIEN="" F  S DGSOCIEN=$O(^DGMHV(390.01,"C",DGSOCSEQ,DGSOCIEN)) Q:DGSOCIEN=""  D
-"RTN","DGMHV",101,0)
- ..N TEXT D FIND^DIC(390.01,"","@;.01","A",DGSOCIEN,1,"","","","TEXT")
-"RTN","DGMHV",102,0)
- ..S I=I+1 S DGSOCCOD(I)=TEXT("DILIST","ID",1,".01"),DGSOCCOD(I,"IEN")=DGSOCIEN
-"RTN","DGMHV",103,0)
- Q
-"RTN","DGMHV",104,0)
- ;
-"RTN","DGMHV",105,0)
 NOFLW(DGSOCCOD) ; Perform followup dialog for patient that does not wish to enroll
-"RTN","DGMHV",106,0)
+"RTN","DGMHV",89,0)
  N DIR,DIC,DA,DGAR1,DGAR2 S DGAR1="",DGAR2=""
-"RTN","DGMHV",107,0)
+"RTN","DGMHV",90,0)
  W !! S DIR("A",1)="   How does the patient feel now about enrolling in My HealtheVet?"
-"RTN","DGMHV",108,0)
+"RTN","DGMHV",91,0)
  S DIR("A",2)=" ",DIR("A",3)="          a) Patient is not interested."
-"RTN","DGMHV",109,0)
+"RTN","DGMHV",92,0)
  S DIR("A",4)="          b) Patient is interested.",DIR("A",5)=" "
-"RTN","DGMHV",110,0)
+"RTN","DGMHV",93,0)
  S DIR(0)="SA^a:Patient is not interested;b:Patient is interested",DIR("A")="Select a response: "
-"RTN","DGMHV",111,0)
- ;S DIR("?")="   Help Text ......",DIR("??")="    More Help Text...."
-"RTN","DGMHV",112,0)
+"RTN","DGMHV",94,0)
  D ^DIR Q:$G(Y)="a"
-"RTN","DGMHV",113,0)
+"RTN","DGMHV",95,0)
  D ACTIONS(.DGAR1,DGAR2,$G(DGDPTSOC),"S")
-"RTN","DGMHV",114,0)
+"RTN","DGMHV",96,0)
  Q
-"RTN","DGMHV",115,0)
- ;
-"RTN","DGMHV",116,0)
+"RTN","DGMHV",97,0)
 ACTIONS(DGMSACT,ACTSEL,DGENRQ,DGMHVMOD) ; Display MHV Socialization actions, allow selection, return selected actions in ACTSEL
-"RTN","DGMHV",117,0)
+"RTN","DGMHV",98,0)
  ; Input:
-"RTN","DGMHV",118,0)
+"RTN","DGMHV",99,0)
  ;   DGMSACT  - Array of selectable actions from MHV SOCIALIZATION ACTIONS (#390.02) file
-"RTN","DGMHV",119,0)
+"RTN","DGMHV",100,0)
  ;   ACTSEL   - Array of action(s) currently selected by clerk
-"RTN","DGMHV",120,0)
+"RTN","DGMHV",101,0)
  ;   DGENRQ   - Internal Entry Number (IEN) of the prospective MHV SOCIALIZATION (#537026) multiple in the PATIENT (#2) file into which
-"RTN","DGMHV",121,0)
+"RTN","DGMHV",102,0)
  ;              the selected actions in ACTSEL will be stored.
-"RTN","DGMHV",122,0)
+"RTN","DGMHV",103,0)
  ;   DGMHVMOD - Mode; the section of MHV functionality from which this is invoked. Used to screen selectable actions.
-"RTN","DGMHV",123,0)
+"RTN","DGMHV",104,0)
  ;                    "S" - Enrollment Socialization, "A" - Authentication field, "S" - Secure Messaging field
-"RTN","DGMHV",124,0)
- ;
-"RTN","DGMHV",125,0)
+"RTN","DGMHV",105,0)
  K DIR,DGMSACT D CLEAR
-"RTN","DGMHV",126,0)
+"RTN","DGMHV",106,0)
  N DIR,ACTCNT,DGACDONE,DGSTAY,DGACSAVE,DGACCNT S DGACDONE=0,DGACSAVE=0
-"RTN","DGMHV",127,0)
+"RTN","DGMHV",107,0)
  D GETACTS(.DGMSACT,$G(DGMHVMOD)) S DGACCNT=+$O(DGMSACT(""),-1)
-"RTN","DGMHV",128,0)
+"RTN","DGMHV",108,0)
  S DIR(0)="SA^" S ACTCNT=0 F  S ACTCNT=$O(DGMSACT(ACTCNT)) Q:'ACTCNT  S DIR(0)=DIR(0)_ACTCNT_":"_DGMSACT(ACTCNT)_";"
-"RTN","DGMHV",129,0)
+"RTN","DGMHV",109,0)
  S $P(DIR(0),"^",3)="D ACTRNSFM^DGMHV"
-"RTN","DGMHV",130,0)
+"RTN","DGMHV",110,0)
  F  Q:$G(DGACDONE)  D ACTLOOP(.DIR,.DGMSACT,.ACTSEL)
-"RTN","DGMHV",131,0)
+"RTN","DGMHV",111,0)
  I $G(DGACSAVE),$D(ACTSEL)>1 D  S DGMHVNOS=1 Q
-"RTN","DGMHV",132,0)
+"RTN","DGMHV",112,0)
  .I $G(DGENRQ),'$G(DGDPTSOC) S DGDPTSOC=DGENRQ
-"RTN","DGMHV",133,0)
+"RTN","DGMHV",113,0)
  .N DGSEL,DGAIEN,DGMHVND,DGPLURAL S DGSEL=0 F DGPLURAL=1:1 S DGSEL=$O(ACTSEL(DGSEL)) Q:'DGSEL  D
-"RTN","DGMHV",134,0)
+"RTN","DGMHV",114,0)
  ..N DIE,DA,DIC S DGAIEN=$G(ACTSEL(DGSEL,"IEN")),DIC(0)="EZ",DIC="^DPT("_DFN_",1,"_DGDPTSOC_",1,",DA(3)=DFN,DA(2)=DGDPTSOC
-"RTN","DGMHV",135,0)
+"RTN","DGMHV",115,0)
  ..S DA(1)=$O(^DPT(DFN,1,DA(2),1,"A"),-1)+1,DINUM=DA(1),X=DGAIEN,DGMHVND=DA(1),DIC("DR")=".01////"_DGAIEN D FILE^DICN I $G(DGENRQ) D
-"RTN","DGMHV",136,0)
+"RTN","DGMHV",116,0)
  ...N DA,DIE,DIC,RSPDT S RSPDT=$$NOW^XLFDT S DIE="^DPT(DFN,1,",DA(1)=DFN,DA=DGENRQ S DR=".01////"_RSPDT D ^DIE
-"RTN","DGMHV",137,0)
+"RTN","DGMHV",117,0)
  ..N DA,DIE,DIC K DIE,DIC,DA S DIE="^DPT("_DFN_",1,"_DGDPTSOC_",1,",DA(2)=DFN,DA(1)=DGDPTSOC,DA=$O(^DPT(DFN,1,DGDPTSOC,1,"A"),-1)
-"RTN","DGMHV",138,0)
+"RTN","DGMHV",118,0)
  ..S DR=".01////"_DGAIEN D ^DIE
-"RTN","DGMHV",139,0)
+"RTN","DGMHV",119,0)
  .W !,$S($G(DGPLURAL)=1:"Action",1:"Actions")," Filed...",! H .5
-"RTN","DGMHV",140,0)
+"RTN","DGMHV",120,0)
  S DGMHVOUT=1
-"RTN","DGMHV",141,0)
+"RTN","DGMHV",121,0)
  Q
-"RTN","DGMHV",142,0)
- ;
-"RTN","DGMHV",143,0)
+"RTN","DGMHV",122,0)
 ACTLOOP(DIR,DGMSACT,ACTSEL) ; Redisplay and reprompt user for action(s) until they're filed, or user aborts
-"RTN","DGMHV",144,0)
- ;
-"RTN","DGMHV",145,0)
+"RTN","DGMHV",123,0)
  D CLEAR
-"RTN","DGMHV",146,0)
+"RTN","DGMHV",124,0)
  S DGSTAY=1
-"RTN","DGMHV",147,0)
+"RTN","DGMHV",125,0)
  W !?2,"Action(s) taken today to assist patient with My HealtheVet enrollment."
-"RTN","DGMHV",148,0)
+"RTN","DGMHV",126,0)
  W !?2,"-----------------------------------------------------------------------"
-"RTN","DGMHV",149,0)
+"RTN","DGMHV",127,0)
  D ^DIR
-"RTN","DGMHV",150,0)
+"RTN","DGMHV",128,0)
  I Y="^"!$G(DIRUT) W !! N DGREALQ S DGREALQ=1 D  Q
-"RTN","DGMHV",151,0)
+"RTN","DGMHV",129,0)
  .N DIR,Y S DIR(0)="Y",DIR("A",1)="My HealtheVet enrollment questions is required to continue with this patient."
-"RTN","DGMHV",152,0)
+"RTN","DGMHV",130,0)
  .S DIR("A")="Are you sure you want to quit " D ^DIR I $G(Y) S DGMHVOUT=1,DGACDONE=1,DGACSAVE=0,DGSTAY=0 Q
-"RTN","DGMHV",153,0)
+"RTN","DGMHV",131,0)
  .S DGSTAY=1
-"RTN","DGMHV",154,0)
+"RTN","DGMHV",132,0)
  I $G(Y)>0 N DGSELL F DGSELL=1:1:$L(Y,",") N DGSELIT S DGSELIT=$P(Y,",",DGSELL) I DGSELIT]"" M ACTSEL(DGSELIT)=DGMSACT(DGSELIT)
-"RTN","DGMHV",155,0)
+"RTN","DGMHV",133,0)
  F  Q:'$G(DGSTAY)  D
-"RTN","DGMHV",156,0)
+"RTN","DGMHV",134,0)
  .D CLEAR N DIR,SELAC,DGCNT,DGII S DGCNT=1,DGSTAY=0
-"RTN","DGMHV",157,0)
+"RTN","DGMHV",135,0)
  .S DIR("A",DGCNT)="",DGCNT=DGCNT+1
-"RTN","DGMHV",158,0)
+"RTN","DGMHV",136,0)
  .S DIR("A",DGCNT)="Actions Selected:"
-"RTN","DGMHV",159,0)
+"RTN","DGMHV",137,0)
  .S DGCNT=DGCNT+1,DIR("A",DGCNT)=" " ;"-----------------------------------------------------------------------"
-"RTN","DGMHV",160,0)
+"RTN","DGMHV",138,0)
  .S SELAC="" F DGII=1:1 S SELAC=$O(ACTSEL(SELAC)) Q:'SELAC  D
-"RTN","DGMHV",161,0)
+"RTN","DGMHV",139,0)
  ..N SELACSUB,MARX S SELACSUB=0 D TXT(ACTSEL(SELAC),65) F  S SELACSUB=$O(MARX(SELACSUB)) Q:'SELACSUB  D
-"RTN","DGMHV",162,0)
+"RTN","DGMHV",140,0)
  ...S DGCNT=DGCNT+1 S DIR("A",DGCNT)=" "_$S(SELACSUB=1:SELAC_" - ",1:"    ")_" "_MARX(SELACSUB)
-"RTN","DGMHV",163,0)
+"RTN","DGMHV",141,0)
  .S DGCNT=DGCNT+1 S DIR("A",DGCNT)=""
-"RTN","DGMHV",164,0)
- .;S DIR("?")="HELP",DIR("?",1)="HELP"
-"RTN","DGMHV",165,0)
+"RTN","DGMHV",142,0)
  .S DIR("A")="  (A)dd another, (D)elete an action, or <RET> to save and exit: ",DIR(0)="SAO^A:Add an Action;D:Delete an Action" D ^DIR W !
-"RTN","DGMHV",166,0)
+"RTN","DGMHV",143,0)
  .Q:Y="A"
-"RTN","DGMHV",167,0)
+"RTN","DGMHV",144,0)
  .I Y="D" S DGSTAY=1 D DELETE(.ACTSEL) Q
-"RTN","DGMHV",168,0)
+"RTN","DGMHV",145,0)
  .I Y="^" W !! N DGREALQ S DGREALQ=1 D  Q
-"RTN","DGMHV",169,0)
+"RTN","DGMHV",146,0)
  ..N DIR,Y S DIR(0)="Y",DIR("A",1)="My HealtheVet enrollment information is required to continue with this patient."
-"RTN","DGMHV",170,0)
+"RTN","DGMHV",147,0)
  ..S DIR("A")="Are you sure you want to quit " D ^DIR I $G(Y) S DGMHVOUT=1,DGACDONE=1,DGACSAVE=0,DGSTAY=0 Q
-"RTN","DGMHV",171,0)
+"RTN","DGMHV",148,0)
  ..S DGSTAY=1
-"RTN","DGMHV",172,0)
+"RTN","DGMHV",149,0)
  .S DGACDONE=1,DGACSAVE=1
-"RTN","DGMHV",173,0)
+"RTN","DGMHV",150,0)
  Q
-"RTN","DGMHV",174,0)
- ;
-"RTN","DGMHV",175,0)
+"RTN","DGMHV",151,0)
 GETACTS(DGMSACT,DGMHVMOD) ; Get actions from the MHV SOCIALIZATION ACTIONS (#390.02) file; screen by mode (DGMHVMOD)
-"RTN","DGMHV",176,0)
+"RTN","DGMHV",152,0)
  ; Input: DGMHVMOD - Mode; MHV functionality from which this is invoked. Used to screen selectable Actions.
-"RTN","DGMHV",177,0)
+"RTN","DGMHV",153,0)
  ; DGMSACT - Array containing appropriate MHV actions, after screening based on mode (DGMHVMOD).
-"RTN","DGMHV",178,0)
- ;
-"RTN","DGMHV",179,0)
+"RTN","DGMHV",154,0)
  N ACTIEN,ACTCNT,ACTTXT,SELCNT,DGMHVSAT S ACTCNT=0,SELCNT=0
-"RTN","DGMHV",180,0)
+"RTN","DGMHV",155,0)
  S ACTIEN=0 F  S ACTIEN=$O(^DGMHV(390.02,ACTIEN)) Q:'ACTIEN  S ACTTXT=$P($G(^DGMHV(390.02,ACTIEN,3,1,0)),"^") I ACTTXT]"" D
-"RTN","DGMHV",181,0)
+"RTN","DGMHV",156,0)
  .N TXTND S TXTND=1 F  S TXTND=$O(^DGMHV(390.02,ACTIEN,3,TXTND)) Q:'TXTND  S ACTTXT=ACTTXT_" "_^DGMHV(390.02,ACTIEN,3,TXTND,0)
-"RTN","DGMHV",182,0)
+"RTN","DGMHV",157,0)
  .N ACTLLIST D ACTSCRN^DGMHVUTL(ACTIEN,.ACTLLIST) I ($G(DGMHVMOD)]"") Q:'$D(ACTLLIST(DGMHVMOD))
-"RTN","DGMHV",183,0)
+"RTN","DGMHV",158,0)
  .S ACTCNT=ACTCNT+1,SELCNT=SELCNT+1,DGMSACT(ACTCNT)=ACTTXT,DGMSACT(ACTCNT,"IEN")=ACTIEN
-"RTN","DGMHV",184,0)
+"RTN","DGMHV",159,0)
  .N MARX,ACTLINE D TXT(ACTTXT,65) S ACTLINE=0 F  S ACTLINE=$O(MARX(ACTLINE)) Q:'ACTLINE  D
-"RTN","DGMHV",185,0)
+"RTN","DGMHV",160,0)
  ..N DGDASH S DGDASH=$S(ACTLINE=1&(ACTCNT<10):ACTCNT_" -  ",(ACTLINE=1&(ACTCNT>9)):ACTCNT_" - ",1:"     ")
-"RTN","DGMHV",186,0)
+"RTN","DGMHV",161,0)
  ..S DIR("A",SELCNT)="  "_DGDASH_" "_MARX(ACTLINE) S SELCNT=SELCNT+1
-"RTN","DGMHV",187,0)
+"RTN","DGMHV",162,0)
  ..;S DIR("A",SELCNT)="  "_$S(ACTLINE=1:ACTCNT_"  -  ",1:"      ")_"  "_MARX(ACTLINE) S SELCNT=SELCNT+1
-"RTN","DGMHV",188,0)
+"RTN","DGMHV",163,0)
  S DIR("A",SELCNT+1)=" "
-"RTN","DGMHV",189,0)
+"RTN","DGMHV",164,0)
  S DIR("A")=" Select an action: "
-"RTN","DGMHV",190,0)
+"RTN","DGMHV",165,0)
  Q
-"RTN","DGMHV",191,0)
- ;
-"RTN","DGMHV",192,0)
+"RTN","DGMHV",166,0)
 DELETE(DGACTD) ; Delete one previously selected action
-"RTN","DGMHV",193,0)
+"RTN","DGMHV",167,0)
  ; Input : DGACTD - Array of MHV actions selected by clerk.
-"RTN","DGMHV",194,0)
+"RTN","DGMHV",168,0)
  K DGDELDIR,DIR N DGDELAR,II,DGCNT S DGCNT=0
-"RTN","DGMHV",195,0)
+"RTN","DGMHV",169,0)
  M DGDELAR=DGACTD
-"RTN","DGMHV",196,0)
+"RTN","DGMHV",170,0)
  ;
-"RTN","DGMHV",197,0)
+"RTN","DGMHV",171,0)
  K DGACTD M DGACTD=DGDELAR
-"RTN","DGMHV",198,0)
+"RTN","DGMHV",172,0)
  S DIR(0)="SAO^" S ZZ=0 F II=1:1 S ZZ=$O(DGDELAR(ZZ)) Q:'ZZ  S DIR(0)=DIR(0)_ZZ_":"_DGDELAR(ZZ)_";"
-"RTN","DGMHV",199,0)
+"RTN","DGMHV",173,0)
  S DIR("A")="Select an action to delete: " D ^DIR I $G(Y)>0,$D(DGACTD(+Y)) K DGACTD(Y)
-"RTN","DGMHV",200,0)
+"RTN","DGMHV",174,0)
  W ! D CONT I '$D(DGACTD) S DGSTAY=0 D CLEAR
-"RTN","DGMHV",201,0)
+"RTN","DGMHV",175,0)
  Q
-"RTN","DGMHV",202,0)
- ;
-"RTN","DGMHV",203,0)
+"RTN","DGMHV",176,0)
 REVERSE(PAD,DGREVTXT) ; Display DGREVTXT in reverse video
-"RTN","DGMHV",204,0)
+"RTN","DGMHV",177,0)
  N X,Y,IORVON,IORVOFF,DIR,DIRUT
-"RTN","DGMHV",205,0)
+"RTN","DGMHV",178,0)
  S X="IORVON;IORVOFF" S PAD=+$G(PAD)
-"RTN","DGMHV",206,0)
+"RTN","DGMHV",179,0)
  D ENDR^%ZISS
-"RTN","DGMHV",207,0)
+"RTN","DGMHV",180,0)
  W $CHAR(7) W ?PAD W:$D(IORVON) IORVON W DGREVTXT W:$D(IORVOFF) IORVOFF
-"RTN","DGMHV",208,0)
+"RTN","DGMHV",181,0)
  Q
-"RTN","DGMHV",209,0)
- ;
-"RTN","DGMHV",210,0)
+"RTN","DGMHV",182,0)
 TXT(TXT,LEN) ; Split string into multiple LEN length lines
-"RTN","DGMHV",211,0)
+"RTN","DGMHV",183,0)
  ;* Input: TXT = TXT string
-"RTN","DGMHV",212,0)
+"RTN","DGMHV",184,0)
  ;*        LEN = format length
-"RTN","DGMHV",213,0)
+"RTN","DGMHV",185,0)
  ;* Output: MARX array.
-"RTN","DGMHV",214,0)
- ;*
-"RTN","DGMHV",215,0)
+"RTN","DGMHV",186,0)
  NEW OLD,X1,Y D SPLIT K MARX
-"RTN","DGMHV",216,0)
+"RTN","DGMHV",187,0)
  S X=0,X1=1,Y="" F  S X=$O(OLD(X)) Q:'X  D
-"RTN","DGMHV",217,0)
+"RTN","DGMHV",188,0)
  . I $L(Y_OLD(X))>LEN S MARX(X1)=Y,X1=X1+1,Y="" D
-"RTN","DGMHV",218,0)
+"RTN","DGMHV",189,0)
  .. I $E(MARX(X1-1),$L(MARX(X1-1)))'=" " Q
-"RTN","DGMHV",219,0)
+"RTN","DGMHV",190,0)
  .. S MARX(X1-1)=$E(MARX(X1-1),1,$L(MARX(X1-1))-1)
-"RTN","DGMHV",220,0)
+"RTN","DGMHV",191,0)
  . S Y=Y_OLD(X)
-"RTN","DGMHV",221,0)
+"RTN","DGMHV",192,0)
  S:Y]"" MARX(X1)=Y
-"RTN","DGMHV",222,0)
+"RTN","DGMHV",193,0)
  S MARX=X1
-"RTN","DGMHV",223,0)
+"RTN","DGMHV",194,0)
  Q
-"RTN","DGMHV",224,0)
- ;
-"RTN","DGMHV",225,0)
+"RTN","DGMHV",195,0)
 SPLIT ; * Split a word string into individual words.
-"RTN","DGMHV",226,0)
+"RTN","DGMHV",196,0)
  ;* Input: TXT  - Line of text
-"RTN","DGMHV",227,0)
+"RTN","DGMHV",197,0)
  ;* Input: LEN  - Maximum length one line of text will be limited to
-"RTN","DGMHV",228,0)
+"RTN","DGMHV",198,0)
  ;* Output: OLD(X)
-"RTN","DGMHV",229,0)
+"RTN","DGMHV",199,0)
  NEW BSD,NEW,X,X1,Y
-"RTN","DGMHV",230,0)
+"RTN","DGMHV",200,0)
  S OLD(1)=TXT Q:$L(TXT)<LEN
-"RTN","DGMHV",231,0)
+"RTN","DGMHV",201,0)
  F BSD=" ","/","-" S:'$O(OLD(0)) OLD(1)=TXT D:TXT[BSD DELIM(BSD)
-"RTN","DGMHV",232,0)
+"RTN","DGMHV",202,0)
  I '$O(OLD(1)),($L(TXT)>LEN) D LEN(1,TXT) K OLD D
-"RTN","DGMHV",233,0)
+"RTN","DGMHV",203,0)
  . F X=0:0 S X=$O(NEW(X)) Q:'X  S OLD(X)=NEW(X)
-"RTN","DGMHV",234,0)
+"RTN","DGMHV",204,0)
  Q
-"RTN","DGMHV",235,0)
- ;
-"RTN","DGMHV",236,0)
+"RTN","DGMHV",205,0)
 LEN(X1,OLD) ;* Wrap word to next line if it doesn't fit the display length
-"RTN","DGMHV",237,0)
+"RTN","DGMHV",206,0)
  NEW X
-"RTN","DGMHV",238,0)
+"RTN","DGMHV",207,0)
  Q:$L(OLD)'>LEN
-"RTN","DGMHV",239,0)
+"RTN","DGMHV",208,0)
  S X=$E(OLD,1,($L(OLD)-1)) I X["/"!(X["-") Q
-"RTN","DGMHV",240,0)
+"RTN","DGMHV",209,0)
  I $L(OLD)>LEN F X=1:1 S NEW(X1)=$E(OLD,((LEN*X)-LEN+1),(LEN*X)),X1=X1+1 Q:($L(OLD)'>(LEN*X))
-"RTN","DGMHV",241,0)
+"RTN","DGMHV",210,0)
  Q
-"RTN","DGMHV",242,0)
- ;
-"RTN","DGMHV",243,0)
+"RTN","DGMHV",211,0)
 DELIM(BSD) ; Split a string into individual words
-"RTN","DGMHV",244,0)
+"RTN","DGMHV",212,0)
  ; Input:  BSD - Characters considered delimiters between words (i.e., for identifying/splitting-up-and/or-separating words)
-"RTN","DGMHV",245,0)
+"RTN","DGMHV",213,0)
  ; Input:  OLD(n) - Text array containing  
-"RTN","DGMHV",246,0)
+"RTN","DGMHV",214,0)
  ; Output: OLD(n) - Array containing pdated 
-"RTN","DGMHV",247,0)
+"RTN","DGMHV",215,0)
  K NEW
-"RTN","DGMHV",248,0)
+"RTN","DGMHV",216,0)
  S X=0,X1=0 F  S X=$O(OLD(X)) Q:'X  F Y=1:1:$L(OLD(X),BSD) D
-"RTN","DGMHV",249,0)
+"RTN","DGMHV",217,0)
  . S X1=X1+1
-"RTN","DGMHV",250,0)
+"RTN","DGMHV",218,0)
  . S NEW(X1)=$P(OLD(X),BSD,Y)
-"RTN","DGMHV",251,0)
+"RTN","DGMHV",219,0)
  . I $L(OLD(X),BSD)>1,(Y<$L(OLD(X),BSD)) S NEW(X1)=NEW(X1)_BSD
-"RTN","DGMHV",252,0)
+"RTN","DGMHV",220,0)
  . D LEN(.X1,NEW(X1))
-"RTN","DGMHV",253,0)
+"RTN","DGMHV",221,0)
  K OLD F X=0:0 S X=$O(NEW(X)) Q:'X  S OLD(X)=NEW(X)
-"RTN","DGMHV",254,0)
+"RTN","DGMHV",222,0)
  Q
-"RTN","DGMHV",255,0)
- ;
-"RTN","DGMHV",256,0)
+"RTN","DGMHV",223,0)
 CLEAR ; Clear the display
-"RTN","DGMHV",257,0)
+"RTN","DGMHV",224,0)
  D CLEAR^VALM1
-"RTN","DGMHV",258,0)
+"RTN","DGMHV",225,0)
  D FULL^VALM1
-"RTN","DGMHV",259,0)
+"RTN","DGMHV",226,0)
  S VALMBCK="R"
-"RTN","DGMHV",260,0)
+"RTN","DGMHV",227,0)
  Q
-"RTN","DGMHV",261,0)
- ;
-"RTN","DGMHV",262,0)
+"RTN","DGMHV",228,0)
 CONT ; Prompt to Continue
-"RTN","DGMHV",263,0)
+"RTN","DGMHV",229,0)
  N DIR S DIR(0)="E",DIR("A")="Press RETURN to continue" D ^DIR
-"RTN","DGMHV",264,0)
+"RTN","DGMHV",230,0)
  Q
-"RTN","DGMHV",265,0)
- ;
-"RTN","DGMHV",266,0)
+"RTN","DGMHV",231,0)
 ACTRNSFM ; Transform action prompt input
-"RTN","DGMHV",267,0)
- ;
-"RTN","DGMHV",268,0)
+"RTN","DGMHV",232,0)
  Q
-"RTN","DGMHV",269,0)
+"RTN","DGMHV",233,0)
 DSPLACT(DFN) ; Display all MHV actions associated with last 5 date/time stamps. If last action is one of the 
-"RTN","DGMHV",270,0)
+"RTN","DGMHV",234,0)
  ;             first four MHV actions, ask additional question about whether the patient was successfully enrolled
-"RTN","DGMHV",271,0)
+"RTN","DGMHV",235,0)
  N TMPDT,LASTDT,DGACTDT,NXT1,NXT2,I,J,DGLACTS,DIC,DA,DGFLDAR S DGLACTS=""
-"RTN","DGMHV",272,0)
+"RTN","DGMHV",236,0)
  D GETLACT^DGMHVUTL(DFN,.DGLACTS)
-"RTN","DGMHV",273,0)
+"RTN","DGMHV",237,0)
  W !,"         Recent My HealtheVet actions taken by VistA Clerks "
-"RTN","DGMHV",274,0)
+"RTN","DGMHV",238,0)
  W !,"--------------------------------------------------------------------"
-"RTN","DGMHV",275,0)
+"RTN","DGMHV",239,0)
  D GETFLDS^DGMHVUTL(DFN,.DGFLDAR) I $O(DGFLDAR(0)) M DGLACTS=DGFLDAR
-"RTN","DGMHV",276,0)
+"RTN","DGMHV",240,0)
  I '$O(DGLACTS(0)) W !?8," - NONE - ",!! Q
-"RTN","DGMHV",277,0)
+"RTN","DGMHV",241,0)
  S LASTDT="" F  S LASTDT=$O(DGLACTS(LASTDT)) Q:'LASTDT  D
-"RTN","DGMHV",278,0)
+"RTN","DGMHV",242,0)
  .S DGACTDT=$$FMTE^XLFDT($P(LASTDT,"."),2) I ($L(DGACTDT)<8) D
-"RTN","DGMHV",279,0)
+"RTN","DGMHV",243,0)
  ..N NEWDT,IDT,DTPC F IDT=1:1:$L(DGACTDT,"/") D
-"RTN","DGMHV",280,0)
+"RTN","DGMHV",244,0)
  ...S DTPC=$P(DGACTDT,"/",IDT),DTPC=$TR($J(DTPC,2)," ",0),NEWDT=$G(NEWDT)_$S(IDT=1:"",1:"/")_DTPC
-"RTN","DGMHV",281,0)
+"RTN","DGMHV",245,0)
  ..I NEWDT?2N1"/"2N1"/"2N S DGACTDT=NEWDT
-"RTN","DGMHV",282,0)
+"RTN","DGMHV",246,0)
  .S NXT1=0 F I=1:1 S NXT1=$O(DGLACTS(LASTDT,NXT1)) Q:'NXT1  D
-"RTN","DGMHV",283,0)
+"RTN","DGMHV",247,0)
  ..S NXT2="" F J=1:1 S NXT2=$O(DGLACTS(LASTDT,NXT1,"TXT",NXT2)) Q:'NXT2  W ! D
-"RTN","DGMHV",284,0)
+"RTN","DGMHV",248,0)
  ...N DGSP S DGSP=$S($L($G(DGLACTS(LASTDT,NXT1,"IEN")))>1:" ",1:" ")
-"RTN","DGMHV",285,0)
+"RTN","DGMHV",249,0)
  ...W $S($G(TMPDT)'=LASTDT:DGACTDT,1:"       ") W $S((J=1):DGSP_" ",1:"   "),$G(DGLACTS(LASTDT,NXT1,"TXT",NXT2))
-"RTN","DGMHV",286,0)
+"RTN","DGMHV",250,0)
  ...S TMPDT=LASTDT
-"RTN","DGMHV",287,0)
- ;
-"RTN","DGMHV",288,0)
+"RTN","DGMHV",251,0)
  D QUESUC^DGMHVUTL(DFN,.DGMHVOUT) Q:($G(DGMHVOUT)]"")
-"RTN","DGMHV",289,0)
+"RTN","DGMHV",252,0)
  Q
-"RTN","DGMHV",290,0)
- ;
-"RTN","DGMHV",291,0)
+"RTN","DGMHV",253,0)
 ACTHLP ; Help at action prompt
-"RTN","DGMHV",292,0)
+"RTN","DGMHV",254,0)
  W !?5,"Please select one of the listed actions that most closely describes"
-"RTN","DGMHV",293,0)
+"RTN","DGMHV",255,0)
  W !?5,"the actions taken today to help this patient enroll in My HealtheVet."
-"RTN","DGMHV",294,0)
+"RTN","DGMHV",256,0)
  Q
 "RTN","DGMHVAC")
 0^3^B145503430
 "RTN","DGMHVAC",1,0)
 DGMHVAC ;HIRMFO/WAA-REACTIONS SELECT ROUTINE ;6/9/05  11:12
 "RTN","DGMHVAC",2,0)
- ;;5.3;Registration;**903**;Aug 13, 1993;Build 53
+ ;;5.3;Registration;**903**;Aug 13, 1993;Build 54
 "RTN","DGMHVAC",3,0)
  ;
 "RTN","DGMHVAC",4,0)
@@ -2161,7 +2073,7 @@ LASTACHK(DFN,ACTXT) ; Check if ACTXT contains the text matching the most recent 
 "RTN","DGMHVUTL",1,0)
 DGMHVUTL ;ALB/JCH - Patient MHV Enrollment - Utilities ;09/12/14 11:30am
 "RTN","DGMHVUTL",2,0)
- ;;5.3;Registration;**903**;August 13, 1993;Build 53
+ ;;5.3;Registration;**903**;August 13, 1993;Build 54
 "RTN","DGMHVUTL",3,0)
  ;
 "RTN","DGMHVUTL",4,0)
@@ -2699,7 +2611,7 @@ MSGDATE(DFN,INTERNAL) ; Most recent date mhv secure messaging was updated
 "RTN","DGPREP1",1,0)
 DGPREP1 ;ALB/SCK - Program to Display Pre-Registration List Cont. 1 ; 12/9/03 3:22pm
 "RTN","DGPREP1",2,0)
- ;;5.3;Registration;**109,136,574,903**;Aug 13, 1993;Build 53
+ ;;5.3;Registration;**109,136,574,903**;Aug 13, 1993;Build 54
 "RTN","DGPREP1",3,0)
  Q
 "RTN","DGPREP1",4,0)
@@ -3161,7 +3073,7 @@ UNLCK I $G(DGPIDX)]"" L -^DGS(41.42,DGPIDX)
 "RTN","DGRPC",1,0)
 DGRPC    ;ALB/MRL/PJR/PHH/EG/BAJ,TDM,LBD - CHECK CONSISTENCY OF PATIENT DATA ; 6/29/11 3:50pm
 "RTN","DGRPC",2,0)
- ;;5.3;Registration;**108,121,314,301,470,489,505,451,568,585,641,653,688,754,797,867,903**;Aug 13, 1993;Build 53
+ ;;5.3;Registration;**108,121,314,301,470,489,505,451,568,585,641,653,688,754,797,867,903**;Aug 13, 1993;Build 54
 "RTN","DGRPC",3,0)
  ;
 "RTN","DGRPC",4,0)
@@ -3401,7 +3313,7 @@ ON       ;check if checker is on
 "RTN","DGRPC3",1,0)
 DGRPC3   ;ALB/PJR,LBD,BAJ,TDM - CHECK CONSISTENCY OF PATIENT DATA (CONT) ; 10/20/10 3:40pm
 "RTN","DGRPC3",2,0)
- ;;5.3;Registration;**451,632,673,657,688,754,797,867,903**;Aug 13, 1993;Build 53
+ ;;5.3;Registration;**451,632,673,657,688,754,797,867,903**;Aug 13, 1993;Build 54
 "RTN","DGRPC3",3,0)
  ;
 "RTN","DGRPC3",4,0)
@@ -3831,7 +3743,7 @@ OVER99CK N DGP,DGSD,RULE,FILERR
 "RTN","DGRPCE1",1,0)
 DGRPCE1 ;ALB/MIR/BRM/LBD,BAJ,TDM - CONSISTENCY CHECKER EDIT ; 10/20/10 4:16pm
 "RTN","DGRPCE1",2,0)
- ;;5.3;Registration;**108,226,470,454,489,505,522,451,632,689,657,688,804,754,797,903**;Aug 13, 1993;Build 53
+ ;;5.3;Registration;**108,226,470,454,489,505,522,451,632,689,657,688,804,754,797,903**;Aug 13, 1993;Build 54
 "RTN","DGRPCE1",3,0)
  N DGMSERR S DGMSERR="" I $$NEWMSE(DFN) S DGMSERR=",67,72,73,79,81,83,"
 "RTN","DGRPCE1",4,0)

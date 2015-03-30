@@ -1,11 +1,9 @@
 DGMHV ;ALB/JCH - Display Pre-Registration MHV Enrollment ; 12/9/03 3:22pm
  ;;5.3;Registration;**903**;Aug 13, 1993;Build 53
  Q
- ;
 EN(DFN) ; Entry Point for Alert, Socialization, and MHV Enrollment field editing 'Screen'
  D MAIN^DGMHV(DFN)
  Q
- ;
 MAIN(DFN) ; Main Entry Point for MHV socialization text/action
  ; Do not display MHV enrollment 'screen' if socialization Action entered (DGMHVOUT="A"), meaning MHV enrollment is in progress, not a firm YES or NO
  ; Do not display socialization text/action if MHV ENROLLED field is not null (DGMHVOUT="E")
@@ -14,21 +12,19 @@ MAIN(DFN) ; Main Entry Point for MHV socialization text/action
  D CLEAR
  I $G(DGMHVOUT)="E" D EN^DGMHVAC(DFN) Q
  I $G(DGMHVOUT)="A" D  Q
- . N DGDPTSOC S DGDPTSOC=+$O(^DPT(DFN,1,"A"),-1)+1 D ACTIONS^DGMHV(.DGMHAC,.DGMHSEL,DGDPTSOC,"S")
- . Q:$G(DGMHVOUT)!$G(DGMHVNOS)
- . D EN^DGMHVAC(DFN)
+ .N DGDPTSOC S DGDPTSOC=+$O(^DPT(DFN,1,"A"),-1)+1 D ACTIONS^DGMHV(.DGMHAC,.DGMHSEL,DGDPTSOC,"S")
+ .Q:$G(DGMHVOUT)!$G(DGMHVNOS)
+ .D EN^DGMHVAC(DFN)
  D SOCIAL^DGMHV Q:$G(DGMHVOUT)
  Q:$G(DGMHVNOS)
  D EN^DGMHVAC(DFN)
  Q
- ;
 SOCIAL ; MHV Enrollment talking point/socialization text action
  ; Display MHV socialization canned text, prompt for patient response, display and prompt for clerk action
  I $P($G(^DPT(DFN,2)),"^") Q
  N DGSODONE
  F  Q:$G(DGSODONE)!$G(DGMHVOUT)  D SLOOP
  Q
- ;
 SLOOP ; Allow user to go back and enter a different patient response in case the patient changes their mind
  N DGMHV,I,DGDIR0,DGDPTSOC,DGTAB,DGREADTX,DGMHVMOD S DGDPTSOC="",DGMHVMOD="S"
  K DIRUT
@@ -57,7 +53,6 @@ SLOOP ; Allow user to go back and enter a different patient response in case the
  N FLWUP,RTST S DGAR1=DGDPTSOC S FLWUP=$G(^DGMHV(390.01,DGMHV("SOCIAL"),4)) S RTST=$P(FLWUP,"^",2),RTST=$P(RTST,"(") I RTST]"" I $T(@RTST)]"" X FLWUP
  S DGSODONE=1
  Q
- ;
 ALERT(DPTDFN) ; Displays the 'MHV Enrollment Information Missing' message
  Q:'$D(XQY0)
  N X,Y,IORVON,IORVOFF,DIR,DIRUT
@@ -66,7 +61,6 @@ ALERT(DPTDFN) ; Displays the 'MHV Enrollment Information Missing' message
  W !!!!?4,$CHAR(7) W:$D(IORVON) IORVON W "** PATIENT NEEDS TO ANSWER MY HEALTHEVET ENROLLMENT QUESTIONS **" W:$D(IORVOFF) IORVOFF
  W !?4,"Patient is missing required My HealtheVet Enrollment information",!
  Q
- ;
 FILSOC(DFN,RSPNT,RSPDT,DGDPTSOC) ; File MHV Socialization Information to PATIENT (#2) file
  ;    DFN = PATIENT IEN
  ;  RSPNT = RESPONSE POINTER TO FILE 390.01
@@ -77,7 +71,6 @@ FILSOC(DFN,RSPNT,RSPDT,DGDPTSOC) ; File MHV Socialization Information to PATIENT
  K DIE,DIC,DA S DIE="^DPT(DFN,1,",DA(1)=DFN,DA=DGMHVND
  S DR=".01////"_RSPDT_";1////"_RSPNT D ^DIE
  Q
- ;
 CANNED(SCRIPT) ; Display canned text from PATIENT TEXT (#2) field in the MHV SOCIALIZATION (#390.01) file
  Q:'$G(SCRIPT)
  N DGMHVLIN,DGLINCNT,DGMHVOUT S DGMHVLIN=$P($G(^DGMHV(390.01,SCRIPT,2,0)),"^",3),DGMHVOUT=0
@@ -85,7 +78,6 @@ CANNED(SCRIPT) ; Display canned text from PATIENT TEXT (#2) field in the MHV SOC
  .W !?2 W:DGLINCNT=1 """" W ^DGMHV(390.01,SCRIPT,2,DGLINCNT,0) S DGMHVOUT=1
  W:$G(DGMHVOUT) """" W !
  Q
- ;
 GTSOCODS(DGSOCCOD) ; Get array of socialization codes and display sequences from MHV SOCIALIZATION (#390.01) file
  K DGSOCCOD,DGSOCIEN,DGSOCSEQ S DGSOCSEQ="",DGSOCCOD="",DGSOCIEN="" N I,TEXT S I=0,TEXT=""
  F  S DGSOCSEQ=$O(^DGMHV(390.01,"C",DGSOCSEQ)) Q:'DGSOCSEQ  D
@@ -167,6 +159,7 @@ GETACTS(DGMSACT,DGMHVMOD) ; Get actions from the MHV SOCIALIZATION ACTIONS (#390
  .N MARX,ACTLINE D TXT(ACTTXT,65) S ACTLINE=0 F  S ACTLINE=$O(MARX(ACTLINE)) Q:'ACTLINE  D
  ..N DGDASH S DGDASH=$S(ACTLINE=1&(ACTCNT<10):ACTCNT_" -  ",(ACTLINE=1&(ACTCNT>9)):ACTCNT_" - ",1:"     ")
  ..S DIR("A",SELCNT)="  "_DGDASH_" "_MARX(ACTLINE) S SELCNT=SELCNT+1
+ ..;S DIR("A",SELCNT)="  "_$S(ACTLINE=1:ACTCNT_"  -  ",1:"      ")_"  "_MARX(ACTLINE) S SELCNT=SELCNT+1
  S DIR("A",SELCNT+1)=" "
  S DIR("A")=" Select an action: "
  Q
@@ -179,6 +172,12 @@ DELETE(DGACTD) ; Delete one previously selected action
  S DIR(0)="SAO^" S ZZ=0 F II=1:1 S ZZ=$O(DGDELAR(ZZ)) Q:'ZZ  S DIR(0)=DIR(0)_ZZ_":"_DGDELAR(ZZ)_";"
  S DIR("A")="Select an action to delete: " D ^DIR I $G(Y)>0,$D(DGACTD(+Y)) K DGACTD(Y)
  W ! D CONT I '$D(DGACTD) S DGSTAY=0 D CLEAR
+ Q
+REVERSE(PAD,DGREVTXT) ; Display DGREVTXT in reverse video
+ N X,Y,IORVON,IORVOFF,DIR,DIRUT
+ S X="IORVON;IORVOFF" S PAD=+$G(PAD)
+ D ENDR^%ZISS
+ W $CHAR(7) W ?PAD W:$D(IORVON) IORVON W DGREVTXT W:$D(IORVOFF) IORVOFF
  Q
 TXT(TXT,LEN) ; Split string into multiple LEN length lines
  ;* Input: TXT = TXT string
@@ -251,3 +250,10 @@ DSPLACT(DFN) ; Display all MHV actions associated with last 5 date/time stamps. 
  ...S TMPDT=LASTDT
  D QUESUC^DGMHVUTL(DFN,.DGMHVOUT) Q:($G(DGMHVOUT)]"")
  Q
+ACTHLP ; Help at action prompt
+ W !?5,"Please select one of the listed actions that most closely describes"
+ W !?5,"the actions taken today to help this patient enroll in My HealtheVet."
+ Q
+
+
+
