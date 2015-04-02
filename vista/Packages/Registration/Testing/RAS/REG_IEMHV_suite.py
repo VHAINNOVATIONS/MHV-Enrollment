@@ -1,5 +1,5 @@
 #---------------------------------------------------------------------------
-# Copyright 2013 PwC
+# Copyright 2015 HP
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -31,7 +31,7 @@ to the resultlog.
 
 Created on March 18 2015
 @author: Brian Tomlin
-@copyright PwC
+@copyright HP
 @license http://www.apache.org/licenses/LICENSE-2.0
 '''
 
