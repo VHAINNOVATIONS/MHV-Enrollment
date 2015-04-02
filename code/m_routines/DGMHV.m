@@ -1,5 +1,9 @@
 DGMHV ;ALB/JCH - Display Pre-Registration MHV Enrollment ; 12/9/03 3:22pm
  ;;5.3;Registration;**903**;Aug 13, 1993;Build 53
+ ;
+ ; Submitted to OSEHRA 04/02/2015 by HP
+ ; All entry points authored by James Harris 2014-2015
+ ;
  Q
 EN(DFN) ; Entry Point for Alert, Socialization, and MHV Enrollment field editing 'Screen'
  D MAIN^DGMHV(DFN)
@@ -254,6 +258,3 @@ ACTHLP ; Help at action prompt
  W !?5,"Please select one of the listed actions that most closely describes"
  W !?5,"the actions taken today to help this patient enroll in My HealtheVet."
  Q
-
-
-

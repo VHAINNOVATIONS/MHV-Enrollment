@@ -1,6 +1,9 @@
 DGMHVUTL ;ALB/JCH - Patient MHV Enrollment - Utilities ;09/12/14 11:30am
  ;;5.3;Registration;**903**;August 13, 1993;Build 53
  ;
+ ; Submitted to OSEHRA 04/02/2015 by HP
+ ; All entry points authored by James Harris 2014-2015
+ ;
  Q
 QUESUC(DFN,DGMHVOUT) ; If last action entered by clerk was one of the first four Socialization (MHV enrolled) actions,
  ;                 display/prompt the "were you successful" message/question

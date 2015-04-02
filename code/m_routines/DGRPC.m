@@ -1,6 +1,10 @@
 DGRPC    ;ALB/MRL/PJR/PHH/EG/BAJ,TDM,LBD - CHECK CONSISTENCY OF PATIENT DATA ; 6/29/11 3:50pm
  ;;5.3;Registration;**108,121,314,301,470,489,505,451,568,585,641,653,688,754,797,867,903**;Aug 13, 1993;Build 53
  ;
+ ; Submitted to OSEHRA 04/02/2015 by HP
+ ; Original routine authored by U.S. Department of Veterans Affairs 1980-1995
+ ; Includes EN entry point authored by James Harris 2014-2015
+ ;
  ;linetags in routines correspond to IEN of file 38.6
  ;
  ;variables:  DGVT = 1 if VETERAN? = YES, 0 if NO

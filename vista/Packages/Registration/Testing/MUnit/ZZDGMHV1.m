@@ -1,6 +1,9 @@
 ZZDGMHV1 ;VAINNOV/BNT - Increate Enrollment in MyHealtheVet unit test ; 12/9/03 3:22pm
  ;;5.3;Registration;**903**;Aug 13, 1993;Build 53
  ;
+ ; Submitted to OSEHRA 04/02/2015 by HP
+ ; All entry points authored by Brian Tomlin 2014-2015
+ ;
  ; makes it easy to run tests simply by running this routine and
  ; insures that XTMUNIT will be run only where it is present
  I $T(EN^XTMUNIT)'="" D EN^XTMUNIT("ZZDGMHV1",1)

@@ -1,5 +1,10 @@
 DGRPCE1 ;ALB/MIR/BRM/LBD,BAJ,TDM - CONSISTENCY CHECKER EDIT ; 10/20/10 4:16pm
  ;;5.3;Registration;**108,226,470,454,489,505,522,451,632,689,657,688,804,754,797,903**;Aug 13, 1993;Build 53
+ ;
+ ; Submitted to OSEHRA 04/02/2015 by HP
+ ; Original routine authored by U.S. Department of Veterans Affairs 1980-1995
+ ; Includes 315 entry point authored by James Harris 2014-2015
+ ;
  N DGMSERR S DGMSERR="" I $$NEWMSE(DFN) S DGMSERR=",67,72,73,79,81,83,"
  N I,J F I=1:1:8,16,53,57,58,61:1:88 D SASK
  F I=301,303,304,306:1:308,315,402,403,406,407,501:1:507,516,517 D SASK

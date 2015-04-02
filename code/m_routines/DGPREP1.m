@@ -1,5 +1,10 @@
 DGPREP1 ;ALB/SCK - Program to Display Pre-Registration List Cont. 1 ; 12/9/03 3:22pm
  ;;5.3;Registration;**109,136,574,903**;Aug 13, 1993;Build 53
+ ;
+ ; Submitted to OSEHRA 04/02/2015 by HP
+ ; Original routine authored by U.S. Department of Veterans Affairs 1980-1995
+ ; Includes DIREDT entry point authored by James Harris 2014-2015
+ ;
  Q
 EH ; Edit call log information
  ;   Variables

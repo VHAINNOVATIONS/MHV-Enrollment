@@ -1,0 +1,23 @@
+Submitted by: Brian Tomlin <brian@libertyits.com>
+Copyright 2014 The Open Source Electronic Health Record Alliance
+
+This product includes software developed for the Open Source
+Electronic Health Record Alliance (http://www.osehra.org/).
+
+The Apache 2 license covers the following source and test files
+
+Source:
+DG903PST.m
+DGMHV.m
+DGMHVAC.m
+DGMHVUTL.m
+DGPREP1.m
+DGRPC.m
+DGRPC3.m
+DGRPCE1.m
+
+Test:
+ZZDGMHV1.m
+REG_IEMHV_suite.py
+REG_IEMHV_test.py
+REG_IEMHV_Actions.py

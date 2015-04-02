@@ -1,6 +1,9 @@
 DGMHVAC ;HIRMFO/WAA-REACTIONS SELECT ROUTINE ;6/9/05  11:12
  ;;5.3;Registration;**903**;Aug 13, 1993;Build 53
  ;
+ ; Submitted to OSEHRA 04/02/2015 by HP
+ ; All entry points authored by James Harris 2014-2015
+ ;
  ;
 EN(DFN,DGABB) ; Entry point for MHV Enrollment 'screen'
  ; Allow editing only if "1" is selected, always begin with Enrolled? field, since subsequent field logic is dependent

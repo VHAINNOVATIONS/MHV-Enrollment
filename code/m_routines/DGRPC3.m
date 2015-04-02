@@ -1,6 +1,10 @@
 DGRPC3   ;ALB/PJR,LBD,BAJ,TDM - CHECK CONSISTENCY OF PATIENT DATA (CONT) ; 10/20/10 3:40pm
  ;;5.3;Registration;**451,632,673,657,688,754,797,867,903**;Aug 13, 1993;Build 53
  ;
+ ; Submitted to OSEHRA 04/02/2015 by HP
+ ; Original routine authored by U.S. Department of Veterans Affairs 1980-1995
+ ; Includes 315 entry point authored by James Harris 2014-2015
+ ;
 79       ;; MSE Dates overlap
  ;; Don't check if MSE Dates Incomplete or if MSE TO precedes FROM
  ;; or unless at least 2 ranges
