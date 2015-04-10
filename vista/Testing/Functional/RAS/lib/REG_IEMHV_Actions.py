@@ -1,5 +1,5 @@
 #---------------------------------------------------------------------------
-# Copyright 2015 HP
+# Copyright 2013 PwC
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -22,7 +22,7 @@ Registration/ADT Actions class. Extends Actions
 
 Created on  March 18 2015
 @author: Brian Tomlin
-@copyright HP
+@copyright PwC
 @license http://www.apache.org/licenses/LICENSE-2.0
 '''
 
@@ -136,7 +136,12 @@ class REG_IEMHV_Actions (Actions):
         self.VistA.wait('My HealtheVet actions taken by VistA Clerks')
         self.VistA.wait('Gave patient MHV enrollment instructions to complete at a')
         self.VistA.wait('MHV kiosk/computer.')
-        self.VistA.wait('Were you able to create a My HealtheVet account from')
+        while True:
+            index = self.VistA.multiwait(['Press RETURN to continue','Were you able to create a My HealtheVet account from'])
+            if index == 0:
+                self.VistA.write('')
+            else:
+                break
         self.VistA.wait('the enrollment instructions we gave you last time?')
         self.VistA.write('N')
         self.VistA.wait('')
@@ -1159,13 +1164,18 @@ class REG_IEMHV_Actions (Actions):
         self.VistA.wait('315- MHV ENROLLMENT STATUS MISSING')
         self.VistA.wait('DO YOU WANT TO UPDATE THESE INCONSISTENCIES NOW?')
         self.VistA.write('YES')
-        self.VistA.wait('E-NAME')
-        self.VistA.write('')
-        self.VistA.wait('MAIDEN NAME')
-        self.VistA.write('')
-        self.VistA.wait('SOCIAL SECURITY NUMBER')
-        self.VistA.write('')
-        self.VistA.wait('Step 2 of 3: My HealtheVet Authentication Upgrade')
+        while True:
+            index = self.VistA.multiwait(['Step 2 of 3: My HealtheVet Authentication Upgrade','COVERED BY HEALTH INSURANCE','VETERAN (Y/N)?','SERVICE CONNECTED?','MARITAL STATUS','RELIGIOUS PREFERENCE','RELIGIOUS PREFERENCE','EMPLOYMENT STATUS','E-NAME','MAIDEN NAME','SOCIAL SECURITY NUMBER','RECEIVING A&A BENEFITS?','RECEIVING HOUSEBOUND BENEFITS?','RECEIVING A VA PENSION?'])
+            if index == 0:
+                break
+            elif index == 1:
+                self.VistA.write('U')
+            elif index == 2:
+                self.VistA.write('YES')
+            elif index == 3:
+                self.VistA.write('NO')
+            else:
+                self.VistA.write('')
         self.VistA.wait('Please read the following to the patient')
         self.VistA.wait('With an Authenticated MHV account patients can view VA appointments,')
         self.VistA.wait('lab results and VA medical records online."')
@@ -1186,43 +1196,19 @@ class REG_IEMHV_Actions (Actions):
         self.VistA.write('YES')
         self.VistA.wait('TYPE: ')
         self.VistA.write('^')
-        '''self.VistA.wait('VETERAN (Y/N)?')
-        self.VistA.write('YES')
-        self.VistA.wait('SERVICE CONNECTED?')
-        self.VistA.write('NO')
-        self.VistA.wait('RECEIVING A&A BENEFITS?')
-        self.VistA.write('')
-        self.VistA.wait('RECEIVING HOUSEBOUND BENEFITS?')
-        self.VistA.write('')
-        self.VistA.wait('RECEIVING A VA PENSION?')
-        self.VistA.write('')
-        self.VistA.wait('POW STATUS')
-        self.VistA.write('UNKNOWN')
-        self.VistA.wait('SERVICE DISCHARGE TYPE')
-        self.VistA.write('HONORABLE-VA')
-        self.VistA.wait('SERVICE BRANCH')
-        self.VistA.write('')
-        self.VistA.wait('SERVICE ENTRY DATE')
-        self.VistA.write('T-800')
-        self.VistA.wait('SERVICE SEPARATION DATE')
-        self.VistA.write('T')
-        self.VistA.wait('SERVICE NUMBER')
-        self.VistA.write('^')
-        self.VistA.wait('Select Action:')
-        self.VistA.write('QUIT')
         self.VistA.wait('DO YOU WANT TO UPDATE THESE INCONSISTENCIES NOW?')
         self.VistA.write('NO')
         self.VistA.wait('STATUS OF CALL:')
         self.VistA.write('\r\r')
         self.VistA.wait(self.VistA.prompt)
         self.VistA.write('S $P(^DG(43,1,0),"^",37)=""')
-        self.VistA.wait(self.VistA.prompt)'''
+        self.VistA.wait(self.VistA.prompt)
 
 
     def mhv_pats (self):
         '''Clear out all MHV fields from patients'''
         self.VistA.write('S DFN=0 F  S DFN=$O(^DPT(DFN)) Q:DFN>23  I $D(^DPT(DFN,2))!($D(^DPT(DFN,1))) K ^DPT(DFN,2),^DPT(DFN,1),^DPT(DFN,1,0),^DPT(DFN,1,1,0),^DPT(DFN,1,"B") W !,"Cleared Patient: ",DFN\r')
-        self.VistA.wait('VISTA>')
+        self.VistA.wait(self.VistA.prompt)
         self.VistA.write('')
 
     def startCoverage(self, routines=['*']):
