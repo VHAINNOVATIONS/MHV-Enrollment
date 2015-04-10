@@ -1,11 +1,11 @@
-KIDS Distribution saved on Apr 02, 2015@12:04:52
-Increase Enrollment in MHV
+KIDS Distribution saved on Apr 10, 2015@15:57:17
+Increase Enrollment in My HealtheVet
 **KIDS**:DG*5.3*903^
 
 **INSTALL NAME**
 DG*5.3*903
 "BLD",9823,0)
-DG*5.3*903^REGISTRATION^0^3150402^y
+DG*5.3*903^REGISTRATION^0^3150410^y
 "BLD",9823,1,0)
 ^^27^27^3141007^^
 "BLD",9823,1,1,0)
@@ -171,7 +171,7 @@ y^y^f^^n^^y^o^n
 "BLD",9823,4,"B",390.04,390.04)
 
 "BLD",9823,6.3)
-55
+56
 "BLD",9823,"ABPKG")
 n
 "BLD",9823,"INID")
@@ -203,7 +203,7 @@ POST^DG903PST
 "BLD",9823,"KRN",9.8,"NM",0)
 ^9.68A^8^8
 "BLD",9823,"KRN",9.8,"NM",1,0)
-DGMHV^^0^B113544490
+DGMHV^^0^B113507719
 "BLD",9823,"KRN",9.8,"NM",2,0)
 DGPREP1^^0^B38287403
 "BLD",9823,"KRN",9.8,"NM",3,0)
@@ -749,9 +749,9 @@ REGISTRATION^DG^PATIENT REGISTRATION, ADMISSION, DISCHARGE, EMBOSSER
 "PKG",47,22,1,0)
 5.3^3051119^2960613
 "PKG",47,22,1,"PAH",1,0)
-903^3150402^1
+903^3150410^1
 "PKG",47,22,1,"PAH",1,1,0)
-^^27^27^3150402
+^^27^27^3150410
 "PKG",47,22,1,"PAH",1,1,1,0)
 Increase Enrollment in My HealtheVet (IEMHV)
 "PKG",47,22,1,"PAH",1,1,2,0)
@@ -883,7 +883,7 @@ D XPZ2^XPDIQ
 "RTN","DG903PST",1,0)
 DG903PST ;ALB/JCH - DG*5.3*903 POST INSTALL ; 11/10/14 9:51am
 "RTN","DG903PST",2,0)
- ;;5.3;Registration;**903**;Aug 13, 1993;Build 55
+ ;;5.3;Registration;**903**;Aug 13, 1993;Build 56
 "RTN","DG903PST",3,0)
  ;
 "RTN","DG903PST",4,0)
@@ -979,11 +979,11 @@ MHVACTWP  ; File word processing action display text into MHV SOCIALIZATION ACTI
 "RTN","DG903PST",49,0)
 14 ;HELPED SET UP SECURE MESSAGING SECURE MESSAGING;Helped patient set up their secure messaging account.
 "RTN","DGMHV")
-0^1^B113544490
+0^1^B113507719
 "RTN","DGMHV",1,0)
 DGMHV ;ALB/JCH - Display Pre-Registration MHV Enrollment ; 12/9/03 3:22pm
 "RTN","DGMHV",2,0)
- ;;5.3;Registration;**903**;Aug 13, 1993;Build 55
+ ;;5.3;Registration;**903**;Aug 13, 1993;Build 56
 "RTN","DGMHV",3,0)
  ;
 "RTN","DGMHV",4,0)
@@ -1099,7 +1099,7 @@ SLOOP ; Allow user to go back and enter a different patient response in case the
 "RTN","DGMHV",59,0)
  Q
 "RTN","DGMHV",60,0)
-ALERT(DPTDFN) ; Displays the 'MHV Enrollment Information Missing' message
+ALERT ; Displays the 'MHV Enrollment Information Missing' message
 "RTN","DGMHV",61,0)
  Q:'$D(XQY0)
 "RTN","DGMHV",62,0)
@@ -1505,7 +1505,7 @@ ACTHLP ; Help at action prompt
 "RTN","DGMHVAC",1,0)
 DGMHVAC ;HIRMFO/WAA-REACTIONS SELECT ROUTINE ;6/9/05  11:12
 "RTN","DGMHVAC",2,0)
- ;;5.3;Registration;**903**;Aug 13, 1993;Build 55
+ ;;5.3;Registration;**903**;Aug 13, 1993;Build 56
 "RTN","DGMHVAC",3,0)
  ;
 "RTN","DGMHVAC",4,0)
@@ -2093,7 +2093,7 @@ LASTACHK(DFN,ACTXT) ; Check if ACTXT contains the text matching the most recent 
 "RTN","DGMHVUTL",1,0)
 DGMHVUTL ;ALB/JCH - Patient MHV Enrollment - Utilities ;09/12/14 11:30am
 "RTN","DGMHVUTL",2,0)
- ;;5.3;Registration;**903**;August 13, 1993;Build 55
+ ;;5.3;Registration;**903**;August 13, 1993;Build 56
 "RTN","DGMHVUTL",3,0)
  ;
 "RTN","DGMHVUTL",4,0)
@@ -2637,7 +2637,7 @@ MSGDATE(DFN,INTERNAL) ; Most recent date mhv secure messaging was updated
 "RTN","DGPREP1",1,0)
 DGPREP1 ;ALB/SCK - Program to Display Pre-Registration List Cont. 1 ; 12/9/03 3:22pm
 "RTN","DGPREP1",2,0)
- ;;5.3;Registration;**109,136,574,903**;Aug 13, 1993;Build 55
+ ;;5.3;Registration;**109,136,574,903**;Aug 13, 1993;Build 56
 "RTN","DGPREP1",3,0)
  ;
 "RTN","DGPREP1",4,0)
@@ -3109,7 +3109,7 @@ UNLCK I $G(DGPIDX)]"" L -^DGS(41.42,DGPIDX)
 "RTN","DGRPC",1,0)
 DGRPC    ;ALB/MRL/PJR/PHH/EG/BAJ,TDM,LBD - CHECK CONSISTENCY OF PATIENT DATA ; 6/29/11 3:50pm
 "RTN","DGRPC",2,0)
- ;;5.3;Registration;**108,121,314,301,470,489,505,451,568,585,641,653,688,754,797,867,903**;Aug 13, 1993;Build 55
+ ;;5.3;Registration;**108,121,314,301,470,489,505,451,568,585,641,653,688,754,797,867,903**;Aug 13, 1993;Build 56
 "RTN","DGRPC",3,0)
  ;
 "RTN","DGRPC",4,0)
@@ -3357,7 +3357,7 @@ ON       ;check if checker is on
 "RTN","DGRPC3",1,0)
 DGRPC3   ;ALB/PJR,LBD,BAJ,TDM - CHECK CONSISTENCY OF PATIENT DATA (CONT) ; 10/20/10 3:40pm
 "RTN","DGRPC3",2,0)
- ;;5.3;Registration;**451,632,673,657,688,754,797,867,903**;Aug 13, 1993;Build 55
+ ;;5.3;Registration;**451,632,673,657,688,754,797,867,903**;Aug 13, 1993;Build 56
 "RTN","DGRPC3",3,0)
  ;
 "RTN","DGRPC3",4,0)
@@ -3795,7 +3795,7 @@ OVER99CK N DGP,DGSD,RULE,FILERR
 "RTN","DGRPCE1",1,0)
 DGRPCE1 ;ALB/MIR/BRM/LBD,BAJ,TDM - CONSISTENCY CHECKER EDIT ; 10/20/10 4:16pm
 "RTN","DGRPCE1",2,0)
- ;;5.3;Registration;**108,226,470,454,489,505,522,451,632,689,657,688,804,754,797,903**;Aug 13, 1993;Build 55
+ ;;5.3;Registration;**108,226,470,454,489,505,522,451,632,689,657,688,804,754,797,903**;Aug 13, 1993;Build 56
 "RTN","DGRPCE1",3,0)
  ;
 "RTN","DGRPCE1",4,0)
@@ -4351,10 +4351,6 @@ FIELD^^1^4
 "^DD",390.02,390.02,0,"IX","B",390.02,.01)
 
 "^DD",390.02,390.02,0,"NM","MHV SOCIALIZATION ACTIONS")
-
-"^DD",390.02,390.02,0,"PT",2,537039)
-
-"^DD",390.02,390.02,0,"PT",2,537040)
 
 "^DD",390.02,390.02,0,"PT",2.0537041,.01)
 

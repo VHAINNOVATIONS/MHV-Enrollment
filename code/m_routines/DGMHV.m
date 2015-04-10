@@ -57,7 +57,7 @@ SLOOP ; Allow user to go back and enter a different patient response in case the
  N FLWUP,RTST S DGAR1=DGDPTSOC S FLWUP=$G(^DGMHV(390.01,DGMHV("SOCIAL"),4)) S RTST=$P(FLWUP,"^",2),RTST=$P(RTST,"(") I RTST]"" I $T(@RTST)]"" X FLWUP
  S DGSODONE=1
  Q
-ALERT(DPTDFN) ; Displays the 'MHV Enrollment Information Missing' message
+ALERT ; Displays the 'MHV Enrollment Information Missing' message
  Q:'$D(XQY0)
  N X,Y,IORVON,IORVOFF,DIR,DIRUT
  S X="IORVON;IORVOFF"
