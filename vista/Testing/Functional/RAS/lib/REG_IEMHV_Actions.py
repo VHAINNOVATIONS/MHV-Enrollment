@@ -1165,10 +1165,10 @@ class REG_IEMHV_Actions (Actions):
         self.VistA.wait('DO YOU WANT TO UPDATE THESE INCONSISTENCIES NOW?')
         self.VistA.write('YES')
         while True:
-            index = self.VistA.multiwait(['Step 2 of 3: My HealtheVet Authentication Upgrade','COVERED BY HEALTH INSURANCE','VETERAN (Y/N)?','SERVICE CONNECTED?','MARITAL STATUS','RELIGIOUS PREFERENCE','RELIGIOUS PREFERENCE','EMPLOYMENT STATUS','E-NAME','MAIDEN NAME','SOCIAL SECURITY NUMBER','RECEIVING A&A BENEFITS?','RECEIVING HOUSEBOUND BENEFITS?','RECEIVING A VA PENSION?'])
+            index = self.VistA.multiwait(['Step 2 of 3: My HealtheVet Authentication Upgrade','COVERED BY HEALTH INSURANCE','VETERAN (Y/N)?','SERVICE CONNECTED?','EMPLOYMENT STATUS','MARITAL STATUS','RELIGIOUS PREFERENCE','RELIGIOUS PREFERENCE','EMPLOYMENT STATUS','E-NAME','MAIDEN NAME','SOCIAL SECURITY NUMBER','RECEIVING A&A BENEFITS?','RECEIVING HOUSEBOUND BENEFITS?','RECEIVING A VA PENSION?'])
             if index == 0:
                 break
-            elif index == 1:
+            elif (index == 1) or (index == 4) or (index == 5):
                 self.VistA.write('U')
             elif index == 2:
                 self.VistA.write('YES')
