@@ -1,11 +1,11 @@
-KIDS Distribution saved on Apr 10, 2015@15:57:17
+KIDS Distribution saved on Apr 24, 2015@14:16:47
 Increase Enrollment in My HealtheVet
 **KIDS**:DG*5.3*903^
 
 **INSTALL NAME**
 DG*5.3*903
 "BLD",9823,0)
-DG*5.3*903^REGISTRATION^0^3150410^y
+DG*5.3*903^REGISTRATION^0^3150424^y
 "BLD",9823,1,0)
 ^^27^27^3141007^^
 "BLD",9823,1,1,0)
@@ -171,7 +171,7 @@ y^y^f^^n^^y^o^n
 "BLD",9823,4,"B",390.04,390.04)
 
 "BLD",9823,6.3)
-56
+57
 "BLD",9823,"ABPKG")
 n
 "BLD",9823,"INID")
@@ -749,9 +749,9 @@ REGISTRATION^DG^PATIENT REGISTRATION, ADMISSION, DISCHARGE, EMBOSSER
 "PKG",47,22,1,0)
 5.3^3051119^2960613
 "PKG",47,22,1,"PAH",1,0)
-903^3150410^1
+903^3150424^1
 "PKG",47,22,1,"PAH",1,1,0)
-^^27^27^3150410
+^^27^27^3150424
 "PKG",47,22,1,"PAH",1,1,1,0)
 Increase Enrollment in My HealtheVet (IEMHV)
 "PKG",47,22,1,"PAH",1,1,2,0)
@@ -883,7 +883,7 @@ D XPZ2^XPDIQ
 "RTN","DG903PST",1,0)
 DG903PST ;ALB/JCH - DG*5.3*903 POST INSTALL ; 11/10/14 9:51am
 "RTN","DG903PST",2,0)
- ;;5.3;Registration;**903**;Aug 13, 1993;Build 56
+ ;;5.3;Registration;**903**;Aug 13, 1993;Build 57
 "RTN","DG903PST",3,0)
  ;
 "RTN","DG903PST",4,0)
@@ -983,7 +983,7 @@ MHVACTWP  ; File word processing action display text into MHV SOCIALIZATION ACTI
 "RTN","DGMHV",1,0)
 DGMHV ;ALB/JCH - Display Pre-Registration MHV Enrollment ; 12/9/03 3:22pm
 "RTN","DGMHV",2,0)
- ;;5.3;Registration;**903**;Aug 13, 1993;Build 56
+ ;;5.3;Registration;**903**;Aug 13, 1993;Build 57
 "RTN","DGMHV",3,0)
  ;
 "RTN","DGMHV",4,0)
@@ -1505,7 +1505,7 @@ ACTHLP ; Help at action prompt
 "RTN","DGMHVAC",1,0)
 DGMHVAC ;HIRMFO/WAA-REACTIONS SELECT ROUTINE ;6/9/05  11:12
 "RTN","DGMHVAC",2,0)
- ;;5.3;Registration;**903**;Aug 13, 1993;Build 56
+ ;;5.3;Registration;**903**;Aug 13, 1993;Build 57
 "RTN","DGMHVAC",3,0)
  ;
 "RTN","DGMHVAC",4,0)
@@ -2093,7 +2093,7 @@ LASTACHK(DFN,ACTXT) ; Check if ACTXT contains the text matching the most recent 
 "RTN","DGMHVUTL",1,0)
 DGMHVUTL ;ALB/JCH - Patient MHV Enrollment - Utilities ;09/12/14 11:30am
 "RTN","DGMHVUTL",2,0)
- ;;5.3;Registration;**903**;August 13, 1993;Build 56
+ ;;5.3;Registration;**903**;August 13, 1993;Build 57
 "RTN","DGMHVUTL",3,0)
  ;
 "RTN","DGMHVUTL",4,0)
@@ -2637,7 +2637,7 @@ MSGDATE(DFN,INTERNAL) ; Most recent date mhv secure messaging was updated
 "RTN","DGPREP1",1,0)
 DGPREP1 ;ALB/SCK - Program to Display Pre-Registration List Cont. 1 ; 12/9/03 3:22pm
 "RTN","DGPREP1",2,0)
- ;;5.3;Registration;**109,136,574,903**;Aug 13, 1993;Build 56
+ ;;5.3;Registration;**109,136,574,903**;Aug 13, 1993;Build 57
 "RTN","DGPREP1",3,0)
  ;
 "RTN","DGPREP1",4,0)
@@ -3109,7 +3109,7 @@ UNLCK I $G(DGPIDX)]"" L -^DGS(41.42,DGPIDX)
 "RTN","DGRPC",1,0)
 DGRPC    ;ALB/MRL/PJR/PHH/EG/BAJ,TDM,LBD - CHECK CONSISTENCY OF PATIENT DATA ; 6/29/11 3:50pm
 "RTN","DGRPC",2,0)
- ;;5.3;Registration;**108,121,314,301,470,489,505,451,568,585,641,653,688,754,797,867,903**;Aug 13, 1993;Build 56
+ ;;5.3;Registration;**108,121,314,301,470,489,505,451,568,585,641,653,688,754,797,867,903**;Aug 13, 1993;Build 57
 "RTN","DGRPC",3,0)
  ;
 "RTN","DGRPC",4,0)
@@ -3357,7 +3357,7 @@ ON       ;check if checker is on
 "RTN","DGRPC3",1,0)
 DGRPC3   ;ALB/PJR,LBD,BAJ,TDM - CHECK CONSISTENCY OF PATIENT DATA (CONT) ; 10/20/10 3:40pm
 "RTN","DGRPC3",2,0)
- ;;5.3;Registration;**451,632,673,657,688,754,797,867,903**;Aug 13, 1993;Build 56
+ ;;5.3;Registration;**451,632,673,657,688,754,797,867,903**;Aug 13, 1993;Build 57
 "RTN","DGRPC3",3,0)
  ;
 "RTN","DGRPC3",4,0)
@@ -3795,7 +3795,7 @@ OVER99CK N DGP,DGSD,RULE,FILERR
 "RTN","DGRPCE1",1,0)
 DGRPCE1 ;ALB/MIR/BRM/LBD,BAJ,TDM - CONSISTENCY CHECKER EDIT ; 10/20/10 4:16pm
 "RTN","DGRPCE1",2,0)
- ;;5.3;Registration;**108,226,470,454,489,505,522,451,632,689,657,688,804,754,797,903**;Aug 13, 1993;Build 56
+ ;;5.3;Registration;**108,226,470,454,489,505,522,451,632,689,657,688,804,754,797,903**;Aug 13, 1993;Build 57
 "RTN","DGRPCE1",3,0)
  ;
 "RTN","DGRPCE1",4,0)
@@ -4116,62 +4116,180 @@ MSERR() ;Are there MSE data inconsistencies?
 8.0^22.0
 "^DD",2,2,537026,0)
 MHV SOCIALIZATION^2.0537026DA^^1;0
+"^DD",2,2,537026,21,0)
+^^5^5^3150424^
+"^DD",2,2,537026,21,1,0)
+This multiple contains all of patient responses to questions about My 
+"^DD",2,2,537026,21,2,0)
+HealtheVet enrollment and actions taken by the clerk to acquaint the 
+"^DD",2,2,537026,21,3,0)
+patient with My HealtheVet (MHV).  Once a patients enrollment in MHV is 
+"^DD",2,2,537026,21,4,0)
+confirmed by setting the MHV ENROLLED field (#537027) to 1 (YES), no 
+"^DD",2,2,537026,21,5,0)
+additional actions or responses will be filed here.
 "^DD",2,2,537026,"DT")
 3140912
 "^DD",2,2,537027,0)
 MHV ENROLLED^S^0:NO;1:YES;^2;1^Q
+"^DD",2,2,537027,3)
+Enter YES if the patient is enrolled in My HealtheVet, otherwise enter NO.
+"^DD",2,2,537027,21,0)
+^^2^2^3150424^
+"^DD",2,2,537027,21,1,0)
+This field indicates whether the patient is, or is not, enrolled in My 
+"^DD",2,2,537027,21,2,0)
+HealtheVet.
 "^DD",2,2,537027,"DT")
-3141013
+3150424
 "^DD",2,2,537028,0)
 MHV AUTHENTICATED^S^0:NO;1:YES;2:ACTION;^2;2^Q
+"^DD",2,2,537028,3)
+Enter YES if the patient's My HealtheVet enrollment has been authenticated, otherwise enter NO.
+"^DD",2,2,537028,21,0)
+^^3^3^3150424^
+"^DD",2,2,537028,21,1,0)
+This field indicates if the patient?s My HealtheVet enrollment has, or 
+"^DD",2,2,537028,21,2,0)
+has not, been authenticated. This field may only be accessed if the 
+"^DD",2,2,537028,21,3,0)
+patient has been enrolled in My HealtheVet (MHV ENROLLED equals YES).
 "^DD",2,2,537028,"DT")
-3141013
+3150424
 "^DD",2,2,537029,0)
 MHV SECURE MESSAGING^S^0:NO;1:YES;2:ACTION;^2;3^Q
+"^DD",2,2,537029,3)
+If the patient has opted to use secure messaging with their My HealtheVet account, enter YES. Otherwise enter NO.
+"^DD",2,2,537029,21,0)
+^^4^4^3150424^
+"^DD",2,2,537029,21,1,0)
+This field indicates whether the patient has, or has not, opted to use 
+"^DD",2,2,537029,21,2,0)
+secure messaging with their My HealtheVet account. This field may only be 
+"^DD",2,2,537029,21,3,0)
+accessed if the patient?s My HealtheVet enrollment has been authenticated 
+"^DD",2,2,537029,21,4,0)
+(MHV AUTHENTICATED equals YES).
 "^DD",2,2,537029,"DT")
-3141013
+3150424
 "^DD",2,2,537030,0)
 MHVEN UPDATE DATE/TIME^D^^2;4^S %DT="ESTXR" D ^%DT S X=Y K:Y<1 X
+"^DD",2,2,537030,3)
+Enter the date/time My HealtheVet enrollment was confirmed.
+"^DD",2,2,537030,21,0)
+^^2^2^3150424^
+"^DD",2,2,537030,21,1,0)
+This field captures the Date/Time the patient was confirmed for My 
+"^DD",2,2,537030,21,2,0)
+HealtheVet enrollment and when the MHV ENROLLED field was set to 1 (YES).
 "^DD",2,2,537030,"DT")
-3141013
+3150424
 "^DD",2,2,537031,0)
 MHVAUTH UPDATE DATE/TIME^D^^2;5^S %DT="ESTR" D ^%DT S X=Y K:Y<1 X
+"^DD",2,2,537031,3)
+Enter the date/time My HealtheVet enrollment was authenticated.
+"^DD",2,2,537031,21,0)
+^^2^2^3150424^
+"^DD",2,2,537031,21,1,0)
+This field captures the date/time the patient's My HealtheVet enrollment 
+"^DD",2,2,537031,21,2,0)
+was authenticated by setting the MHV AUTHENTICATED field to 1 (YES).
 "^DD",2,2,537031,"DT")
-3141013
+3150424
 "^DD",2,2,537032,0)
 MHVSM UPDATE DATE/TIME^D^^2;6^S %DT="ESTR" D ^%DT S X=Y K:Y<1 X
+"^DD",2,2,537032,3)
+Enter the date/time the patient opted to use secure messaging with their My HealtheVet account.
+"^DD",2,2,537032,21,0)
+^^2^2^3150424^
+"^DD",2,2,537032,21,1,0)
+This field captures the date/time the patient's My HealtheVet enrollment 
+"^DD",2,2,537032,21,2,0)
+was approved for secure messaging by the patient.
 "^DD",2,2,537032,"DT")
-3141013
+3150424
 "^DD",2,2,537033,0)
 MHV ENROLL DECLINED TEXT^F^^2.1;1^K:$L(X)>250!($L(X)<2) X
 "^DD",2,2,537033,3)
-Answer must be 2-250 characters in length.
+Enter the free text reason the patient declinded to enroll in My HealtheVet.
+"^DD",2,2,537033,21,0)
+^^3^3^3150424^
+"^DD",2,2,537033,21,1,0)
+This field captures a free text reason the patient declined to enroll 
+"^DD",2,2,537033,21,2,0)
+in My HealtheVet. This free text reason may only be entered when 
+"^DD",2,2,537033,21,3,0)
+"9-Other" is selected in response to the MHV MSG DECLINED REASON field.
 "^DD",2,2,537033,"DT")
-3141016
+3150424
 "^DD",2,2,537034,0)
 MHV AUTH DECLINED TEXT^F^^2.2;1^K:$L(X)>250!($L(X)<2) X
 "^DD",2,2,537034,3)
-Answer must be 2-250 characters in length.
+Enter the free text reason the patient declinded to authenticate their My HealtheVet enrollment.
+"^DD",2,2,537034,21,0)
+^^4^4^3150424^
+"^DD",2,2,537034,21,1,0)
+This field captures a free text reason the patient declined to 
+"^DD",2,2,537034,21,2,0)
+authenticate their My HealtheVet enrollment. This free text reason may 
+"^DD",2,2,537034,21,3,0)
+only be entered when "9-Other" is selected in response to the MHV AUTH 
+"^DD",2,2,537034,21,4,0)
+DECLINED REASON field.
 "^DD",2,2,537034,"DT")
-3141016
+3150424
 "^DD",2,2,537035,0)
 MHV MSG DECLINED TEXT^F^^2.3;1^K:$L(X)>250!($L(X)<2) X
 "^DD",2,2,537035,3)
-Answer must be 2-250 characters in length.
+Enter the free text reason the patient declined to use secure messaging with their My HealtheVet account.
+"^DD",2,2,537035,21,0)
+^^4^4^3150424^
+"^DD",2,2,537035,21,1,0)
+This field captures a free text reason the patient declined to use secure 
+"^DD",2,2,537035,21,2,0)
+messaging with their My HealtheVet enrollment. This free text reason may 
+"^DD",2,2,537035,21,3,0)
+only be entered when "9-Other" is selected in response to the MHV MSG 
+"^DD",2,2,537035,21,4,0)
+DECLINED REASON field.
 "^DD",2,2,537035,"DT")
-3141016
+3150424
 "^DD",2,2,537038,0)
 MHV MSG DECLINED REASON^P390.03'^DGMHV(390.03,^2;9^Q
+"^DD",2,2,537038,3)
+Enter the reason the patient declined to use secure messaging with their My HealtheVet account.
+"^DD",2,2,537038,21,0)
+^^2^2^3150424^
+"^DD",2,2,537038,21,1,0)
+This field captures the reason the patient declined to use secure 
+"^DD",2,2,537038,21,2,0)
+messaging with their My HealtheVet account.
 "^DD",2,2,537038,"DT")
-3141014
+3150424
 "^DD",2,2,537041,0)
 MHV MSG ACTIONS^2.0537041P^^3;0
+"^DD",2,2,537041,21,0)
+^^3^3^3150424^
+"^DD",2,2,537041,21,1,0)
+The MHV MSG ACTIONS multiple captures the actions taken by the 
+"^DD",2,2,537041,21,2,0)
+registration clerk to assist a patient opting to use secure messaging 
+"^DD",2,2,537041,21,3,0)
+with their My HealtheVet account.
 "^DD",2,2,537042,0)
 MHV AUTH ACTIONS^2.0537042P^^4;0
+"^DD",2,2,537042,21,0)
+^^3^3^3150424^
+"^DD",2,2,537042,21,1,0)
+The MHV AUTH ACTIONS multiple contains the actions taken by the 
+"^DD",2,2,537042,21,2,0)
+registration clerk to upgrade/authenticate the patient's My HealtheVet 
+"^DD",2,2,537042,21,3,0)
+enrollment.
 "^DD",2,2.0537026,0)
 MHV SOCIALIZATION SUB-FIELD^^2^3
 "^DD",2,2.0537026,0,"DT")
-3140915
+3150424
 "^DD",2,2.0537026,0,"IX","B",2.0537026,.01)
 
 "^DD",2,2.0537026,0,"NM","MHV SOCIALIZATION")
@@ -4189,15 +4307,27 @@ S ^DPT(DA(1),1,"B",$E(X,1,30),DA)=""
 "^DD",2,2.0537026,.01,1,1,2)
 K ^DPT(DA(1),1,"B",$E(X,1,30),DA)
 "^DD",2,2.0537026,.01,3)
-(No range limit on date)
+Enter the date/time the patient responded to Socialization questions.
+"^DD",2,2.0537026,.01,21,0)
+^^2^2^3150424^
+"^DD",2,2.0537026,.01,21,1,0)
+This is the date and time the patient responded to the My HealtheVet 
+"^DD",2,2.0537026,.01,21,2,0)
+socialization questions.
 "^DD",2,2.0537026,.01,"DT")
-3140915
+3150424
 "^DD",2,2.0537026,1,0)
 SOCIALIZATION RESPONSE^RP390.01'^DGMHV(390.01,^0;2^Q
 "^DD",2,2.0537026,1,3)
-
+Enter the response to the Socialization question for My HealtheVet enrollment.
+"^DD",2,2.0537026,1,21,0)
+^^2^2^3150424^
+"^DD",2,2.0537026,1,21,1,0)
+This is the response to the Socialization question asked to the patient 
+"^DD",2,2.0537026,1,21,2,0)
+about My HealtheVet enrollment.
 "^DD",2,2.0537026,1,"DT")
-3140912
+3150424
 "^DD",2,2.0537026,2,0)
 SOCIALIZATION ACTIONS^2.5370262PA^^1;0
 "^DD",2,2.0537041,0)
@@ -4220,8 +4350,20 @@ MHV MSG ACTIONS^MP390.02^DGMHV(390.02,^0;1^Q
 S ^DPT(DA(1),3,"B",$E(X,1,30),DA)=""
 "^DD",2,2.0537041,.01,1,1,2)
 K ^DPT(DA(1),3,"B",$E(X,1,30),DA)
+"^DD",2,2.0537041,.01,3)
+Select the action taken to assist the patient's use of secure messaging with their My HealtheVet account.
+"^DD",2,2.0537041,.01,21,0)
+^^4^4^3150424^
+"^DD",2,2.0537041,.01,21,1,0)
+This field contains actions taken by the clerk to assist a patient opting 
+"^DD",2,2.0537041,.01,21,2,0)
+to use secure messaging with their My HealtheVet account. The prompt for 
+"^DD",2,2.0537041,.01,21,3,0)
+actions only displays when A(ction) is entered in the MHV SECURE 
+"^DD",2,2.0537041,.01,21,4,0)
+MESSAGING field.
 "^DD",2,2.0537041,.01,"DT")
-3141029
+3150424
 "^DD",2,2.0537042,0)
 MHV AUTH ACTIONS SUB-FIELD^^.01^1
 "^DD",2,2.0537042,0,"DT")
@@ -4242,12 +4384,22 @@ MHV AUTH ACTIONS^P390.02'^DGMHV(390.02,^0;1^Q
 S ^DPT(DA(1),4,"B",$E(X,1,30),DA)=""
 "^DD",2,2.0537042,.01,1,1,2)
 K ^DPT(DA(1),4,"B",$E(X,1,30),DA)
+"^DD",2,2.0537042,.01,3)
+Select the action taken to upgrade/authenticate the patient's My HealtheVet enrollment.
+"^DD",2,2.0537042,.01,21,0)
+^^3^3^3150424^
+"^DD",2,2.0537042,.01,21,1,0)
+This field contains actions taken by the clerk to upgrade/authenticate 
+"^DD",2,2.0537042,.01,21,2,0)
+the patient?s My HealtheVet enrollment. The prompt for this field only 
+"^DD",2,2.0537042,.01,21,3,0)
+displays when A(ction) is entered in the MHV ENROLLED field.
 "^DD",2,2.0537042,.01,"DT")
-3141017
+3150424
 "^DD",2,2.5370262,0)
 SOCIALIZATION ACTIONS SUB-FIELD^^.01^1
 "^DD",2,2.5370262,0,"DT")
-3140915
+3150424
 "^DD",2,2.5370262,0,"IX","B",2.5370262,.01)
 
 "^DD",2,2.5370262,0,"NM","SOCIALIZATION ACTIONS")
@@ -4264,8 +4416,10 @@ SOCIALIZATION ACTIONS^P390.02'^DGMHV(390.02,^0;1^Q
 S ^DPT(DA(2),1,DA(1),1,"B",$E(X,1,30),DA)=""
 "^DD",2,2.5370262,.01,1,1,2)
 K ^DPT(DA(2),1,DA(1),1,"B",$E(X,1,30),DA)
+"^DD",2,2.5370262,.01,3)
+Select a Socialization Action for the My HealtheVet enrollment response.
 "^DD",2,2.5370262,.01,"DT")
-3140915
+3150424
 "^DD",390.01,390.01,0)
 FIELD^^3^6
 "^DD",390.01,390.01,0,"DT")
@@ -4283,9 +4437,15 @@ DG
 "^DD",390.01,390.01,.001,0)
 NUMBER^NJ2,0^^ ^K:+X'=X!(X>99)!(X<1)!(X?.E1"."1.N) X
 "^DD",390.01,390.01,.001,3)
-Type a number between 1 and 99, 0 decimal digits.
+Enter the internal entry number of the record.
+"^DD",390.01,390.01,.001,21,0)
+^^2^2^3150424^
+"^DD",390.01,390.01,.001,21,1,0)
+The NUMBER field contains the internal entry number of the MHV 
+"^DD",390.01,390.01,.001,21,2,0)
+SOCIALIZATION record.
 "^DD",390.01,390.01,.001,"DT")
-3140915
+3150424
 "^DD",390.01,390.01,.01,0)
 NAME^RF^^0;1^K:$L(X)>60!($L(X)<3) X
 "^DD",390.01,390.01,.01,1,0)
@@ -4297,9 +4457,15 @@ S ^DGMHV(390.01,"B",$E(X,1,30),DA)=""
 "^DD",390.01,390.01,.01,1,1,2)
 K ^DGMHV(390.01,"B",$E(X,1,30),DA)
 "^DD",390.01,390.01,.01,3)
-Answer must be 3-60 characters in length.
+Enter text representing a possible patient response to the clerk's encouragement to enroll in My HealtheVet.
+"^DD",390.01,390.01,.01,21,0)
+^^2^2^3150424^
+"^DD",390.01,390.01,.01,21,1,0)
+This is text representing a possible patient response to the clerk's 
+"^DD",390.01,390.01,.01,21,2,0)
+encouragement to enroll in My HealtheVet.
 "^DD",390.01,390.01,.01,"DT")
-3140915
+3150424
 "^DD",390.01,390.01,1,0)
 DISPLAY SEQUENCE^NJ5,0^^1;1^K:+X'=X!(X>99999)!(X<0)!(X?.E1"."1N.N) X
 "^DD",390.01,390.01,1,1,0)
@@ -4313,25 +4479,51 @@ K ^DGMHV(390.01,"C",$E(X,1,30),DA)
 "^DD",390.01,390.01,1,1,1,"DT")
 3140915
 "^DD",390.01,390.01,1,3)
-Type a number between 0 and 99999, 0 decimal digits.
+Enter an integer representing the order in which the entry should display in relation to other entries.
+"^DD",390.01,390.01,1,21,0)
+^^3^3^3150424^
+"^DD",390.01,390.01,1,21,1,0)
+This field contains an integer used to define where this entry will 
+"^DD",390.01,390.01,1,21,2,0)
+display in a list, in relation to other entries. A value of 1 displays 
+"^DD",390.01,390.01,1,21,3,0)
+before 2, a value of 2 displays before 3, etc.
 "^DD",390.01,390.01,1,"DT")
-3140915
+3150424
 "^DD",390.01,390.01,1.5,0)
 DISPLAY TEXT^RF^^3;1^K:$L(X)>250!($L(X)<3) X
 "^DD",390.01,390.01,1.5,3)
-Answer must be 3-250 characters in length.
+Enter the text to be displayed to the clerk representing a patient response to enroll in My HealtheVet.
+"^DD",390.01,390.01,1.5,21,0)
+^^3^3^3150424^
+"^DD",390.01,390.01,1.5,21,1,0)
+This is the text representing a possible patient response to the clerk's 
+"^DD",390.01,390.01,1.5,21,2,0)
+encouragement to enroll in My HealtheVet that is displayed during the 
+"^DD",390.01,390.01,1.5,21,3,0)
+enrollment process.
 "^DD",390.01,390.01,1.5,"DT")
-3140915
+3150424
 "^DD",390.01,390.01,2,0)
 PATIENT TEXT^390.12^^2;0
+"^DD",390.01,390.01,2,21,0)
+^^2^2^3150424^
+"^DD",390.01,390.01,2,21,1,0)
+This word processing field contains text the clerk reads to the patient 
+"^DD",390.01,390.01,2,21,2,0)
+to encourage the patient to enroll in My HealtheVet.
 "^DD",390.01,390.01,3,0)
 FOLLOWUP ACTION^K^^4;E1,245^K:$L(X)>245 X D:$D(X) ^DIM
 "^DD",390.01,390.01,3,3)
-This is Standard MUMPS code.
+Enter MUMPS code to execute after an entry is selected.
 "^DD",390.01,390.01,3,9)
 @
+"^DD",390.01,390.01,3,21,0)
+^^1^1^3150424^
+"^DD",390.01,390.01,3,21,1,0)
+This field contains MUMPS code to execute after en entry is selected.
 "^DD",390.01,390.01,3,"DT")
-3140916
+3150424
 "^DD",390.01,390.12,0)
 PATIENT TEXT SUB-FIELD^^.01^1
 "^DD",390.01,390.12,0,"DT")
@@ -4342,8 +4534,16 @@ PATIENT TEXT SUB-FIELD^^.01^1
 390.01
 "^DD",390.01,390.12,.01,0)
 PATIENT TEXT^Wx^^0;1^Q
+"^DD",390.01,390.12,.01,3)
+Enter the text the clerk should read to the patient to encourage the patient to enroll in My HealtheVet.
+"^DD",390.01,390.12,.01,21,0)
+^^2^2^3150424^
+"^DD",390.01,390.12,.01,21,1,0)
+This field contains text the clerk reads to the patient to encourage the 
+"^DD",390.01,390.12,.01,21,2,0)
+patient to enroll in My HealtheVet.
 "^DD",390.01,390.12,.01,"DT")
-3140915
+3150424
 "^DD",390.02,390.02,0)
 FIELD^^1^4
 "^DD",390.02,390.02,0,"DT")
@@ -4365,9 +4565,15 @@ NUMBER^NJ2,0^^ ^K:+X'=X!(X>99)!(X<1)!(X?.E1"."1N.N) X
 "^DD",390.02,390.02,.001,.1)
 SHORT
 "^DD",390.02,390.02,.001,3)
-Type a number between 1 and 99, 0 decimal digits.
+Enter the internal entry number of the record.
+"^DD",390.02,390.02,.001,21,0)
+^^2^2^3150424^
+"^DD",390.02,390.02,.001,21,1,0)
+This field contains the internal entry number of the MHV SOCIALIZATIONS 
+"^DD",390.02,390.02,.001,21,2,0)
+ACTIONS record.
 "^DD",390.02,390.02,.001,"DT")
-3140915
+3150424
 "^DD",390.02,390.02,.01,0)
 ACTION^RF^^0;1^K:$L(X)>120!($L(X)<3)!'(X'?1P.E) X
 "^DD",390.02,390.02,.01,1,0)
@@ -4379,13 +4585,33 @@ S ^DGMHV(390.02,"B",$E(X,1,30),DA)=""
 "^DD",390.02,390.02,.01,1,1,2)
 K ^DGMHV(390.02,"B",$E(X,1,30),DA)
 "^DD",390.02,390.02,.01,3)
-Answer must be 3-120 characters in length.
+Enter a short description of the action taken by the clerk to facilitate the patient?s enrollment in My HealtheVet.
+"^DD",390.02,390.02,.01,21,0)
+^^2^2^3150424^
+"^DD",390.02,390.02,.01,21,1,0)
+This field contains an abbreviated description of the action taken by the 
+"^DD",390.02,390.02,.01,21,2,0)
+clerk to facilitate the patient?s enrollment in My HealtheVet.
 "^DD",390.02,390.02,.01,"DT")
-3140915
+3150424
 "^DD",390.02,390.02,1,0)
 SELECTABLE LOCATIONS^390.21P^^1;0
+"^DD",390.02,390.02,1,21,0)
+^^2^2^3150424^
+"^DD",390.02,390.02,1,21,1,0)
+This multiple contains the list of Action prompt locations in which this 
+"^DD",390.02,390.02,1,21,2,0)
+specific action may be displayed and selected.
 "^DD",390.02,390.02,3,0)
 DISPLAY TEXT^390.23^^3;0
+"^DD",390.02,390.02,3,21,0)
+^^3^3^3150424^
+"^DD",390.02,390.02,3,21,1,0)
+This word processing field contains an expanded description of the action 
+"^DD",390.02,390.02,3,21,2,0)
+taken by the clerk to facilitate the patient's enrollment in My 
+"^DD",390.02,390.02,3,21,3,0)
+HealtheVet.
 "^DD",390.02,390.21,0)
 SELECTABLE LOCATIONS SUB-FIELD^^.01^1
 "^DD",390.02,390.21,0,"DT")
@@ -4406,8 +4632,22 @@ SELECTABLE LOCATIONS^MP390.04^DGMHV(390.04,^0;1^Q
 S ^DGMHV(390.02,DA(1),1,"B",$E(X,1,30),DA)=""
 "^DD",390.02,390.21,.01,1,1,2)
 K ^DGMHV(390.02,DA(1),1,"B",$E(X,1,30),DA)
+"^DD",390.02,390.21,.01,3)
+Enter the prompts for A(ction) at which this action should display.
+"^DD",390.02,390.21,.01,21,0)
+^^5^5^3150424^
+"^DD",390.02,390.21,.01,21,1,0)
+This field contains the list of A(ction) prompt locations in which this 
+"^DD",390.02,390.21,.01,21,2,0)
+specific action may be displayed and selected. Possible values are 
+"^DD",390.02,390.21,.01,21,3,0)
+Socialization, Enrollment, Authentication, Secure Messaging. Adding a 
+"^DD",390.02,390.21,.01,21,4,0)
+selectable prompt location adds the action to the list of selectable 
+"^DD",390.02,390.21,.01,21,5,0)
+actions for the prompt location.
 "^DD",390.02,390.21,.01,"DT")
-3141027
+3150424
 "^DD",390.02,390.23,0)
 DISPLAY TEXT SUB-FIELD^^.01^1
 "^DD",390.02,390.23,0,"DT")
@@ -4418,8 +4658,18 @@ DISPLAY TEXT SUB-FIELD^^.01^1
 390.02
 "^DD",390.02,390.23,.01,0)
 DISPLAY TEXT^Wx^^0;1^Q
+"^DD",390.02,390.23,.01,3)
+Enter an expanded text description of the action taken by the clerk to facilitate the patient's enrollment in My HealtheVet.
+"^DD",390.02,390.23,.01,21,0)
+^^3^3^3150424^
+"^DD",390.02,390.23,.01,21,1,0)
+This field contains an expanded word processing description of the action 
+"^DD",390.02,390.23,.01,21,2,0)
+taken by the clerk to facilitate the patient?s enrollment in My 
+"^DD",390.02,390.23,.01,21,3,0)
+HealtheVet.
 "^DD",390.02,390.23,.01,"DT")
-3141030
+3150424
 "^DD",390.03,390.03,0)
 FIELD^^1^3
 "^DD",390.03,390.03,0,"DT")
@@ -4428,10 +4678,6 @@ FIELD^^1^3
 
 "^DD",390.03,390.03,0,"NM","MHV DECLINED REASONS")
 
-"^DD",390.03,390.03,0,"PT",2,537036)
-
-"^DD",390.03,390.03,0,"PT",2,537037)
-
 "^DD",390.03,390.03,0,"PT",2,537038)
 
 "^DD",390.03,390.03,0,"VRPK")
@@ -4439,9 +4685,15 @@ DG
 "^DD",390.03,390.03,.001,0)
 NUMBER^NJ2,0^^ ^K:+X'=X!(X>99)!(X<1)!(X?.E1"."1N.N) X
 "^DD",390.03,390.03,.001,3)
-Type a number between 1 and 99, 0 decimal digits.
+Enter the internal entry number for this record.
+"^DD",390.03,390.03,.001,21,0)
+^^2^2^3150424^
+"^DD",390.03,390.03,.001,21,1,0)
+This field contains the internal entry number of the MHV DECLINED REASONS 
+"^DD",390.03,390.03,.001,21,2,0)
+entry.
 "^DD",390.03,390.03,.001,"DT")
-3141009
+3150424
 "^DD",390.03,390.03,.01,0)
 NAME^RF^^0;1^K:$L(X)>60!($L(X)<3)!'(X'?1P.E) X
 "^DD",390.03,390.03,.01,1,0)
@@ -4453,13 +4705,27 @@ S ^DGMHV(390.03,"B",$E(X,1,30),DA)=""
 "^DD",390.03,390.03,.01,1,1,2)
 K ^DGMHV(390.03,"B",$E(X,1,30),DA)
 "^DD",390.03,390.03,.01,3)
-Answer must be 3-60 characters in length.
+Enter a short reason a patient might decline My HealtheVet enrollment.
+"^DD",390.03,390.03,.01,21,0)
+^^2^2^3150424^
+"^DD",390.03,390.03,.01,21,1,0)
+This field contains a short pre-defined text reason a patient might 
+"^DD",390.03,390.03,.01,21,2,0)
+decline My HealtheVet enrollment.
 "^DD",390.03,390.03,.01,"DT")
-3141009
+3150424
 "^DD",390.03,390.03,1,0)
 SELECTABLE AT^S^1:ENROLLMENT;2:AUTHENTICATION;3:SECURE MESSAGING;12:ENROLLMENT,AUTHENTICATION;123:ENROLLMENT,AUTHENTICATION,SECURE MESSAGING;13:ENROLLMENT,SECURE MESSAGING;23:AUTHENTICATION,SECURE MESSAGING;^0;2^Q
+"^DD",390.03,390.03,1,3)
+Enter the list of (A)ction prompt locations at which this action should display.
+"^DD",390.03,390.03,1,21,0)
+^^2^2^3150424^
+"^DD",390.03,390.03,1,21,1,0)
+This field contains a list of (A)ction prompt locations at which this 
+"^DD",390.03,390.03,1,21,2,0)
+action should display.
 "^DD",390.03,390.03,1,"DT")
-3141020
+3150424
 "^DD",390.04,390.04,0)
 FIELD^^1^2
 "^DD",390.04,390.04,0,"DT")
@@ -4483,15 +4749,27 @@ S ^DGMHV(390.04,"B",$E(X,1,30),DA)=""
 "^DD",390.04,390.04,.01,1,1,2)
 K ^DGMHV(390.04,"B",$E(X,1,30),DA)
 "^DD",390.04,390.04,.01,3)
-
+Enter an (A)ction prompt location (a field that prompts for (A)ction).
+"^DD",390.04,390.04,.01,21,0)
+^^3^3^3150424^
+"^DD",390.04,390.04,.01,21,1,0)
+This field contains an (A)ction prompt location, or a field that prompts 
+"^DD",390.04,390.04,.01,21,2,0)
+for (A)ction. This includes the SOCIALIZATION, ENROLLMENT, 
+"^DD",390.04,390.04,.01,21,3,0)
+AUTHENTICATION, and SECURE MESSAGING prompts.
 "^DD",390.04,390.04,.01,"DT")
-3141023
+3150424
 "^DD",390.04,390.04,1,0)
 DESCRIPTION^F^^0;2^K:$L(X)>180!($L(X)<2) X
 "^DD",390.04,390.04,1,3)
-Answer must be 2-180 characters in length.
+Enter a description of the (A)ction prompt location (field that prompts for (A)ction).
+"^DD",390.04,390.04,1,21,0)
+^^1^1^3150424^
+"^DD",390.04,390.04,1,21,1,0)
+This field contains a description of the (A)ction prompt location.
 "^DD",390.04,390.04,1,"DT")
-3141023
+3150424
 "^DIC",390.01,390.01,0)
 MHV SOCIALIZATION^390.01
 "^DIC",390.01,390.01,0,"GL")
