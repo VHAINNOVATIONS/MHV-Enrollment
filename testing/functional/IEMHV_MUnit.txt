@@ -1,0 +1,17 @@
+License expired.
+
+Node: warrior1, Instance: TRYCACHE
+
+USER>ZN "VISTA"
+
+VISTA>S DUZ=1,DUZ(0)="@",^XUSEC("DGPRE EDIT",DUZ,1)="" D ^XUP
+
+Setting up programmer environment
+This is a TEST account.
+
+Terminal Type set to: C-VT220
+
+Select OPTION NAME: 
+VISTA>D ^ZZDGMHV1
+
+VISTA>

@@ -1,0 +1,60 @@
+License expired.
+
+Node: warrior1, Instance: TRYCACHE
+
+USER>ZN "VISTA"
+
+VISTA>D ^%SYS.MONLBL
+[H[J
+  WARNING ! Starting the line-by-line monitor will enable the collection
+  of statistics for *every* line of code executed by the selected routines
+  and processes. This can have a significant impact on the performance of a
+  system, and it is recommended that you do this on a 'test' system.
+
+  The line-by-line monitor also allocates shared memory to track these
+  statistics for each line of each routine selected. This is taken from
+  the general shared memory already allocated by Cache and should be
+  considered if you are using '*' wildcards and trying to analyze a large
+  number of routines. If the monitor fails to start due to a problem with
+  memory allocation, you may need to increase the GenericHeapSize parameter in
+  the system configuration. You may use the 'Memory Requirements' option to see
+  how much memory a collection would need (without starting the collection).
+
+1.) Start Monitor
+2.) Memory Requirements
+
+Enter the number of your choice: 1
+
+Enter routine names to be monitored on a line by line basis.
+Patterns using '*' are allowed.
+Enter '?L' to see a list of routines already selected.
+Press 'Enter' to terminate input.
+
+Routine Name: DGMHV                      (1 routine added to selection.)
+Routine Name: DGMHVAC                    (1 routine added to selection.)
+Routine Name: DGMHVUTL                   (1 routine added to selection.)
+Routine Name: DGPREP1                    (1 routine added to selection.)
+Routine Name: DGRPC                      (1 routine added to selection.)
+Routine Name: DGRPC3                     (1 routine added to selection.)
+Routine Name: DGRPCE1                    (1 routine added to selection.)
+Routine Name: 
+
+Select Metrics to monitor
+  1) Monitor Minimal Metrics
+  2) Monitor Lines (Coverage)
+  3) Monitor Global Metrics
+  4) Monitor All Metrics
+  5) Customize Monitor Metrics
+
+Enter the number of your choice: <1> 2
+
+Select Processes to monitor
+  1) Monitor All Processes
+  2) Monitor Current Process Only
+  3) Enter list of PIDs
+
+Enter the number of your choice: <1> 1
+
+Monitor started.
+
+Press RETURN to continue

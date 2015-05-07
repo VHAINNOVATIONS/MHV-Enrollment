@@ -1,0 +1,587 @@
+License expired.
+
+Node: warrior1, Instance: TRYCACHE
+
+USER>ZN "VISTA"
+
+VISTA>S DUZ=1 D ^XUP
+
+Setting up programmer environment
+This is a TEST account.
+
+Terminal Type set to: C-VT220
+
+Select OPTION NAME: 
+VISTA>D ^XTFCR
+
+
+FLOW CHART GENERATOR FOR MUMPS ROUTINES
+
+< COND >  = CONDITIONAL, if 'COND' is true code to the left is performed
+
+[ LINE^ROU ]   = DO or SUBROUTINE call to location LINE of routine ROU,
+                 control returns to commands following this in sequence
+
+{ LINE^ROU } = GO TO, control is transferred to the location LINE in
+               routine ROU.
+
+All Routines? No => No
+
+Routine: DGPREP1
+Routine: 
+1 routine
+
+DEVICE: HOME//   TELNET    Right Margin: 80// 
+
+DGPREP1
+................................................................................
+................................................[H[J[2J[H
+                                                            |
+                      DGPREP1^DGPREP1 ====================> 
+                                                            |
+                                                       *** QUIT ***
+
+                           EH^DGPREP1 ====================> 
+                                                            |
+                                                        NEW PTIFN
+                                                          NEW D
+                                                          NEW X
+                                                         NEW DA
+                                                         NEW DR
+                                                      SET PTIFN=""
+                                                            |
+                                                   [ SELPAT^DGPREP1 ]
+                                                            |
+                                                     < '$D(PTIFN) >
+                                                  |                   |
+                                             *** QUIT ***             |
+                                                            __________|
+                                                            |
+                                                  SET DIC="^DGS(41.43,"
+                          Press RETURN to continue, '^' to halt...[H[J[2J[H
+                                                    SET DIC(0)="EQZ"
+                                                       SET X=PTIFN
+                                                        SET D="C"
+                                            SET DIC("A")="Select LOG ENTRY: "
+                                           SET DIC("S")="I $P(^(0),U,2)=PTIFN"
+                                                            |
+                                                       [ IX^DIC ]
+                                                            |
+                                                        KILL DIC
+                                                            |
+                                                         < Y>0 >
+                                                  |                   |
+                                     -- START OF ARGLESS DO .--       |
+                                                  |                   |
+                                              SET DA=+Y               |
+                                        SET DIE="^DGS(41.43,"         |
+                              SET DR="3;2///^S X=$P(^VA(200,DUZ,0),U)"
+                                                  |                   |
+                                              [ ^DIE ]                |
+                                                  |                   |
+                                              KILL DIE                |
+                                                  |                   |
+                          Press RETURN to continue, '^' to halt...[H[J[2J[H
+                                             < '$D(Y) >               |
+                                        |                   |         |
+                           -- START OF ARGLESS DO ..--      |         |
+                                        |                   |         |
+                                SET DGPDFN=PTIFN            |         |
+                                        |                   |         |
+                               [ BLDHIST^DGPREP0 ]          |         |
+                                        |                   |         |
+            SET X=$$SETSTR^VALM1(^TMP("DGPRERG",$J,DGPCH,0),"",1,110)
+                      SET X=$$SETFLD^VALM1(DGPTAT,X,"HIST")           |
+                        SET ^TMP("DGPRERG",$J,DGPCH,0)=X    |         |
+                                        |___________________|         |
+                                                  |                   |
+                                    -- END OF ARGUMENTLESS DO .--     |
+                                                  |___________________|
+                                                            |
+                                                     SET VALMBCK="R"
+                                                            |
+                                                       *** QUIT ***
+
+                       SELPAT^DGPREP1 ====================> 
+                                                            |
+                          Press RETURN to continue, '^' to halt...[H[J[2J[H
+                                                        NEW VALMI
+                                                       NEW VALMAT
+                                                        NEW VALMY
+                                                          NEW X
+                                                            |
+                                                     [ FULL^VALM1 ]
+                                                            |
+                                              [ EN^VALM2(XQORNOD(0),"S") ]
+                                                            |
+                                                       SET VALMI=0
+                                                            |
+                                                     < '$D(VALMY) >
+                                                  |                   |
+                                           SET VALMBCK="R"            |
+                                                  |                   |
+                                             *** QUIT ***             |
+                                                            __________|
+                                                            |
+                                                      SET DGPN1=""
+                                               SET DGPCH=$O(VALMY(DGPN1))
+                                                      SET PTIFN=""
+                                   SET PTIFN=$O(^TMP("DGPRERG",$J,"DFN",DGPCH,PT
+IFN))                                                       |
+                                                            |
+                          Press RETURN to continue, '^' to halt...[H[J[2J[H
+                                                       *** QUIT ***
+
+                         EDIT^DGPREP1 ====================> 
+                                                            |
+                                                        NEW VALMI
+                                                       NEW VALMAT
+                                                        NEW VALMY
+                                                          NEW X
+                                                        NEW DGPN5
+                                                       NEW DGPDIV
+                                                       NEW DGPSTMP
+                                                       NEW DGPIFN
+                                                        NEW DGPP1
+                                                        NEW DGPP2
+                                                        NEW DGPP3
+                                                       NEW DGPNEW
+                                                       NEW DGPFLG
+                                                            |
+                                                     [ FULL^VALM1 ]
+                                                            |
+                                              [ EN^VALM2(XQORNOD(0),"S") ]
+                                                            |
+                          Press RETURN to continue, '^' to halt...[H[J[2J[H
+                                                       SET VALMI=0
+                                                            |
+                                                     < '$D(VALMY) >
+                                                  |                   |
+                                           SET VALMBCK="R"            |
+                                                  |                   |
+                                             *** QUIT ***             |
+                                                            __________|
+                                                            |
+                                                      SET DGPN1=""
+                                               SET DGPCH=$O(VALMY(DGPN1))
+                                                      SET DGPIFN=""
+                                  SET DGPIFN=$O(^TMP("DGPRERG",$J,"DFN",DGPCH,DG
+PIFN))                                                      |
+                                                      SET DGPDIV=""
+                                  SET DGPDIV=$O(^TMP("DGPRERG",$J,"DIV",DGPCH,DG
+PDIV))                                                      |
+                                                       SET DGNEW=0
+                                                      SET DGPFLG=0
+                                                        SET DIC=2
+                                                    SET DIC(0)="ENQ"
+                                                      SET X=DGPIFN
+                                                            |
+                          Press RETURN to continue, '^' to halt...[H[J[2J[H
+                                                        [ ^DIC ]
+                                                            |
+                                                        KILL DIC
+                                                            |
+                                                         < Y<0 >
+                                                  |                   |
+                                             *** QUIT ***             |
+                                                            __________|
+                                                            |
+                                                      SET DGPN5=""
+                                       SET DGPN5=$O(^DGS(41.42,"B",DGPIFN,DGPN5)
+)                                                           |
+                                                            |
+                                                      < DGPN5]"" >
+                                                  |                   |
+                                                < 2 >                 |
+                                        |                   |         |
+                             LOCK +^DGS(41.42,DGPN5)        |         |
+                                        |___________________|         |
+                                                  |                   |
+                                               < '$T >                |
+                                        |                   |         |
+                          Press RETURN to continue, '^' to halt...[H[J[2J[H
+              WRITE--- *7,!,"Another User is Editing this Patient"    |
+                                        |                   |         |
+                                 SET VALMBCK="R"            |         |
+                                        |                   |         |
+                                   *** QUIT ***             |         |
+                                                  __________|         |
+                                                  |___________________|
+                                                            |
+                                                   SET (DA,DFN)=DGPIFN
+                                                      SET DGPFLG=1
+                                                     SET DGPSTMP=""
+                                                            |
+                                              [ INITLE^DGPREP1(.DGPSTMP) ]
+                                                            |
+                                                  < DGPCH]""&(DGPFLG) >
+                                                  |                   |
+                                     -- START OF ARGLESS DO .--       |
+                                        |                   |         |
+                         -- END OF ARGUMENTLESS DO ..--     |         |
+                                        |___________________|         |
+                                                  |                   |
+                      SET X=$$SETSTR^VALM1(^TMP("DGPRERG",$J,DGPCH,0),"",1,110)
+                                                  |                   |
+                          Press RETURN to continue, '^' to halt...[H[J[2J[H
+                                         < $G(DGPSTMP)]"" >           |
+                                        |                   |         |
+             SET X=$$SETSTR^VALM1($$FMTE^XLFDT(DGPSTMP,"2D"),X,70,8)  |
+                                        |___________________|         |
+                                  SET ^TMP("DGPRERG",$J,DGPCH,0)=X    |
+                                        SET DIE="^DGS(41.42,"         |
+                                            SET DA=DGPN5              |
+                                           SET DR="4///Y"             |
+                                                  |                   |
+                                           < DGPSTMP]"" >             |
+                                        |                   |         |
+                          SET DR=DR_";3///^S X=DGPSTMP"     |         |
+                                        |___________________|         |
+                                                  |                   |
+                                              [ ^DIE ]                |
+                                                  |                   |
+                                              KILL DIE                |
+                                                  |                   |
+                                    -- END OF ARGUMENTLESS DO .--     |
+                                                  |___________________|
+                                                            |
+                                                 LOCK -^DGS(41.42,DGPN5)
+                          Press RETURN to continue, '^' to halt...[H[J[2J[H
+                                                       KILL DGPENT
+                                                       KILL DGPN1
+                                                       KILL DGPCH
+                                                       KILL DGPLOC
+                                                       KILL DGPST
+                                                       KILL DGPN5
+                                                       KILL DGPFLG
+                                                            |
+                                                       *** QUIT ***
+
+                 INITLE^DGPREP1(DGPY) ====================> 
+                                                            |
+                                                       NEW DGPRFLG
+                                                 SET (DGPRFLG,DGPLOC)=1
+                                                            |
+                                                       WRITE--- !!
+                                                            |
+                                                        [ ^DG10 ]
+                                                            |
+                                              < $G(DGPFLG)&($G(DGRPOUT)) >
+                                                  |                   |
+                                             *** QUIT ***             |
+                                                            __________|
+                                                            |
+                          Press RETURN to continue, '^' to halt...[H[J[2J[H
+                                                    SET DGPST=$$SELST
+                                                            |
+                                                      < DGPST']"" >
+                                                  |                   |
+                                           SET VALMBCK="R"            |
+                                                  |                   |
+                                             *** QUIT ***             |
+                                                            __________|
+                                                            |
+                                                     < DGPST'="L" >
+                                                  |                   |
+                                     -- START OF ARGLESS DO .--       |
+                                                  |                   |
+                               SET DGPDA=$$UPDLOG(DGPIFN,DGPST,DGPDIV)
+                                                  |                   |
+                                            < DGPDA'>0 >              |
+                                        |                   |         |
+                                   *** QUIT ***             |         |
+                                                  __________|         |
+                                                  |                   |
+                         < '$G(DGMODE),$P($G(^DGS(41.43,DGPDA,0)),U,4)]"" >
+                                        |                   |         |
+                          Press RETURN to continue, '^' to halt...[H[J[2J[H
+                           -- START OF ARGLESS DO ..--      |         |
+                                        |                   |         |
+            SET X=$$SETSTR^VALM1(^TMP("DGPRERG",$J,DGPCH,0),"",1,110)
+                              SET DGPP1=$E(X,1,34)          |         |
+                              SET DGPP2=$E(X,35,38)         |         |
+                             SET DGPP3=$E(X,39,110)         |         |
+                   SET DGPP2=$P(^DGS(41.43,DGPDA,0),U,4)_DGPP2        |
+                         SET X=DGPP1_$E(DGPP2,1,4)_DGPP3    |         |
+                        SET ^TMP("DGPRERG",$J,DGPCH,0)=X    |         |
+                                        |___________________|         |
+                                                  |                   |
+                                    -- END OF ARGUMENTLESS DO .--     |
+                                                  |___________________|
+                                                            |
+                                                       WRITE--- !
+                                                            |
+                                                     SET DIR(0)="YA"
+                                      SET DIR("A")="Date/Time stamp this patient
+? "                                                         |
+                                                   SET DIR("B")="YES"
+                                                            |
+                                                        [ ^DIR ]
+                                                            |
+                          Press RETURN to continue, '^' to halt...[H[J[2J[H
+                                                        KILL DIR
+                                                            |
+                                                       WRITE--- !
+                                                            |
+                                                          < Y >
+                                                  |                   |
+                                     -- START OF ARGLESS DO .--       |
+                                        |                   |         |
+                         -- END OF ARGUMENTLESS DO ..--     |         |
+                                        |___________________|         |
+                                                  |                   |
+                                               KILL DD                |
+                                               KILL DO                |
+                                        SET DGPY=$$NOW^XLFDT          |
+                                        SET DIC="^DGS(41.41,"         |
+                                          SET DIC(0)="EQZ"            |
+                                              SET X=DFN               |
+                             SET DIC("DR")="1///^S X=DGPY;2////^S X=DUZ"
+                                                  |                   |
+                                            [ FILE^DICN ]             |
+                                                  |                   |
+                                              KILL DIC                |
+                                                  |                   |
+                          Press RETURN to continue, '^' to halt...[H[J[2J[H
+                                    -- END OF ARGUMENTLESS DO .--     |
+                                                  |___________________|
+                                                            |
+                                                       *** QUIT ***
+
+                         STAT^DGPREP1 ====================> 
+                                                            |
+                                                       KILL PTIFN
+                                                            |
+                                                   [ SELPAT^DGPREP1 ]
+                                                            |
+                                                      < $D(PTIFN) >
+                                                  |                   |
+                                     -- START OF ARGLESS DO .--       |
+                                                  |                   |
+                                           [ EN^DGPREP2 ]             |
+                                                  |                   |
+                                    -- END OF ARGUMENTLESS DO .--     |
+                                                  |___________________|
+                                                            |
+                                                       KILL PTIFN
+                                                            |
+                          Press RETURN to continue, '^' to halt...[H[J[2J[H
+                                                       *** QUIT ***
+
+                      SELST^DGPREP1() ====================> 
+                                                            |
+                                                       KILL DIRUT
+                                                         NEW DIR
+                                                            |
+                                                       WRITE--- !!
+                                                            |
+                                                  SET DIR(0)="41.43,3"
+                                              SET DIR("A")="STATUS OF CALL"
+                                                SET DIR("B")="CONNECTED"
+                       SET DIR("?",1)="Enter the status of the current call from
+ the list below."                                           |
+                        SET DIR("?")="Entries must be in uppercase, and match on
+ of these codes."                                           |
+                                                            |
+                                                        [ ^DIR ]
+                                                            |
+                                                        KILL DIR
+                                                            |
+                                                    *** QUIT $G(Y) ***
+
+                          Press RETURN to continue, '^' to halt...[H[J[2J[H
+       UPDLOG^DGPREP1(DFN,DGPS,DGPDV) ====================> 
+                                                            |
+                                                         KILL DD
+                                                         KILL DO
+                                                  SET DIC="^DGS(41.43,"
+                                                     SET DIC(0)="L"
+                                                    SET X=$$NOW^XLFDT
+                                                            |
+                                                      [ FILE^DICN ]
+                                                            |
+                                                         < Y<0 >
+                                                  |                   |
+                  WRITE--- *7,"Problem adding to file - PRE-REGISTRATION CALL LO
+G"                                                |                   |
+                                                  |___________________|
+                                                            |
+                                                        < Y'<0 >
+                                                  |                   |
+                                     -- START OF ARGLESS DO .--       |
+                                                  |                   |
+                                        SET DIE="^DGS(41.43,"         |
+       SET DR="1////^S X=DFN;2////^S X=DUZ;3///^S X=DGPS;5////^S X=$S(+DGPDV>0:D
+GPDV,1:"""")"                                     |                   |
+                          Press RETURN to continue, '^' to halt...[H[J[2J[H
+                                              SET DA=+Y               |
+                                                  |                   |
+                                              [ ^DIE ]                |
+                                                  |                   |
+                                              KILL DIE                |
+                                                  |                   |
+                                              < $D(Y) >               |
+                                        |                   |         |
+                           -- START OF ARGLESS DO ..--      |         |
+                                        |                   |         |
+                              SET DIK="^DGS(41.43,"         |         |
+                                        |                   |         |
+                                    [ ^DIK ]                |         |
+                                        |                   |         |
+                                    KILL DIK                |         |
+                                        |___________________|         |
+                                                  |                   |
+                                    -- END OF ARGUMENTLESS DO .--     |
+                                                  |___________________|
+                                                            |
+                                                   *** QUIT +$G(DA) ***
+
+                          Press RETURN to continue, '^' to halt...[H[J[2J[H
+                       DIREDT^DGPREP1 ====================> 
+                                                            |
+                                                         NEW DFN
+                                                       NEW DGPDIV
+                                                        NEW DGPST
+                                                       NEW DGPIDX
+                                                       NEW DGPFLG
+                                                        NEW DGNEW
+                                                        NEW DGPXX
+                                                       NEW DGPSTMP
+                                                        NEW DGPX
+                                                       NEW DGPIFN
+                                                       NEW DGMODE
+                                                       NEW DGRPOUT
+                                                      NEW DGMHVOUT
+                                                      NEW DGMHVNOS
+                                                       KILL DTOUT
+                                                       KILL DUOUT
+                                                        KILL DIC
+                                                        SET DIC=2
+                                                   SET DIC(0)="AEQZM"
+                                     SET DIC("A")="Select Patient to Preregister
+: "                                                         |
+                          Press RETURN to continue, '^' to halt...[H[J[2J[H
+                   SET DIC("?")="Select a patient whose preregistration informat
+ion you want to edit."                                      |
+                                                            |
+                                                        [ ^DIC ]
+                                                            |
+                                                        KILL DIC
+                                                            |
+                                             < $D(DTOUT)!($D(DUOUT))!(Y<0) >
+                                                  |                   |
+                                             *** QUIT ***             |
+                                                            __________|
+                                                            |
+                                                   SET (DFN,DGPIFN)=+Y
+                                                      SET DGPIDX=""
+                                                            |
+                                               < $D(^DGS(41.42,"B",DFN)) >
+                                                  |                   |
+                                     -- START OF ARGLESS DO .--       |
+                                        |                   |         |
+                         -- END OF ARGUMENTLESS DO ..--     |         |
+                                        |___________________|         |
+                                                  |                   |
+                          Press RETURN to continue, '^' to halt...[H[J[2J[H
+                              SET DGPIDX=$O(^DGS(41.42,"B",DFN,DGPIDX))
+                             SET DGPDIV=$P($G(^DGS(41.42,DGPIDX,0)),U,2)
+                                                  |                   |
+                                            < DGPIDX]"" >             |
+                                        |                   |         |
+                                      < 2 >                 |         |
+                              |                   |         |         |
+                  LOCK +^DGS(41.42,DGPIDX)        |         |         |
+                              |___________________|         |         |
+                                        |                   |         |
+                                     < '$T >                |         |
+                              |                   |         |         |
+    WRITE--- *7,!,"Another user is editing this patient."   |         |
+                              |                   |         |         |
+                         SET DGPX=1               |         |         |
+                              |___________________|         |         |
+                                        |___________________|         |
+                                                  |                   |
+                                    -- END OF ARGUMENTLESS DO .--     |
+                                                  |                   |
+                                            < $G(DGPX) >              |
+                                        |                   |         |
+                          Press RETURN to continue, '^' to halt...[H[J[2J[H
+                                   *** QUIT ***             |         |
+                                                  __________|         |
+                                                  |___________________|
+                                                            |
+                                               -- START OF ARGLESS DO .--
+                                                            |
+                                                        NEW DGABB
+                                                      NEW DGMHVOUT
+                                                            |
+                                                < '$$MHVOK^DGMHVAC(DFN) >
+                                                  |                   |
+                                          [ EN^DGMHV(DFN) ]           |
+                                                  |                   |
+                                             *** QUIT ***             |
+                                                            __________|
+                                                            |
+                                                   [ EN^DGMHVAC(DFN) ]
+                                                            |
+                                              -- END OF ARGUMENTLESS DO .--
+                                                            |
+                                                       SET DGNEW=0
+                                                      SET DGPFLG=1
+                          Press RETURN to continue, '^' to halt...[H[J[2J[H
+                                                     SET DGPSTMP=""
+                                                      SET DGMODE=1
+                                                            |
+                                                   < $G(DGPDIV)']"" >
+                                                  |                   |
+                                     -- START OF ARGLESS DO .--       |
+                                                  |                   |
+                                      SET DGPDIV=$$PRIM^VASITE        |
+                                                  |                   |
+                                    -- END OF ARGUMENTLESS DO .--     |
+                                                  |___________________|
+                                                            |
+                                              [ INITLE^DGPREP1(.DGPSTMP) ]
+                                                            |
+                                                     < $G(DGRPOUT) >
+                                                  |                   |
+                                          { UNLCK^DGPREP1 }           |
+                                                            __________|
+                                                            |
+                                                < $G(DGPFLG),DGPIDX]"" >
+                                                  |                   |
+                                     -- START OF ARGLESS DO .--       |
+                                                  |                   |
+                          Press RETURN to continue, '^' to halt...[H[J[2J[H
+                                            SET DA=DGPIDX             |
+                                        SET DIE="^DGS(41.42,"         |
+                                           SET DR="4///Y"             |
+                                                  |                   |
+                                           < DGPSTMP]"" >             |
+                                        |                   |         |
+                          SET DR=DR_";3///^S X=DGPSTMP"     |         |
+                                        |___________________|         |
+                                                  |                   |
+                                              [ ^DIE ]                |
+                                                  |                   |
+                                              KILL DIE                |
+                                                  |                   |
+                                    -- END OF ARGUMENTLESS DO .--     |
+                                                  |___________________|
+                                                            |
+                        UNLCK^DGPREP1 ====================> 
+                                                            |
+                                                    < $G(DGPIDX)]"" >
+                                                  |                   |
+                                      LOCK -^DGS(41.42,DGPIDX)        |
+                                                  |___________________|
+                                                            |
+                          Press RETURN to continue, '^' to halt...[H[J[2J[H
+                                                       *** QUIT ***
+
+
+
+
+                          Press RETURN to continue, '^' to halt...[H[J[2J[H
+VISTA>

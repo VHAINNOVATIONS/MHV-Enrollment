@@ -1,0 +1,141 @@
+License expired.
+
+Node: warrior1, Instance: TRYCACHE
+
+USER>ZN "VISTA"
+
+VISTA>S DUZ=1,DUZ(0)="@",^XUSEC("DGPRE EDIT",DUZ,1)="" D ^XUP
+
+Setting up programmer environment
+This is a TEST account.
+
+Terminal Type set to: C-VT220
+
+Select OPTION NAME: DGPRE PRE-REGISTER OPTION       Preregister a Patient
+Preregister a Patient
+Select Patient to Preregister: 323123456  NINE,PATIENT I        1-1-66    323123
+456     YES     SC VETERAN      7[1;24r8[m[m[H[J[2J[H7[1;24r8
+
+
+
+    [7m** PATIENT NEEDS TO ANSWER MY HEALTHEVET ENROLLMENT QUESTIONS **[27m
+    Patient is missing required My HealtheVet Enrollment information
+
+         Recent My HealtheVet actions taken by VistA Clerks 
+--------------------------------------------------------------------
+         - NONE - 
+
+
+
+
+
+Press RETURN to continue: 7[1;24r8[m[m[H[J[2J[H7[1;24r87[1;24r8[m[m[H[J[2J[H7[1;24r8
+
+Please read the following to the patient
+
+        "Has a health care team member encouraged you
+          to enroll online for My HealtheVet?"
+
+     Select one of the following:
+
+          1         Yes - I am already enrolled.
+          2         Yes - I would like to enroll.
+          3         Yes - But I do not want to enroll right now.
+          4         No - No one has spoken to me/I don't know what MHV is.
+          5         No - I am not interested in enrolling.
+          6         No - I don't have a computer / internet access
+
+Patient response: 1  Yes - I am already enrolled.7[1;24r8[m[m[H[J[2J[H7[1;24r8
+
+Please read the following to the patient
+
+
+  "We are strongly encouraging patients to enroll online for a My HealtheVet
+  account. With it you can refill VA prescriptions, view lab results and
+  medical records, and securely email your health care team."
+
+Press RETURN to continue: 7[1;24r8[m[m[H[J[2J[H7[1;24r8
+
+                    MY HEALTHEVET ENROLLMENT STATUS
+
+NINE,PATIENT I; 323-12-3456                                 SC VETERAN
+================================================================================
+
+
+[1]         Enrolled: YES                   Confirmed: 3/26/15
+
+[2]    Authenticated: UNANSWERED
+
+    Secure Messaging: UNANSWERED
+
+
+
+
+
+
+
+Select an Enrollment step, or RETURN to continue: 1  Enrollment
+7[1;24r8[m[m[H[J[2J[H7[1;24r8
+Step 1 of 3: My HealtheVet Enrollment
+--------------------------------------
+
+Is the patient enrolled in My HealtheVet (Yes/No)? YES// NO
+
+     1 - No one has spoken to me/I don't know what MHV is.
+     2 - I am not interested.
+     3 - I do not have a computer.
+     4 - I do not have access to the internet.
+     5 - I do not trust the internet.
+     6 - My caregiver makes these decisions for me.
+     7 - I do not see the benefit.
+     8 - I would not use it often enough.
+     9 - Other
+
+Select reason patient is not enrolled: // 3  I do not have a computer.
+7[1;24r8[m[m[H[J[2J[H7[1;24r8
+Step 2 of 3: My HealtheVet Authentication Upgrade
+-------------------------------------------------------------
+7[1;24r8[m[m[H[J[2J[H7[1;24r8
+
+                    MY HEALTHEVET ENROLLMENT STATUS
+
+NINE,PATIENT I; 323-12-3456                                 SC VETERAN
+================================================================================
+
+
+[1]         Enrolled: NO
+
+       Authenticated: NO
+
+    Secure Messaging: NO
+            Reason: I do not have a computer.
+
+
+
+
+
+
+
+Select an Enrollment step, or RETURN to continue: 
+
+[H[J[2J[H
+NINE,PATIENT I                          323-12-3456              JAN 1,1966
+=============================================================================
+ Address: 123 SMITH STREET              Temporary: NO TEMPORARY ADDRESS
+         WASHINGTON,DC 20005
+         UNITED STATES
+  County: DISTRICT OF COLUMBIA (001)      From/To: NOT APPLICABLE
+   Phone: 2021112222                        Phone: NOT APPLICABLE
+  Office: UNSPECIFIED
+    Cell: UNSPECIFIED
+  E-mail: UNSPECIFIED
+Bad Addr: 
+
+ Confidential Address:                      Confidential Address Categories:
+         NO CONFIDENTIAL ADDRESS
+ From/To: NOT APPLICABLE
+
+    POS: UNSPECIFIED                      Claim #: UNSPECIFIED
+  Relig: CELTICISM                            Sex: MALE
+   Race: BLACK OR AFRICAN AMERICAN      Ethnicity: NOT HISPANIC OR LATINO 
+Enter RETURN to continue or '^' to exit:

@@ -1,0 +1,100 @@
+License expired.
+
+Node: warrior1, Instance: TRYCACHE
+
+USER>ZN "VISTA"
+
+VISTA>S DUZ=1,DUZ(0)="@",^XUSEC("DGPRE EDIT",DUZ,1)="" D ^XUP
+
+Setting up programmer environment
+This is a TEST account.
+
+Terminal Type set to: C-VT220
+
+Select OPTION NAME: 
+VISTA>D CLEAR^DGMHV
+7[1;24r8[m[m[H[J[2J[H7[1;24r8
+VISTA>DO ##class(%SYSTEM.Process).FixedDate(0)
+
+VISTA>DO ##class(%SYSTEM.Process).FixedDate($$FMTH^XLFDT($$FMADD^XLFDT($$NOW^XLFDT,180)))
+
+VISTA>W !,"System Date has been changed to ",$$FMTE^XLFDT($$FMADD^XLFDT($$NOW^XLFDT,180))
+
+System Date has been changed to Mar 20, 2016@08:15:22
+VISTA>D ^XUP
+
+Setting up programmer environment
+This is a TEST account.
+
+Terminal Type set to: C-VT220
+
+Select OPTION NAME: DGPRE PRE-REGISTER OPTION       Preregister a Patient
+Preregister a Patient
+Select Patient to Preregister: 543236666  ONE,PATIENT A        10-3-59    543236
+666     YES     SC VETERAN      
+ Enrollment Priority:            Category: IN PROCESS    End Date: 
+7[1;24r8[m[m[H[J[2J[H7[1;24r8
+
+
+
+    [7m** PATIENT NEEDS TO ANSWER MY HEALTHEVET ENROLLMENT QUESTIONS **[27m
+    Patient is missing required My HealtheVet Enrollment information
+
+         Recent My HealtheVet actions taken by VistA Clerks 
+--------------------------------------------------------------------
+03/26/15  MHV Enrollment confirmed.
+          Referred to MHV Help Desk or MHV coordinator.
+03/26/15  MHV Authenticated Upgrade confirmed.
+
+
+
+Press RETURN to continue: 7[1;24r8[m[m[H[J[2J[H7[1;24r87[1;24r8[m[m[H[J[2J[H7[1;24r8
+
+                    MY HEALTHEVET ENROLLMENT STATUS
+
+ONE,PATIENT A; 543-23-6666                                  SC VETERAN
+================================================================================
+
+
+[1]         Enrolled: YES                   Confirmed: 3/26/15
+
+[2]    Authenticated: YES                   Confirmed: 3/26/15
+
+[3] Secure Messaging: UNANSWERED
+
+
+
+
+
+
+
+Select an Enrollment step, or RETURN to continue: 
+
+[H[J[2J[H
+ONE,PATIENT A                           543-23-6666              OCT 3,1959
+=============================================================================
+ Address: STREET ADDRESS UNKNOWN        Temporary: NO TEMPORARY ADDRESS
+         UNK. CITY/STATE 
+         
+  County: UNSPECIFIED                     From/To: NOT APPLICABLE
+   Phone: UNSPECIFIED                       Phone: NOT APPLICABLE
+  Office: UNSPECIFIED
+    Cell: UNSPECIFIED
+  E-mail: UNSPECIFIED
+Bad Addr: 
+
+ Confidential Address:                      Confidential Address Categories:
+         NO CONFIDENTIAL ADDRESS
+ From/To: NOT APPLICABLE
+
+    POS: UNSPECIFIED                      Claim #: UNSPECIFIED
+  Relig: UNSPECIFIED                          Sex: MALE
+   Race: UNANSWERED                     Ethnicity: UNANSWERED
+Enter RETURN to continue or '^' to exit: ^
+VISTA>
+
+VISTA>D CLEAR^DGMHV
+7[1;24r8[m[m[H[J[2J[H7[1;24r8
+VISTA>DO ##class(%SYSTEM.Process).FixedDate($$FMTH^XLFDT($$NOW^XLFDT))
+
+VISTA>

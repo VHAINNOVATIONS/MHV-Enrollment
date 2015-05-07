@@ -1,0 +1,63 @@
+License expired.
+
+Node: warrior1, Instance: TRYCACHE
+
+USER>ZN "VISTA"
+
+VISTA>D ^%SYS.MONLBL
+[H[J
+Line-by-Line Monitor
+
+1.) Stop Monitor
+2.) Pause Monitor
+3.) Clear Counters
+4.) Report - Detail
+5.) Report - Summary
+6.) Report - Delimited (CSV) Output
+7.) Report - Procedure Level
+
+Enter the number of your choice: 5
+Include Coverage Analysis summary (Y/N)? Y
+FileName: C:/Users/Brian/Documents/GitHub/VistA-build/Testing/Temporary/Coverage/2015-03-26-08-16-05_IEMHV_coverage.cmcov
+
+
+Press RETURN to continue ... [H[J
+Line-by-Line Monitor
+
+1.) Stop Monitor
+2.) Pause Monitor
+3.) Clear Counters
+4.) Report - Detail
+5.) Report - Summary
+6.) Report - Delimited (CSV) Output
+7.) Report - Procedure Level
+
+Enter the number of your choice: 6
+
+The following routines have been executed during the run,
+and have detail statistics available for them.
+1) DGMHV
+2) DGMHVAC
+3) DGMHVUTL
+4) DGPREP1
+5) DGRPC
+6) DGRPC3
+7) DGRPCE1
+
+Enter list of routines, or * for all
+Routine number (*=All)? * - All
+FileName: C:/Users/Brian/Documents/GitHub/VistA-build/Testing/Temporary/Coverage/2015-03-26-08-16-05_IEMHV_coverage_Delimited.csv
+
+
+Press RETURN to continue ... [H[J
+Line-by-Line Monitor
+
+1.) Stop Monitor
+2.) Pause Monitor
+3.) Clear Counters
+4.) Report - Detail
+5.) Report - Summary
+6.) Report - Delimited (CSV) Output
+7.) Report - Procedure Level
+
+Enter the number of your choice

@@ -1,0 +1,104 @@
+License expired.
+
+Node: warrior1, Instance: TRYCACHE
+
+USER>ZN "VISTA"
+
+VISTA>S DUZ=1,DUZ(0)="@",^XUSEC("DGPRE EDIT",DUZ,1)="" D ^XUP
+
+Setting up programmer environment
+This is a TEST account.
+
+Terminal Type set to: C-VT220
+
+Select OPTION NAME: DGPRE PRE-REGISTER OPTION       Preregister a Patient
+Preregister a Patient
+Select Patient to Preregister: 656451234  SIX,PATIENT F        5-1-41    6564512
+34     YES     NSC VETERAN      7[1;24r8[m[m[H[J[2J[H7[1;24r8
+
+
+
+    [7m** PATIENT NEEDS TO ANSWER MY HEALTHEVET ENROLLMENT QUESTIONS **[27m
+    Patient is missing required My HealtheVet Enrollment information
+
+         Recent My HealtheVet actions taken by VistA Clerks 
+--------------------------------------------------------------------
+         - NONE - 
+
+
+
+
+
+Press RETURN to continue: 7[1;24r8[m[m[H[J[2J[H7[1;24r87[1;24r8[m[m[H[J[2J[H7[1;24r8
+
+Please read the following to the patient
+
+        "Has a health care team member encouraged you
+          to enroll online for My HealtheVet?"
+
+     Select one of the following:
+
+          1         Yes - I am already enrolled.
+          2         Yes - I would like to enroll.
+          3         Yes - But I do not want to enroll right now.
+          4         No - No one has spoken to me/I don't know what MHV is.
+          5         No - I am not interested in enrolling.
+          6         No - I don't have a computer / internet access
+
+Patient response: 5  No - I am not interested in enrolling.7[1;24r8[m[m[H[J[2J[H7[1;24r8
+
+Please read the following to the patient
+
+
+  "We are strongly encouraging patients to enroll online for a My HealtheVet
+  account. With it you can refill VA prescriptions, view lab results and
+  medical records, and securely email your health care team."
+
+Press RETURN to continue: 
+
+
+   How does the patient feel now about enrolling in My HealtheVet?
+ 
+          a) Patient is not interested.
+          b) Patient is interested.
+ 
+Select a response: b  Patient is interested7[1;24r8[m[m[H[J[2J[H7[1;24r87[1;24r8[m[m[H[J[2J[H7[1;24r8
+  Action(s) taken today to assist patient with My HealtheVet enrollment.
+  -----------------------------------------------------------------------
+  1 -   Helped patient to create a MHV account.
+  2 -   Referred patient to the MHV office/station for assistance with
+        enrollment.
+  3 -   Scheduled future appointment for patient to enroll at MHV office/
+        station.
+  4 -   Gave patient MHV enrollment instructions to complete at a MHV
+        kiosk/computer.
+  5 -   Patient had a MHV account issue. Provided MHV Help Desk toll
+        free #1-877-327- 0022, Mon-Fri, 8 a.m.-8 p.m. (EST)
+ 
+ Select an action: ^
+
+
+My HealtheVet enrollment questions is required to continue with this patient.
+Are you sure you want to quit ? YES
+
+[H[J[2J[H
+SIX,PATIENT F                           656-45-1234              MAY 1,1941
+=============================================================================
+ Address: STREET ADDRESS UNKNOWN        Temporary: NO TEMPORARY ADDRESS
+         UNK. CITY/STATE 
+         
+  County: UNSPECIFIED                     From/To: NOT APPLICABLE
+   Phone: UNSPECIFIED                       Phone: NOT APPLICABLE
+  Office: UNSPECIFIED
+    Cell: UNSPECIFIED
+  E-mail: UNSPECIFIED
+Bad Addr: 
+
+ Confidential Address:                      Confidential Address Categories:
+         NO CONFIDENTIAL ADDRESS
+ From/To: NOT APPLICABLE
+
+    POS: UNSPECIFIED                      Claim #: UNSPECIFIED
+  Relig: UNSPECIFIED                          Sex: MALE
+   Race: UNANSWERED                     Ethnicity: UNANSWERED
+Enter RETURN to continue or '^' to exit:

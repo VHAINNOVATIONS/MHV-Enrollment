@@ -1,0 +1,127 @@
+License expired.
+
+Node: warrior1, Instance: TRYCACHE
+
+USER>ZN "VISTA"
+
+VISTA>S DUZ=1,DUZ(0)="@",^XUSEC("DGPRE EDIT",DUZ,1)="" D ^XUP
+
+Setting up programmer environment
+This is a TEST account.
+
+Terminal Type set to: C-VT220
+
+Select OPTION NAME: DGPRE PRE-REGISTER OPTION       Preregister a Patient
+Preregister a Patient
+Select Patient to Preregister: 543236666  ONE,PATIENT A        10-3-59    543236
+666     YES     SC VETERAN      
+ Enrollment Priority:            Category: IN PROCESS    End Date: 
+7[1;24r8[m[m[H[J[2J[H7[1;24r8
+
+                    MY HEALTHEVET ENROLLMENT STATUS
+
+ONE,PATIENT A; 543-23-6666                                  SC VETERAN
+================================================================================
+
+
+[1]         Enrolled: YES                   Confirmed: 3/26/15
+
+[2]    Authenticated: NO
+
+    Secure Messaging: NO
+            Reason: I am not interested.
+
+
+
+
+
+
+
+Select an Enrollment step, or RETURN to continue: 2  Authentication
+
+7[1;24r8[m[m[H[J[2J[H7[1;24r8
+Step 2 of 3: My HealtheVet Authentication Upgrade
+-------------------------------------------------------------
+
+Please read the following to the patient
+
+    "With an Authenticated MHV account patients can view VA appointments,
+    lab results and VA medical records online."
+
+Select (Y) YES if patient already has an Authenticated MHV account.
+Select (A) ACTION if patient would like to upgrade to Authenticated MHV account.
+Select (N) NO if patient refuses an Authenticated MHV account.
+
+(Yes/No/(A)ction): NO// YES- Patient already has an authenticated account.
+
+7[1;24r8[m[m[H[J[2J[H7[1;24r8
+Step 3 of 3: My HealtheVet Secure Messaging
+--------------------------------------------
+
+Please read the following to the patient
+
+    "With Secure Messaging, Veterans can communicate online with VA health
+    care teams about health questions, to request prescription renewals,
+    or schedule appointments."
+
+Select (Y) YES if patient already has an Authenticated MHV account.
+Select (A) ACTION if patient would like to upgrade to Authenticated MHV account.
+Select (N) NO if patient refuses an Authenticated MHV account.
+
+Secure Messaging? (Yes/No/(A)ction): // NO
+
+
+     1 - No one has spoken to me/I don't know what MHV is.
+     2 - I am not interested.
+     3 - I do not have a computer.
+     4 - I do not have access to the internet.
+     5 - I do not trust the internet.
+     6 - My caregiver makes these decisions for me.
+     7 - I do not see the benefit.
+     8 - I would not use it often enough.
+     9 - Other
+
+Select reason not using secure messaging: 2// ^
+Are you sure you want to quit ? YES7[1;24r8[m[m[H[J[2J[H7[1;24r8
+
+                    MY HEALTHEVET ENROLLMENT STATUS
+
+ONE,PATIENT A; 543-23-6666                                  SC VETERAN
+================================================================================
+
+
+[1]         Enrolled: YES                   Confirmed: 3/26/15
+
+[2]    Authenticated: YES                   Confirmed: 3/26/15
+
+[3] Secure Messaging: UNANSWERED
+
+
+
+
+
+
+
+Select an Enrollment step, or RETURN to continue: 
+
+[H[J[2J[H
+ONE,PATIENT A                           543-23-6666              OCT 3,1959
+=============================================================================
+ Address: STREET ADDRESS UNKNOWN        Temporary: NO TEMPORARY ADDRESS
+         UNK. CITY/STATE 
+         
+  County: UNSPECIFIED                     From/To: NOT APPLICABLE
+   Phone: UNSPECIFIED                       Phone: NOT APPLICABLE
+  Office: UNSPECIFIED
+    Cell: UNSPECIFIED
+  E-mail: UNSPECIFIED
+Bad Addr: 
+
+ Confidential Address:                      Confidential Address Categories:
+         NO CONFIDENTIAL ADDRESS
+ From/To: NOT APPLICABLE
+
+    POS: UNSPECIFIED                      Claim #: UNSPECIFIED
+  Relig: UNSPECIFIED                          Sex: MALE
+   Race: UNANSWERED                     Ethnicity: UNANSWERED
+Enter RETURN to continue or '^' to exit:

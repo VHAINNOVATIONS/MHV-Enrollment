@@ -1,0 +1,208 @@
+License expired.
+
+Node: warrior1, Instance: TRYCACHE
+
+USER>ZN "VISTA"
+
+VISTA>S DUZ=1,DUZ(0)="@",^XUSEC("DGPRE EDIT",DUZ,1)="" D ^XUP
+
+Setting up programmer environment
+This is a TEST account.
+
+Terminal Type set to: C-VT220
+
+Select OPTION NAME: 
+VISTA>S $P(^DG(43,1,0),"^",37)=1
+
+VISTA>D ^XUP
+
+Setting up programmer environment
+This is a TEST account.
+
+Terminal Type set to: C-VT220
+
+Select OPTION NAME: DGPRE PRE-REGISTER OPTION       Preregister a Patient
+Preregister a Patient
+Select Patient to Preregister: 000000113  CARTER,DAVID JR        3-2-01    00000
+0113     NO     NSC VETERAN      
+WARNING : You may have selected a test patient.7[1;24r8[m[m[H[J[2J[H7[1;24r8
+
+
+
+    [7m** PATIENT NEEDS TO ANSWER MY HEALTHEVET ENROLLMENT QUESTIONS **[27m
+    Patient is missing required My HealtheVet Enrollment information
+
+         Recent My HealtheVet actions taken by VistA Clerks 
+--------------------------------------------------------------------
+         - NONE - 
+
+
+
+
+
+Press RETURN to continue: 7[1;24r8[m[m[H[J[2J[H7[1;24r87[1;24r8[m[m[H[J[2J[H7[1;24r8
+
+Please read the following to the patient
+
+        "Has a health care team member encouraged you
+          to enroll online for My HealtheVet?"
+
+     Select one of the following:
+
+          1         Yes - I am already enrolled.
+          2         Yes - I would like to enroll.
+          3         Yes - But I do not want to enroll right now.
+          4         No - No one has spoken to me/I don't know what MHV is.
+          5         No - I am not interested in enrolling.
+          6         No - I don't have a computer / internet access
+
+Patient response: 1  Yes - I am already enrolled.7[1;24r8[m[m[H[J[2J[H7[1;24r8
+
+Please read the following to the patient
+
+
+  "We are strongly encouraging patients to enroll online for a My HealtheVet
+  account. With it you can refill VA prescriptions, view lab results and
+  medical records, and securely email your health care team."
+
+Press RETURN to continue: 7[1;24r8[m[m[H[J[2J[H7[1;24r8
+
+                    MY HEALTHEVET ENROLLMENT STATUS
+
+CARTER,DAVID JR; 000-00-0113                                NSC VETERAN
+================================================================================
+
+
+[1]         Enrolled: YES                   Confirmed: 3/26/15
+
+[2]    Authenticated: UNANSWERED
+
+    Secure Messaging: UNANSWERED
+
+
+
+
+
+
+
+Select an Enrollment step, or RETURN to continue: 
+
+[H[J[2J[H
+CARTER,DAVID JR                         000-00-0113              MAR 2,2001
+=============================================================================
+ Address: 834 Ocean Vista Avenue        Temporary: NO TEMPORARY ADDRESS
+         SANTA MONICA,CA 90401
+         UNITED STATES
+  County: LOS ANGELES (037)               From/To: NOT APPLICABLE
+   Phone: 310-555-2233                      Phone: NOT APPLICABLE
+  Office: UNSPECIFIED
+    Cell: UNSPECIFIED
+  E-mail: UNSPECIFIED
+Bad Addr: 
+
+ Confidential Address:                      Confidential Address Categories:
+         NO CONFIDENTIAL ADDRESS
+ From/To: NOT APPLICABLE
+
+    POS: UNSPECIFIED                      Claim #: UNSPECIFIED
+  Relig: BAPTIST                              Sex: MALE
+   Race: UNANSWERED                     Ethnicity: UNANSWERED
+Enter RETURN to continue or '^' to exit: [H[J[2J[H
+CARTER,DAVID JR                         000-00-0113              MAR 2,2001
+=============================================================================
+
+
+  Combat Vet Status: NOT ELIGIBLE
+Primary Eligibility: UNSPECIFIED
+Other Eligibilities: 
+      Unemployable: NO
+------------------------------------------------------------------------------
+[PRE-REGISTER DATE:]  Mar 25, 2015
+------------------------------------------------------------------------------
+
+Status      : PATIENT HAS NO INPATIENT OR LODGER ACTIVITY IN THE COMPUTER
+
+Future Appointments: NONE
+
+Remarks: 
+
+Date of Death Information
+     Date of Death: 
+     Source of Notification: 
+     Updated Date/Time: 
+     Last Edited By: 
+
+Enter RETURN to continue or '^' to exit: [H[J[2J[H
+CARTER,DAVID JR                         000-00-0113              MAR 2,2001
+=============================================================================
+
+Do you want to edit Patient Data? Yes// NO  (No)
+
+ Permanent Address: 
+           834 Ocean Vista Avenue
+           SANTA MONICA,CA 90401
+           UNITED STATES
+   County: LOS ANGELES (037)
+    Phone: 310-555-2233
+   Office: UNANSWERED
+ Bad Addr: 
+Do you want to edit the Patient's Address? NO  (No)
+
+Checking data for consistency...
+
+===> 8 inconsistencies found in 0 seconds...
+
+===> 8 inconsistencies filed in 0 seconds...[H[J[2J[H
+CARTER,DAVID JR (000-00-0113)                                    MAR 2,2001
+==============================================================================
+13 - POS UNSPECIFIED+                   14 - ELIG CODE UNSPECIFIED
+55 - INCOME DATA MISSING**              62 - EMERGENCY CONTACT NAME MISSING
+65 - MOTHER'S MAIDEN NAME MISSING       99 - CAN'T PROCESS FURTHER
+306- VALID SSN/PSEUDO SSN REQUIRED      315- MHV ENROLLMENT STATUS MISSING
+
+Inconsistencies followed by two (2) asterisks [**] must be corrected by
+using the appropriate MAS menu option(s).
+
+All items not followed by an asterisk can be edited at this time.  If these
+items are not corrected at this time, a bulletin will be sent to the
+appropriate hospital personnel.
+
+Inconsistencies followed by [+] will prevent a Z07
+
+DO YOU WANT TO UPDATE THESE INCONSISTENCIES NOW? Yes// YES  (Yes)
+E-NAME: 
+MOTHER'S MAIDEN NAME: 
+SOCIAL SECURITY NUMBER: 000000113// 
+
+7[1;24r8[m[m[H[J[2J[H7[1;24r8
+Step 2 of 3: My HealtheVet Authentication Upgrade
+-------------------------------------------------------------
+
+Please read the following to the patient
+
+    "With an Authenticated MHV account patients can view VA appointments,
+    lab results and VA medical records online."
+
+Select (Y) YES if patient already has an Authenticated MHV account.
+Select (A) ACTION if patient would like to upgrade to Authenticated MHV account.
+Select (N) NO if patient refuses an Authenticated MHV account.
+
+(Yes/No/(A)ction): // YES- Patient already has an authenticated account.
+
+7[1;24r8[m[m[H[J[2J[H7[1;24r8
+Step 3 of 3: My HealtheVet Secure Messaging
+--------------------------------------------
+
+Please read the following to the patient
+
+    "With Secure Messaging, Veterans can communicate online with VA health
+    care teams about health questions, to request prescription renewals,
+    or schedule appointments."
+
+Select (Y) YES if patient already has an Authenticated MHV account.
+Select (A) ACTION if patient would like to upgrade to Authenticated MHV account.
+Select (N) NO if patient refuses an Authenticated MHV account.
+
+Secure Messaging? (Yes/No/(A)ction): // YES
+
+TYPE: 
